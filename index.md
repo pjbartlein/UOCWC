@@ -12,7 +12,7 @@
 		<td style="vertical-align: top;">
 			<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">
 	        	[GOES-WEST Full Disk]</a>
-	        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?				sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a><br>
+	        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a><br>
 		</td>
 		<td style="vertical-align: top;">
 			<a href="http://webcam.uoregon.edu/oneshotimage1">[UO Web Cam]</a><br>
