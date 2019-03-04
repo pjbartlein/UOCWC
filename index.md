@@ -21,3 +21,4 @@
 </table>
 The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)
 
+**Quick Links**
