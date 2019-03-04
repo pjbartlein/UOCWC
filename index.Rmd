@@ -3,6 +3,7 @@ title: "UO Current Weather & Climate"
 output:
   html_document:
     theme: cerulean
+    css: page_01.css
     fig_caption: yes
     highlight: haddock
     number_sections: no
