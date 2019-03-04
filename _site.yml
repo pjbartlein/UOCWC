@@ -1,0 +1,33 @@
+name: UOCWC
+navbar:
+  title: UO CW&C
+  left:
+  - text: Weather
+    menu:
+    - text: Current Conditions
+    - text: Observations
+      href: current_obs.html
+    - text: Satellite
+      href: satellite.html
+  - text: Forecasts
+    menu:
+    - text: Short & Medium Range
+    - text: NW Consortium
+      href: pnw_consortium.html
+    - text: NCEP
+      href: ncep_gfs.html
+  - text: Climate
+    menu:
+    - text: State of the Climate
+      href: sotc.html
+    - text: ENSO
+      href: enso.html
+output:
+  html_document:
+    theme: united
+    highlight: haddock
+    css: SI-md-08.css
+    lib_dir: site_libs
+    self_contained: no
+output_dir: docs
+

@@ -1,0 +1,21 @@
+---
+title: "UO Current Weather & Climate"
+output:
+  html_document:
+    theme: cerulean
+    css: SI-md-08.css
+    fig_caption: yes
+    highlight: haddock
+    number_sections: no
+    toc: no
+    toc_float: false
+    collapsed: no
+---
+
+# Current regional and global conditions #
+
+Quick Links
+
+
+
+The GitHub repository for these webpages is at [https://github.com/pjbartlein/CWC](https://github.com/pjbartlein/CWC)
