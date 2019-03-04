@@ -3,7 +3,7 @@ title: "UO Current Weather & Climate"
 output:
   html_document:
     theme: cerulean
-    css: SI-md-08.css
+    css: page_01.css
     fig_caption: yes
     highlight: haddock
     number_sections: no
@@ -12,10 +12,5 @@ output:
     collapsed: no
 ---
 
-# Current regional and global conditions #
-
-Quick Links
-
-
-
-The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)
+```{r child="index.md"}
+```
