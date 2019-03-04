@@ -18,4 +18,4 @@ Quick Links
 
 
 
-The GitHub repository for these webpages is at [https://github.com/pjbartlein/CWC](https://github.com/pjbartlein/CWC)
+The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)
