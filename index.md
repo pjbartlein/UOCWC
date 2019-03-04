@@ -1,7 +1,22 @@
-<div style="width:40%">
-<img src="https://www.goes.noaa.gov/GIFS/WCIR.JPG" border=1 alt="GOES-W" height=200/>  <img src="http://webcam.uoregon.edu/oneshotimage1" border=1 alt="UO" height=200/> 
-</div>  
-GOES-WEST [[Full disk]](https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12)
-
+<table style="text-align: left; width: 700px;" border="0" cellpadding="1" cellspacing="1">
+	<tr>
+		<td style="vertical-align: top;">
+			<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 				border=2 alt="GOES-W" width="300" height="300"> <br>
+		</td>
+		<td style="vertical-align: top;">
+			<img src="http://webcam.uoregon.edu/oneshotimage1" border=2 alt="UO"
+				width="533" height="300"> <br>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top;">
+		<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">
+        	[GOES-WEST Full Disk]</a><br>
+		</td>
+		<td style="vertical-align: top;">
+		<a href="http://webcam.uoregon.edu/oneshotimage1">[UO Web Cam]</a><br>
+		</td>
+	</tr>
+</table>
 The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)
 
