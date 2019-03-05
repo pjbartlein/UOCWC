@@ -18,10 +18,23 @@ navbar:
       href: ncep_gfs.html
   - text: Climate
     menu:
+    - text: Climate web links
     - text: State of the Climate
       href: sotc.html
     - text: ENSO
       href: enso.html
+  - text: Other
+    menu:
+    - text:  Other environmental data
+    - text:  Other data
+      href:  other.html
+  right:
+   - text: About
+     menu:
+     - text: About this page
+     - text: About 
+       href: about.html
+   
 output:
   html_document:
     theme: united
