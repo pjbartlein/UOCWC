@@ -1,7 +1,3 @@
-
-
-
-
 <table style="text-align: left width: 694px border="0" cellpadding="0" cellspacing="1">
 	<tr>
 		<td style="vertical-align: top;">
