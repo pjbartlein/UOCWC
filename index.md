@@ -1,4 +1,4 @@
-<table style="text-align: left width: 694px border="0" cellpadding="0" cellspacing="1">
+<table style="text-align: left width: 980 border="0" cellpadding="0" cellspacing="1">
 	<tr>
 		<td style="vertical-align: top;">
 			<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 				alt="GOES-W" width="250" height="250"> <br>
@@ -22,6 +22,7 @@
 			<a href="http://webcam.uoregon.edu/oneshotimage1">[UO Web Cam]</a><br>
 		</td>
 		<td style="vertical-align: top;">
+		[PNW radar]
 					</td>
 	</tr>
 </table>
