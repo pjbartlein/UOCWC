@@ -7,6 +7,10 @@
 			<img src="http://webcam.uoregon.edu/oneshotimage1" alt="UO"
 				width="444" height="250"> <br>
 		</td>
+		<td style="vertical-align: top;">
+			<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
+				width="263" height="250"> <br>
+		</td>
 	</tr>
 	<tr>
 		<td style="vertical-align: top;">
@@ -17,6 +21,8 @@
 		<td style="vertical-align: top;">
 			<a href="http://webcam.uoregon.edu/oneshotimage1">[UO Web Cam]</a><br>
 		</td>
+		<td style="vertical-align: top;">
+					</td>
 	</tr>
 </table>
 The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)
