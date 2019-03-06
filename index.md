@@ -9,13 +9,13 @@
 		</td>
 		<td style="vertical-align: top;">
 			<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
-				width="263" height="250"> <br>
+				width="262" height="250"> <br>
 		</td>
 	</tr>
 	<tr>
 		<td style="vertical-align: top;">
 			<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">
-	        	[GOES-WEST Full Disk]</a>
+	        	[GOES-W Full Disk]</a>
 	        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a><br>
 		</td>
 		<td style="vertical-align: top;">
