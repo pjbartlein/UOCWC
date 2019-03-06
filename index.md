@@ -1,14 +1,14 @@
-<table style="text-align: left; width: 980px; height: 250px;" border="1" cellpadding="1" cellspacing="1">
+<table style="text-align: left; width: 956x; height: 250px;" border="1" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
-			<td style="vertical-align: top; width: 250px;"><br>
+			<td style="vertical-align: top; width: 250px;">
 				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 					alt="GOES-W" width="250" height="250"> <br>
 			</td>
-			<td style="vertical-align: top; width: 444px;"><br>
+			<td style="vertical-align: top; width: 444px;">
 				<img src="http://webcam.uoregon.edu/oneshotimage1" alt="UO"
 					width="444" height="250"> <br>
 			</td>
-			<td style="vertical-align: top; width: 262px;"><br>
+			<td style="vertical-align: top; width: 262px;">
 				<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
 					width="262" height="250"> <br> 
 			</td>
@@ -16,7 +16,7 @@
 	</tbody>
 </table>
 
-<table style="text-align: left; width: 980px; " border="1" cellpadding="1" cellspacing="1">
+<table style="text-align: left; width: 956px; " border="1" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
 			<td style="vertical-align: top; width: 250px;">
