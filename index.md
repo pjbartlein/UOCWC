@@ -1,4 +1,4 @@
-<table style="text-align: left; width: 100%;" border="1" cellpadding="0" cellspacing="1">
+<table style="text-align: left; width: 100%;" border="2" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
 			<td style="vertical-align: top; width: 26%;">
@@ -16,7 +16,7 @@
 	</tbody>
 </table>
 
-<table style="text-align: left; width: 100%;" border="1" cellpadding="0" cellspacing="1">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
 			<td style="vertical-align: top; width: 26%;">
