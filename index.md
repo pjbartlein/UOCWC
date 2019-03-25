@@ -1,25 +1,20 @@
-<table style="text-align: left; width: 100% height: 240px" border="2" cellpadding="0" cellspacing="1">
+<table style="text-align: left; width: 100% height: 240px" border="0" cellpadding="0" cellspacing="0">
 	<tbody>
 		<tr>
 			<td style="vertical-align: top; width: 31%;">
-				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 					alt="GOES-W" width="250" height="250"> <br>
+				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 					alt="GOES-W" width="250" height="250" style="border:1px solid black"> <br>
 			</td>
 			<td style="vertical-align: top; width: 37%;">
 				<img src="http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/nam.na.30000.png" alt="NCEP"
-					width="300" height="250"> <br>
+					width="300" height="250" style="border:1px solid black"> <br>
 			</td>
 			<td style="vertical-align: top; width: 32%;">
 				<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
-					width="260" height="250"> <br> 
+					width="260" height="250" style="border:1px solid black"> <br> 
 			</td>
 		</tr>
-	</tbody>
-</table>
-
-<table style="text-align: left; width: 840px;" border="0" cellpadding="0" cellspacing="1">
-	<tbody>
 		<tr>
-			<td style="vertical-align: top; width: 31%;">
+			<td style="vertical-align: top; width: 31%">
 				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[GOES-W Full Disk]</a>
 		        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a>			</td>
 			<td style="vertical-align: top; width: 37%;">
@@ -65,5 +60,5 @@ Global composites:  [[IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
 
 
 
-The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC/)  
+The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC/](https://github.com/pjbartlein/UOCWC/)  
 

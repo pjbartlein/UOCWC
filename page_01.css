@@ -94,3 +94,11 @@ a:hover {
   color: #000099;
 }
 
+table {
+    border: 0px solid #CCC;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+}
