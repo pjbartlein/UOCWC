@@ -33,7 +33,7 @@
 	</tbody>
 </table>
 
-## Quick Links 
+## Quick Links ##
  
 **Text**  
 [[Eugene forecast at a glance]](http://forecast.weather.gov/MapClick.php?lon=-123.09952036132812&lat=44.14161867128607#.V0Mx9eSBkfg) 
@@ -50,7 +50,13 @@
 [[Medford long-range reflectivity]](https://radar.weather.gov/radar_lite.php?rid=max&product=N0Z&loop=yes)
 [[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)
 
-**Satellite**
+**Satellite**  
+[[GOES Image viewer page]](https://www.star.nesdis.noaa.gov/GOES/index.php)
+GOES-15:  [[Western IR]](http://www.goes.noaa.gov/GSSLOOPS/wcir.html)
+[[Western Vis]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
+[[Western WV]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
+[[Global IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
+[[Global WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
 
 **Forecasts**  
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
@@ -58,5 +64,5 @@
 
 
 
-The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)  
+The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC/)  
 
