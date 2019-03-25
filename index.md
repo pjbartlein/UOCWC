@@ -38,12 +38,12 @@
  
 **Text**  
 [[Eugene forecast at a glance]](http://forecast.weather.gov/MapClick.php?lon=-123.09952036132812&lat=44.14161867128607#.V0Mx9eSBkfg) 
-[[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
 
 **Current conditions**  
 [[168-hour summary for Eugene]](http://www.wrh.noaa.gov/mesowest/getobext.php?wfo=pqr&sid=KEUG&num=168&raw=0&dbn=m)
 [[NWS Portland regional observations]](http://www.wrh.noaa.gov/pqr/observations.php)
+[[Oregon weather and climate reports]](https://w2.weather.gov/climate/index.php?wfo=pqr)
 
 **Radar**  
 [[PNW Sector and loop]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
@@ -53,7 +53,10 @@
 
 **Satellite**
 
-**Forecasts**
+**Forecasts**  
+[[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
+[[Eugene hourly weather forecast]](html/eugwx/all3.html)
+
 
 
 The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC](https://github.com/pjbartlein/UOCWC)  
