@@ -16,7 +16,7 @@
 	</tbody>
 </table>
 
-<table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="1">
+<table style="text-align: left; width: 840px;" border="0" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
 			<td style="vertical-align: top; width: 31%;">
