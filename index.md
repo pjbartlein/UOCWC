@@ -8,7 +8,7 @@
 				<img src="http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/nam.na.30000.png" alt="NCEP"
 					width="300" height="250" style="border:1px solid black"> <br>
 			</td>
-			<td style="vertical-align: top; width: 32%;">
+			<td style="vertical-align: top; width: 33;">
 				<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
 					width="260" height="250" style="border:1px solid black"> <br> 
 			</td>
@@ -20,7 +20,7 @@
 			<td style="vertical-align: top; width: 37%;">
 				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
 			</td>
-			<td style="vertical-align: top; width: 32%;">
+			<td style="vertical-align: top; width: 33%;">
 				<a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW radar]</a>
 				<a href="https://radar.weather.gov/Conus/pacnorthwest_lite_loop.php">[loop]</a>
 			</td>
@@ -40,23 +40,23 @@
 [[Oregon weather and climate reports]](https://w2.weather.gov/climate/index.php?wfo=pqr)
 
 **Radar**  
-[[PNW Sector and loop]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
+[[PNW sector and loop]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
 [[Portland long-range reflectivity]](https://radar.weather.gov/radar_lite.php?rid=rtx&product=N0Z&loop=yes)
 [[Medford long-range reflectivity]](https://radar.weather.gov/radar_lite.php?rid=max&product=N0Z&loop=yes)
 [[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)
 
 **Satellite**  
-[[GOES Image viewer page]](https://www.star.nesdis.noaa.gov/GOES/index.php)
-GOES-15:  [[Western IR]](http://www.goes.noaa.gov/GSSLOOPS/wcir.html)
-[[Western Vis]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
-[[Western WV]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
-Global composites:  [[IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
+[[GOES 16 & 17 images and loops]](https://www.star.nesdis.noaa.gov/GOES/index.php)
+ | GOES-15 (Western):  [[IR]](http://www.goes.noaa.gov/GSSLOOPS/wcir.html)
+[[Vis]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
+[[WV]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
+ | Global composites:  [[IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
 [[WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
 
 **Forecasts**  
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
 [[Eugene hourly weather forecast]](html/eugwx/all3.html)
-[[NMRC 1.3km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
+[[NMRC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
 
 
 
