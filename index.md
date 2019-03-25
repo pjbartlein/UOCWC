@@ -1,14 +1,14 @@
 <table style="text-align: left; width: 100% height: 240px" border="2" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
-			<td style="vertical-align: top; width: 26%;">
+			<td style="vertical-align: top; width: 31%;">
 				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 					alt="GOES-W" width="250" height="250"> <br>
 			</td>
-			<td style="vertical-align: top; width: 46%;">
-				<img src="http://webcam.uoregon.edu/oneshotimage1" alt="UO"
-					width="440" height="250"> <br>
+			<td style="vertical-align: top; width: 37%;">
+				<img src="http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/nam.na.30000.png" alt="NCEP"
+					width="300" height="250"> <br>
 			</td>
-			<td style="vertical-align: top; width: 27%;">
+			<td style="vertical-align: top; width: 32%;">
 				<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
 					width="260" height="250"> <br> 
 			</td>
@@ -19,13 +19,13 @@
 <table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="1">
 	<tbody>
 		<tr>
-			<td style="vertical-align: top; width: 26%;">
+			<td style="vertical-align: top; width: 31%;">
 				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[GOES-W Full Disk]</a>
 		        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a>			</td>
-			<td style="vertical-align: top; width: 46%;">
-				<a href="http://webcam.uoregon.edu/oneshotimage1">[UO Web Cam]</a>
+			<td style="vertical-align: top; width: 37%;">
+				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
 			</td>
-			<td style="vertical-align: top; width: 27%;">
+			<td style="vertical-align: top; width: 32%;">
 				<a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW radar]</a>
 				<a href="https://radar.weather.gov/Conus/pacnorthwest_lite_loop.php">[loop]</a>
 			</td>
