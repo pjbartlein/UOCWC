@@ -55,8 +55,8 @@
 GOES-15:  [[Western IR]](http://www.goes.noaa.gov/GSSLOOPS/wcir.html)
 [[Western Vis]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
 [[Western WV]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
-[[Global IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
-[[Global WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
+Global composites:  [[IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
+[[WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
 
 **Forecasts**  
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
