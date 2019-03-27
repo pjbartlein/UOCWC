@@ -22,12 +22,45 @@
 
 ## Surface and upper-air ##
 
-**Northern Hemisphere** [[NOAA ESRL PSD (CDC)]](https://www.esrl.noaa.gov/psd/)  
+**Northern Hemisphere** [[NOAA ESRL PSD (CDC) map room]](https://www.esrl.noaa.gov/psd/map/)  
 [[NH 500mb]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif)
 [[7-day animation]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html)
 [[NH SLP]](https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif)
-[[7-day animation]](https://www.esrl.noaa.gov/psd/map/images/fnl/slp_07.fnl.anim.html)
 [[NH Temperture]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)
-[[7-day animation]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmpmer_07.fnl.anim.html)
+
+## Radar and lightning ##
+
+**NWS Radar**  
+[[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
+[[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
+[[Pendleton]]([Pendleton])
+[[PNW]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
+[[PNW loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
+[[US]]([US])
+[[US loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
+[[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
+**Air Weather Center**  
+[[Radar imagery]](https://aviationweather.gov/radar)  
+**Lightning**  
+[[US (TWC)]](http://geog.uoregon.edu/weather/eugwx/usradarlightning.htm)
+[[US (Vaisala)]](http://thunderstorm.vaisala.com/explorer_files/lts-image.jpg?foo=468)
+[[Globe (Blitzortung)]](http://en.blitzortung.org/live_lightning_maps.php)
+[[US (Blitzortung)]](http://en.blitzortung.org/live_lightning_maps.php?map=30)
+[[PNW (LightningMaps.org)]](http://www.lightningmaps.org/?lang=en#m=oss;t=3;s=0;o=0;b=;ts=0;y=44.5983;x=-119.9542;z=7;d=2;dl=2;dc=0;)
+
+## Traffic cams ##
+
+**ODOT TripCheck Road Conditions** [[ODOT]](https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&mainNav=RoadConditions)
+[[Camera page]](https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&mainNav=RoadConditions)  
+[[Eugene I-5]](https://tripcheck.com/RoadCams/cams/I-5%20SB%20at%20I-105_pid1612.jpg?rand=1553714107603)
+[[US101]](https://tripcheck.com/RoadCams/cams/CapeCove_pid618.jpg?rand=1553714136808)
+[[Santiam Pass]](https://tripcheck.com/RoadCams/cams/Santiam%20Pass_pid2728.JPG?rand=1553714236397)
+[[Willamette Pass]](https://tripcheck.com/RoadCams/cams/Willamette%20Pass_pid3351.JPG?rand=1553714209804)
+
+## Air traffic ##
+
+**FAA** [[link]](https://www.faa.gov/)  
+[[Flight delay]](https://www.fly.faa.gov/flyfaa/usmap.jsp)
+[[Airspace system status]](https://www.fly.faa.gov/ois/jsp/summary_sys.jsp)
 
 
