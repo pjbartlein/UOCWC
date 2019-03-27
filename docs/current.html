@@ -11,7 +11,7 @@
 
 
 
-<title>UO Current Weather &amp; Climate</title>
+<title>Observations</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -352,52 +352,27 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">UO Current Weather &amp; Climate</h1>
+<h1 class="title toc-ignore">Observations</h1>
 
 </div>
 
 
-<table style="text-align: left; width: 100% height: 240px" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td style="vertical-align: top; width: 31%;">
-<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif"                     alt="GOES-W" width="250" height="250" style="border:1px solid black"> <br>
-</td>
-<td style="vertical-align: top; width: 37%;">
-<img src="http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/nam.na.30000.png" alt="NCEP"
-                    width="300" height="250" style="border:1px solid black"> <br>
-</td>
-<td style="vertical-align: top; width: 33;">
-<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
-                    width="260" height="250" style="border:1px solid black"> <br>
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; width: 31%">
-<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[GOES-W Full Disk]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a>
-</td>
-<td style="vertical-align: top; width: 37%;">
-<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a>
-</td>
-<td style="vertical-align: top; width: 33%;">
-<a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW radar]</a> <a href="https://radar.weather.gov/Conus/pacnorthwest_lite_loop.php">[loop]</a>
-</td>
-</tr>
-</tbody>
-</table>
-<div id="quick-links" class="section level2">
-<h2>Quick Links</h2>
-<p><strong>Text</strong><br />
-<a href="http://forecast.weather.gov/MapClick.php?lon=-123.09952036132812&amp;lat=44.14161867128607#.V0Mx9eSBkfg">[Eugene forecast at a glance]</a> <a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&amp;wfo=PQR">[Portland area forecast discussion]</a></p>
-<p><strong>Current conditions</strong><br />
-<a href="http://www.wrh.noaa.gov/mesowest/getobext.php?wfo=pqr&amp;sid=KEUG&amp;num=168&amp;raw=0&amp;dbn=m">[168-hour summary for Eugene]</a> <a href="http://www.wrh.noaa.gov/pqr/observations.php">[NWS Portland regional observations]</a> <a href="https://w2.weather.gov/climate/index.php?wfo=pqr">[Oregon weather and climate reports]</a></p>
-<p><strong>Radar</strong><br />
-<a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW sector and loop]</a> <a href="https://radar.weather.gov/radar_lite.php?rid=rtx&amp;product=N0Z&amp;loop=yes">[Portland long-range reflectivity]</a> <a href="https://radar.weather.gov/radar_lite.php?rid=max&amp;product=N0Z&amp;loop=yes">[Medford long-range reflectivity]</a> <a href="https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png">[Coverage map]</a></p>
-<p><strong>Satellite</strong><br />
-<a href="https://www.star.nesdis.noaa.gov/GOES/index.php">[GOES 16 &amp; 17 images and loops]</a> | GOES-15 (Western): <a href="http://www.goes.noaa.gov/GSSLOOPS/wcir.html">[IR]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcvs.html">[Vis]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcwv.html">[WV]</a> | Global composites: <a href="https://www.ssec.wisc.edu/data/comp/latest_moll.gif">[IR]</a> <a href="https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif">[WV]</a></p>
-<p><strong>Forecasts</strong><br />
-<a href="https://www.wrh.noaa.gov/pqr/forecasts.php">[Portland and regional zone forecasts]</a> <a href="html/eugwx/all3.html">[Eugene hourly weather forecast]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1">[NRMC 1.3-km hourly precip]</a></p>
-<p>The GitHub repository for these webpages is at <a href="https://github.com/pjbartlein/UOCWC/" class="uri">https://github.com/pjbartlein/UOCWC/</a></p>
+<div id="basic-information" class="section level2">
+<h2>Basic information</h2>
+<p><strong>NOAA (National)</strong><br />
+<a href="https://www.weather.gov/">[Weather.gov]</a> <a href="https://www.weather.gov/briefing/">[Daily briefing]</a> <a href="https://www.wpc.ncep.noaa.gov/html/sfc2.shtml">[Current surface analysis]</a></p>
+<p><strong>Oregon and PNW</strong><br />
+<a href="https://www.wrh.noaa.gov/mesowest/timeseries.php?wfo=pqr&amp;sid=KEUG&amp;num=48&amp;raw=0&amp;banner=off">[Eugene 168-hour summary]</a> <a href="https://www.wrh.noaa.gov/pqr/observations.php">[Current observations]</a> <a href="https://www.weather.gov/pqr/">[NWS Portland]</a></p>
+<p><strong>MesoWest stations near Eugene</strong> <a href="http://mesowest.utah.edu/index.html">[MesoWestData]</a><br />
+<a href="http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=KEUG&amp;unit=0&amp;time=LOCAL&amp;product=&amp;year1=&amp;month1=&amp;day1=00&amp;hour1=00&amp;hours=&amp;graph=1&amp;past=0">[Eugene airport 111m]</a> <a href="http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=HBFO3&amp;unit=0&amp;time=LOCAL&amp;product=&amp;year1=&amp;month1=&amp;day1=00&amp;hour1=00&amp;hours=&amp;graph=1&amp;past=0">[Willow Cr. (W. Eugene) 139m]</a> <a href="http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=EMFO3&amp;unit=0&amp;time=LOCAL&amp;product=&amp;year1=&amp;month1=&amp;day1=00&amp;hour1=00&amp;hours=&amp;graph=1&amp;past=0">[Emigrant Pass (Cascades) 1179m]</a><br />
+<a href="http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=FNWO3&amp;unit=0&amp;time=LOCAL&amp;product=&amp;year1=&amp;month1=&amp;day1=00&amp;hour1=00&amp;hours=&amp;graph=1&amp;past=0">[Finley NWR (Willamtte V.) 94m]</a> <a href="http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=BRUO3&amp;unit=0&amp;time=LOCAL&amp;product=&amp;year1=&amp;month1=&amp;day1=00&amp;hour1=00&amp;hours=&amp;graph=1&amp;past=0">[Brush Cr. (Coburg Hills) 700m]</a></p>
+<p><strong>Daily data plots</strong> <a href="https://www.weather.gov/pqr/">[NWS Portland]</a><br />
+<a href="https://www.wrh.noaa.gov/climate/yeardisp.php?wfo=pqr&amp;stn=KEUG&amp;submit=Yearly+Charts">[Eugene]</a> <a href="https://www.wrh.noaa.gov/climate/yeardisp.php?wfo=pqr&amp;year=2019&amp;span=Calendar%20Year&amp;stn=KPDX">[Portland]</a></p>
+</div>
+<div id="surface-and-upper-air" class="section level2">
+<h2>Surface and upper-air</h2>
+<p><strong>Northern Hemisphere</strong> <a href="https://www.esrl.noaa.gov/psd/">[NOAA ESRL PSD (CDC)]</a><br />
+<a href="https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif">[NH 500mb]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html">[7-day animation]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif">[NH SLP]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/slp_07.fnl.anim.html">[7-day animation]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif">[NH Temperture]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmpmer_07.fnl.anim.html">[7-day animation]</a></p>
 </div>
 
 

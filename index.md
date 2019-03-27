@@ -26,6 +26,7 @@
 			</td>
 		</tr>
 	</tbody>
+	
 </table>
 
 ## Quick Links ##
@@ -56,7 +57,7 @@
 **Forecasts**  
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
 [[Eugene hourly weather forecast]](html/eugwx/all3.html)
-[[NMRC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
+[[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
 
 
 
