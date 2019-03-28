@@ -4,10 +4,10 @@
 [[Daily briefing]](https://www.weather.gov/briefing/)
 [[Current surface analysis]](https://www.wpc.ncep.noaa.gov/html/sfc2.shtml)
 
-**Oregon and PNW**  
+**Oregon and PNW**  [[NWS Portland]](https://www.weather.gov/pqr/)  
 [[Eugene 168-hour summary]](https://www.wrh.noaa.gov/mesowest/timeseries.php?wfo=pqr&sid=KEUG&num=48&raw=0&banner=off)
 [[Current observations]](https://www.wrh.noaa.gov/pqr/observations.php)
-[[NWS Portland]](https://www.weather.gov/pqr/)
+[[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
 
 **MesoWest stations near Eugene** [[MesoWestData]](http://mesowest.utah.edu/index.html)  
 [[Eugene airport 111m]](http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=KEUG&unit=0&time=LOCAL&product=&year1=&month1=&day1=00&hour1=00&hours=&graph=1&past=0)
@@ -30,17 +30,16 @@
 
 ## Radar and lightning ##
 
-**NWS Radar**  
+**NWS Radar**  [[https://radar.weather.gov/]](https://radar.weather.gov/)
+[[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
 [[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
 [[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
 [[Pendleton]]([Pendleton])
 [[PNW]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
 [[PNW loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
-[[US]]([US])
-[[US loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
-[[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
-**Air Weather Center**  
-[[Radar imagery]](https://aviationweather.gov/radar)  
+[[US]](https://radar.weather.gov/Conus/index_lite.php)
+[[US loop]](https://radar.weather.gov/Conus/index_lite_loop.php)
+[[AWC Radar imagery]](https://aviationweather.gov/radar)  
 **Lightning**  
 [[US (TWC)]](http://geog.uoregon.edu/weather/eugwx/usradarlightning.htm)
 [[US (Vaisala)]](http://thunderstorm.vaisala.com/explorer_files/lts-image.jpg?foo=468)
@@ -60,7 +59,7 @@
 ## Air traffic ##
 
 **FAA** [[link]](https://www.faa.gov/)  
-[[Flight delay]](https://www.fly.faa.gov/flyfaa/usmap.jsp)
+[[Flight delays]](https://www.fly.faa.gov/flyfaa/usmap.jsp)
 [[Airspace system status]](https://www.fly.faa.gov/ois/jsp/summary_sys.jsp)
 
 
