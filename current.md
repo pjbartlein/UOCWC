@@ -26,7 +26,13 @@
 [[NH 500mb]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif)
 [[7-day animation]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html)
 [[NH SLP]](https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif)
-[[NH Temperture]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)
+[[NH Temperture]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)  
+**U.S. (TWC)** [[TWC]](https://weather.com/)  
+[[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg_)
+[[radar]](https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg)
+[[temperature (F)]](https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg)
+[[dew pt. temp. (F)]](https://dsx.weather.com/util/image/map/actdew_1280x720.jpg)
+[[IR satellite]](https://dsx.weather.com/util/image/map/ussat_1280x720.jpg)
 
 ## Radar and lightning ##
 

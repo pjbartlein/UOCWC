@@ -12,7 +12,7 @@ navbar:
   - text: Forecasts
     menu:
     - text: Short & Medium Range
-    - text: NW Consortium
+    - text: short.html
       href: pnw_consortium.html
     - text: NCEP
       href: ncep_gfs.html
