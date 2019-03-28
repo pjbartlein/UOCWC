@@ -1,0 +1,12 @@
+png/four_storage_01.png
+png/four_storage_02.png
+png/four_storage_03.png
+png/four_storage_04.png
+png/four_storage_05.png
+png/four_storage_06.png
+png/four_storage_07.png
+png/four_storage_08.png
+png/four_storage_09.png
+png/four_storage_10.png
+png/four_storage_11.png
+png/four_storage_12.png

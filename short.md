@@ -85,7 +85,7 @@ WRF-GFS extended runs
 
 **NCEP Operational NAM Graphics**
 [[link]](https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/)  
-[[SLP & 3hr ppt]](/anim/maps/ncep_nam/nam.na.pcp.html)
+[[SLP & 3hr ppt]](../anim/maps/ncep_nam/nam.na.pcp.html)
 
 
 
