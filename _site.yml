@@ -11,9 +11,9 @@ navbar:
       href: satellite.html
   - text: Forecasts
     menu:
-    - text: Short & Medium Range
-    - text: short.html
-      href: pnw_consortium.html
+    - text: Forecast type
+    - text: Short-term & medium range
+      href: short.html
     - text: NCEP
       href: ncep_gfs.html
   - text: Climate
