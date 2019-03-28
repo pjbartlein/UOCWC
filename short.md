@@ -123,6 +123,106 @@ Heat flux [[Sensible]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_na
 [[0-10cm Soil moist.]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.soilmoist1.html)
 [[PE]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.potevap.html)
 
+## NCEP GFS (Northern Hemisphere) forecasts
+
+**Forecast model maps** [[U. Wisc. AOS Dept.]](http://www.aos.wisc.edu/weather/Models)
+
+300mb heights and wind speed  
+large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300.html)
+small
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300_sm.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300_sm.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300_sm.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300_sm.html)  
+
+500mb heights, winds and absolute vorticity  
+large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500.html)
+small
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c500_sm.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500_sm.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500_sm.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500_sm.html) 
+
+700 mb heights, vertical veolocity and winds  
+large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700.html)
+small
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c700_sm.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700_sm.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700_sm.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700_sm.html)  
+
+850-500mb integrated relative humidity and lifted index  
+large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia.html)
+small
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia_sm.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia_sm.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia_sm.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia_sm.html)  
+
+850mb temperature, heights, and winds  
+large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850.html)
+small
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850_sm.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850_sm.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850_sm.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850_sm.html)  
+
+Forecast accumulated precipitation and surface pressure  
+large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres.html)
+small
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres_sm.html)
+[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres_sm.html)
+[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres_sm.html)
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres_sm.html)  
+
+## NCEP Ensemble forecasts##
+
+**NCEP (NMC) Ensemble Forecast Products** [[NOAA ESRL PSD (CDC) Map Room]](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)  
+
+500mb heights:  
+[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_nh.html)
+[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_nh_sm.html)
+[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_sh.html)
+[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_sh_sm.html)  
+500mb anomalies:  
+[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_nh.html)
+[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_nh_sm.html)
+[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_sh.html)
+[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_sh_sm.html)  
+500mb spaghetti plots:  
+[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_nh.html)
+[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_nh_sm.html)
+[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_sh.html)
+[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_sh_sm.html)  
+500mb std. dev.:  
+[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_nh.html)
+[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_nh_sm.html)
+[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_sh.html)
+[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_sh_sm.html) 
+
+
+
+
+
+
 
 
 
