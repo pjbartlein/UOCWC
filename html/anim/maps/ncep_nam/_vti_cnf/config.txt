@@ -1,0 +1,7 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|05 Apr 2016 22:57:50 -0000
+vti_extenderversion:SR|12.0.0.0
+vti_cacheddtm:TX|27 Mar 2016 03:20:14 -0000
+vti_filesize:IR|507
+vti_backlinkinfo:VX|
+vti_modifiedby:SR|AD\\bartlein

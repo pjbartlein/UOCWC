@@ -1,0 +1,12 @@
+png/prate_sm_01.png
+png/prate_sm_02.png
+png/prate_sm_03.png
+png/prate_sm_04.png
+png/prate_sm_05.png
+png/prate_sm_06.png
+png/prate_sm_07.png
+png/prate_sm_08.png
+png/prate_sm_09.png
+png/prate_sm_10.png
+png/prate_sm_11.png
+png/prate_sm_12.png

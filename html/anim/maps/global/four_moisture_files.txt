@@ -1,0 +1,12 @@
+png/four_moist_01.png
+png/four_moist_02.png
+png/four_moist_03.png
+png/four_moist_04.png
+png/four_moist_05.png
+png/four_moist_06.png
+png/four_moist_07.png
+png/four_moist_08.png
+png/four_moist_09.png
+png/four_moist_10.png
+png/four_moist_11.png
+png/four_moist_12.png

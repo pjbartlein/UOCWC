@@ -1,0 +1,12 @@
+png/storagechg2_01.png
+png/storagechg2_02.png
+png/storagechg2_03.png
+png/storagechg2_04.png
+png/storagechg2_05.png
+png/storagechg2_06.png
+png/storagechg2_07.png
+png/storagechg2_08.png
+png/storagechg2_09.png
+png/storagechg2_10.png
+png/storagechg2_11.png
+png/storagechg2_12.png

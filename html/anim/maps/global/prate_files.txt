@@ -1,0 +1,12 @@
+png/prate_01.png
+png/prate_02.png
+png/prate_03.png
+png/prate_04.png
+png/prate_05.png
+png/prate_06.png
+png/prate_07.png
+png/prate_08.png
+png/prate_09.png
+png/prate_10.png
+png/prate_11.png
+png/prate_12.png

@@ -1,0 +1,16 @@
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f000_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f024_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f048_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f072_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f096_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f120_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f144_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f168_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f192_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f216_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f240_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f264_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f288_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f312_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f336_nhbg.gif
+http://www.esrl.noaa.gov/psd/map/images/ens/std_f360_nhbg.gif
