@@ -28,7 +28,7 @@
 [[NH SLP]](https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif)
 [[NH Temperture]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)  
 **U.S. (TWC)** [[TWC]](https://weather.com/)  
-[[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg_)
+[[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg)
 [[radar]](https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg)
 [[temperature (F)]](https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg)
 [[dew pt. temp. (F)]](https://dsx.weather.com/util/image/map/actdew_1280x720.jpg)
