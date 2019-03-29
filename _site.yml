@@ -19,7 +19,7 @@ navbar:
     - text: Climate maps & figures
       href: climatemaps.html
     - text: Climate discussions
-      href: climatetdisc.html
+      href: climatedisc.html
     - text: ENSO
       href: enso.html
   - text: Other
