@@ -46,3 +46,6 @@ Outlooks:  [[6-10 day]](https://www.cpc.ncep.noaa.gov/products/predictions/610da
 
 **National Water and Climate Center** [[NWCC]](https://www.wcc.nrcs.usda.gov/wsf/)  
 [[Western Water Supply Outlook]](https://www.wcc.nrcs.usda.gov/wsf/westwide.html)
+
+**Northwest River Forecast Center** [[NWRFC]](https://www.nwrfc.noaa.gov/ws/)  
+[[Water Supply Forecasts]](https://www.nwrfc.noaa.gov/ws/)

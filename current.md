@@ -62,6 +62,13 @@
 [[Santiam Pass]](https://tripcheck.com/RoadCams/cams/Santiam%20Pass_pid2728.JPG?rand=1553714236397)
 [[Willamette Pass]](https://tripcheck.com/RoadCams/cams/Willamette%20Pass_pid3351.JPG?rand=1553714209804)
 
+## Water ##
+
+**Waterwatch** [[USGS]](https://waterwatch.usgs.gov)  
+[[Current]](https://waterwatch.usgs.gov)
+[[Streamflow]](https://waterwatch.usgs.gov/?id=ww_current)
+[[Past streamflow]](https://waterwatch.usgs.gov/index.php?id=ww_past)  
+
 ## Air traffic ##
 
 **FAA** [[link]](https://www.faa.gov/)  
