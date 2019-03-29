@@ -26,7 +26,7 @@
 [[NH 500mb]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif)
 [[7-day animation]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html)
 [[NH SLP]](https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif)
-[[NH Temperture]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)  
+[[NH Temperature]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)  
 **U.S. (TWC)** [[TWC]](https://weather.com/)  
 [[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg)
 [[radar]](https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg)
@@ -36,7 +36,7 @@
 
 ## Radar and lightning ##
 
-**NWS Radar**  [[https://radar.weather.gov/]](https://radar.weather.gov/)
+**NWS Radar**  [[National Doppler Radar Sites]](https://radar.weather.gov/)
 [[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
 [[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
 [[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
