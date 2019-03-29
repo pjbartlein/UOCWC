@@ -53,5 +53,11 @@ Global surface winds:
 **CPC Monitoring & Data Index** [[CPC "Table of Contents"]](https://www.cpc.ncep.noaa.gov/products/MD_index.shtml)  
 **CPC Site Index** [[aphanumeric list]](https://www.cpc.ncep.noaa.gov/products/site_index.shtml)
 
+**Climate Indices** [[NCAR CAS]](http://www.cgd.ucar.edu/cas/catalog/climind/)
+
 **Western U.S. climate anomalies** [[Western Regional Climate Center]](http://www.wrcc.dri.edu/)  
 [[maps and tables]](http://www.wrcc.dri.edu/anom/)
+
+**USDA Weekly Weather & Crop Bulletin** [[USDA OCE]](https://www.usda.gov/oce/weather/pubs/Weekly/Wwcb/)
+
+**NOAA North American Drought Monitor**  [[NOAA NCEI]](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps)  
