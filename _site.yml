@@ -16,21 +16,22 @@ navbar:
       href: extended.html
   - text: Climate
     menu:
-    - text: Climate web links
-    - text: State of the Climate
-      href: sotc.html
+    - text: Climate maps & figures
+      href: climatemaps.html
+    - text: Climate discussions
+      href: climatetdisc.html
     - text: ENSO
       href: enso.html
   - text: Other
     menu:
     - text:  Other environmental data
-    - text:  Other data
       href:  other.html
+    - text:  Miscellaneous info (time zones, glossaries)
+      href:  misc.html
   right:
    - text: About
      menu:
      - text: About this page
-     - text: About 
        href: about.html
        
 output:
@@ -40,5 +41,6 @@ output:
     css: SI-md-08.css
     lib_dir: site_libs
     self_contained: no
+    output_dir: "./docs/"
 output_dir: docs
 
