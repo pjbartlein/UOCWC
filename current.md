@@ -68,6 +68,7 @@
 [[Current]](https://waterwatch.usgs.gov)
 [[Streamflow]](https://waterwatch.usgs.gov/?id=ww_current)
 [[Past streamflow]](https://waterwatch.usgs.gov/index.php?id=ww_past)  
+Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/nwis/uv?site_no=14166000)  
 
 ## Air traffic ##
 
