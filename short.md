@@ -69,7 +69,7 @@ WRF-GFS 4km
 [[S. Will Valley x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx10+///3)
 
 WRF-GFS 1.33km
-[[model topography]] (http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
+[[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
 [[land cover]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif)  
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
 [[850mb T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3)
