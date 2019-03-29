@@ -11,11 +11,11 @@ navbar:
       href: satellite.html
   - text: Forecasts
     menu:
-    - text: Forecast type
+    - text: Forecast & outlooks
     - text: Short-term & medium range
       href: short.html
-    - text: NCEP
-      href: ncep_gfs.html
+    - text: Extended forecasts & outlooks
+      href: extended.html
   - text: Climate
     menu:
     - text: Climate web links
