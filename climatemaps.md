@@ -20,10 +20,10 @@ Global SLP:
 [[30-day animation]](http://www.cdc.noaa.gov/map/images/fnl/slp_01_30frames.fnl.anim.html)
 [[30-day anomaly animation]](http://www.cdc.noaa.gov/map/images/fnl/slp_01a_30frames.fnl.anim.html)  
 Global surface winds:  
-[[1-day]](http://www.cdc.noaa.gov/map/images/fnl/sfwnd_01.fnl.gif)
-[[1-day anomaly]](http://www.cdc.noaa.gov/map/images/fnl/sfwnd_01a.fnl.gif)
-[[30-day animation]](http://www.cdc.noaa.gov/map/images/fnl/sfwnd_01_30frames.fnl.anim.html)
-[[30-day anomaly animation]](http://www.cdc.noaa.gov/map/images/fnl/sfwnd_01a_30frames.fnl.anim.html)  
+[[1-day]](http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01.fnl.gif)
+[[1-day anomaly]](http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a.fnl.gif)
+[[30-day animation]](http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01_30frames.fnl.anim.html)
+[[30-day anomaly animation]](http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a_30frames.fnl.anim.html)  
 
 **Hovmöller Plots**  [[NOAA ESRL PDS Map Room]](https://www.esrl.noaa.gov/psd/map/)  
 [[tropical SSTs (40E-80W)]](http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.hov.io.gif)
