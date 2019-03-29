@@ -24,7 +24,7 @@ navbar:
       href: enso.html
   - text: Other
     menu:
-    - text:  Other environmental data
+    - text:  Other environmental information
       href:  other.html
     - text:  Miscellaneous info (time zones, glossaries)
       href:  misc.html

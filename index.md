@@ -59,7 +59,5 @@
 [[Eugene hourly weather forecast]](html/eugwx/all3.html)
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
 
-
-
-The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC/](https://github.com/pjbartlein/UOCWC/)  
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Spring 2019)</span></p>
 

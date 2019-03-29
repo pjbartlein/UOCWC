@@ -1,28 +1,28 @@
 ## NCEP & NWS ##
 
-**NCEP** [[NCEP]](https://www.ncep.noaa.gov/)  
+**NCEP** *[(NCEP)](https://www.ncep.noaa.gov/)*  
 [[National forecast maps]](http://www.weather.gov/forecastmaps)
 [[Tables]](https://www.ncep.noaa.gov/nationalmaps/)
 [[Model guidance page]](http://mag.ncep.noaa.gov/model-guidance-model-area.php)  
 
-**Storm Prediction Center (Severe storms)** [[SPC]](https://www.spc.noaa.gov/)  
+**Storm Prediction Center (Severe storms)** *[(SPC)](https://www.spc.noaa.gov/)*  
 [[Overview]](https://www.spc.noaa.gov/)
 [[Convective outlooks]](https://www.spc.noaa.gov/products/outlook/)
 [[Storm reports]](https://www.spc.noaa.gov/climo/online/)
 
-**National Hurricane Center** [[NHC]](https://www.nhc.noaa.gov/)  
+**National Hurricane Center** *[(NHC)](https://www.nhc.noaa.gov/)*  
 [[Atlantic]](https://www.nhc.noaa.gov/)
 [[E. Pacific]](https://www.nhc.noaa.gov/?epac)
 [[Central Pacific]](https://www.prh.noaa.gov/cphc/)
 
-**NOAA Aviation Weather Center** [[AWC]](https://aviationweather.gov)  
+**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather.gov)*  
 [[Overview]](https://aviationweather.gov)
 [[SIGMET]](https://aviationweather.gov/sigmet)
 [[G-AIRMET]](https://aviationweather.gov/gairmet)
 
 ## PNW WRF-GFS mesoscale forecasts ##
 
-**NW Regional Modelling Consortium** [[NWRMC]](http://www.atmos.washington.edu/mm5rt/)  <br>
+**NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)*  <br>
 
 WRF-GFS 36km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif)
@@ -89,7 +89,7 @@ WRF-GFS extended runs
 ## NCEP North American Mesoscale Model (NAM) forecasts ##
 
 **NCEP Operational NAM Graphics**
-[[link]](https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/)  
+*[(NCEP)](https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/)*  
 
 Surface conditions:  
 [[SLP & 3hr ppt]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.pcp.html)
@@ -130,7 +130,7 @@ Heat flux [[Sensible]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_na
 
 ## NCEP GFS (Northern Hemisphere) forecasts
 
-**Forecast model maps** [[U. Wisc. AOS Dept.]](http://www.aos.wisc.edu/weather/Models)
+**Forecast model maps** *[(U. Wisc. AOS Dept.)](http://www.aos.wisc.edu/weather/Models)*
 
 300mb heights and wind speed  
 large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
@@ -200,7 +200,7 @@ small
 
 ## NCEP Ensemble forecasts##
 
-**NCEP (NMC) Ensemble Forecast Products** [[NOAA ESRL PSD (CDC) Map Room]](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)  
+**NCEP (NMC) Ensemble Forecast Products** *[(NOAA ESRL PSD (CDC) Map Room)](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)*  
 
 500mb heights:  
 [[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_nh.html)

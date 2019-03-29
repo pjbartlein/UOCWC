@@ -2,3 +2,6 @@ This web site is intended to support instruction in climate-related geography co
 
 **Contact**  
 P.J. Bartlein, Dept. Geography, Univ. Oregon [[bartlein@uoregon.edu]](bartlein@uoregon.edu)
+
+
+The GitHub repository for these webpages is at [https://github.com/pjbartlein/UOCWC/](https://github.com/pjbartlein/UOCWC/)  
