@@ -4,14 +4,12 @@ navbar:
   left:
   - text: Weather
     menu:
-    - text: Current Conditions
     - text: Observations
       href: current.html
     - text: Satellite
       href: satellite.html
   - text: Forecasts
     menu:
-    - text: Forecast & outlooks
     - text: Short-term & medium range
       href: short.html
     - text: Extended forecasts & outlooks
