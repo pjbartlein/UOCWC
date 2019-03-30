@@ -15,8 +15,9 @@
 		</tr>
 		<tr>
 			<td style="vertical-align: top; width: 31%">
-				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[GOES-W Full Disk]</a>
-		        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[PNW]</a>			</td>
+		        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[GOES-W PNW]</a>
+				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[Full Disk]</a>
+			</td>
 			<td style="vertical-align: top; width: 37%;">
 				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
 			</td>
