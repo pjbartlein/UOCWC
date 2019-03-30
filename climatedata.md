@@ -7,12 +7,13 @@
 
 **NCAR Climate Data Guide** *[(NCAR)](https://climatedataguide.ucar.edu/)*
 
-**NOAA Earth System Research Laboratory — Physical Sciences Division** *[(NOAA ESRL PSD)](https://www.esrl.noaa.gov)*
+**NOAA Earth System Research Laboratory — Physical Sciences Division** *[(NOAA ESRL PSD)](https://www.esrl.noaa.gov/psd/)*
 
 - [[Data and Imagery]](https://www.esrl.noaa.gov/psd/data/index.html)
 - [[Gridded climate data]](https://www.esrl.noaa.gov/psd/data/gridded/index.html)
 - [[Reanalysis data sets]](https://www.esrl.noaa.gov/psd/data/gridded/reanalysis/)
 - [[Climate indices time series]](https://www.esrl.noaa.gov/psd/data/climateindices/)
+- [[Analysis and plotting tools]](https://www.esrl.noaa.gov/psd/cgi-bin/data/getpage.pl)
 
 **NCAR Data Sets**  *[(NCAR)](https://climatedataguide.ucar.edu/)*
 
