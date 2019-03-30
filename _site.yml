@@ -22,6 +22,8 @@ navbar:
       href: climatedisc.html
     - text: ENSO
       href: enso.html
+    - text: Global Climate Animations
+      href: globalclimate.html
   - text: Other
     menu:
     - text:  Other environmental information

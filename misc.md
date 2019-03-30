@@ -1,5 +1,4 @@
-**Time-zone conversions** [[link]](http://geog.uoregon.edu/weather/timezone.htm) 
-[[link]](https://pjbartlein.github.io/UOCWC/html/eugwx/timezone.html)
+**Time-zone conversions** [[link]](https://pjbartlein.github.io/UOCWC/html/eugwx/timezone.html)
  
 **WX abbreviations** [[link]](https://ww8.fltplan.com/AreaForecast/abbreviations.htm)  
 
