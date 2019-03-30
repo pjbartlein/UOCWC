@@ -1,4 +1,6 @@
-**Time-zone conversions** [[link]](https://pjbartlein.github.io/UOCWC/html/
+**Time-zone conversions** [[link]](https://pjbartlein.github.io/UOCWC/html/timezone.html)
+
+
 
 
 **Glossaries**  
