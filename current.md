@@ -37,7 +37,7 @@
 ## Radar and lightning ##
 
 **NWS Radar**  *[(National Doppler Radar Sites)](https://radar.weather.gov/)*
-[[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
+[[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
 [[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
 [[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
 [[Pendleton]]([Pendleton])
