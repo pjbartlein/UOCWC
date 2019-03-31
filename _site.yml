@@ -6,7 +6,7 @@ navbar:
     menu:
     - text: Observations
       href: current.html
-    - text: Satellite
+    - text: Satellite images
       href: satellite.html
   - text: Forecasts
     menu:
