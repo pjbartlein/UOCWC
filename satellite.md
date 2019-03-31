@@ -7,7 +7,8 @@
 [[N. Pacific]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=np&band=TRUECOLOR&length=12)
 [[Pacific NW]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12)  
 [[GOES-W image page]](https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G17)
-[[Pacific NW image page]](https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&sector=pnw)
+[[Pacific NW image page]](https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&sector=pnw)  
+[[Explanation of GOES 16 and 17 sensor bands *(NOAA Jetsream)*]](https://www.weather.gov/jetstream/goes)  
 
 **GOES 15 (old GOES-W)**  
 Western VIS [[image]](http://www.goes.noaa.gov/GIFS/WCVS.JPG)
@@ -40,9 +41,16 @@ animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/
 [[Special sector]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_afghanistan.gif)
 
 **Fire and smoke**
-*[(NOAA Hazard Mapping System)](https://www.ospo.noaa.gov/Products/land/hms.html)*  
+*[(NOAA Hazard Mapping System)](https://www.ospo.noaa.gov/Products/land/hms.html)* 
+
+## Satellite discussion and information pages ##
+ 
 
 **CMISS Satellite blog** *[(U. Wisc. SSEC)](http://cimss.ssec.wisc.edu/goes/blog/)*
+
+**National Environmental Satellite, Data,  and Information Service**  [[*(NOAA NESDIS)*]](https://www.nesdis.noaa.gov)
+
+**Center for Satellite Applications and Research (STAR)** [[GOES-16/17 Loop of the Day]](http://rammb.cira.colostate.edu/ramsdis/online/loop_of_the_day/)
 
 **NASA Earth Observatory** *[(earthobservatory.nasa.gov)](https://earthobservatory.nasa.gov)*
 
