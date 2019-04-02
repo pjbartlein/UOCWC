@@ -33,7 +33,7 @@
 ## Quick Links ##
  
 **Text**  
-[[Eugene forecast at a glance]](http://forecast.weather.gov/MapClick.php?lon=-123.09952036132812&lat=44.14161867128607#.V0Mx9eSBkfg) 
+[[Eugene forecast at a glance]](https://forecast.weather.gov/MapClick.php?lon=-123.07004928588869&lat=44.03768897706345#.XKPy_C2ZPUI) 
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
 
 **Current conditions**  
