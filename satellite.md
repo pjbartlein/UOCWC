@@ -4,7 +4,7 @@
 [[GOES-West (full disk)]](https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=127)
 [[GOES-East (full disk)]](https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G16&band=GEOCOLOR&length=12)
 [[CONUS]](https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&band=GEOCOLOR&length=12)
-[[N. Pacific]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=np&band=TRUECOLOR&length=12)
+[[N. Pacific]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=np&band=GEOCOLOR&length=12)
 [[Pacific NW]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12)  
 [[GOES-W image page]](https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G17)
 [[Pacific NW image page]](https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&sector=pnw)  
