@@ -70,6 +70,10 @@
 [[Past streamflow]](https://waterwatch.usgs.gov/index.php?id=ww_past)  
 Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/nwis/uv?site_no=14166000)  
 
+**NWS Oregon River observations**
+*[(NWS Portland)](http://newweb.wrh.noaa.gov/pqr/)*   
+[[River observations and forecasts]](https://water.weather.gov/ahps2/index.php?wfo=pqr)
+
 ## Air traffic ##
 
 **FAA** *[(FAA)](https://www.faa.gov/)*  
