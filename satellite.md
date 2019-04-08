@@ -14,7 +14,7 @@
 Western VIS [[image]](http://www.goes.noaa.gov/GIFS/WCVS.JPG)
 [[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
 Western IR [[image]](http://www.goes.noaa.gov/GIFS/WCIR.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.JPG)
+[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
 Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 [[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
 
