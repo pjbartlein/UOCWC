@@ -21,11 +21,6 @@
 [[E. Pacific]](https://www.nhc.noaa.gov/?epac)
 [[Central Pacific]](https://www.prh.noaa.gov/cphc/)
 
-**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather.gov)*  
-[[Overview]](https://aviationweather.gov)
-[[SIGMET]](https://aviationweather.gov/sigmet)
-[[G-AIRMET]](https://aviationweather.gov/gairmet)
-
 ## PNW WRF-GFS mesoscale forecasts ##
 
 **NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)*  <br>

@@ -31,6 +31,14 @@ Mexico & Central Am. [[temperature]](http://wxmaps.org/pix/temp3.html)
 [[GEFS Probabalistic forecasts]](https://www.esrl.noaa.gov/psd/forecasts/reforecast2/)
 [[Experimental Climate/Weather forecasts]](https://www.esrl.noaa.gov/psd/forecasts/)
 
+**NCEP (NMC) Ensemble Forecast Products** *[(NOAA ESRL PSD (CDC) Map Room)](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)* 
+
+500mb spaghetti plots:  
+[[N. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh.html)
+[[N. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh_sm.html)
+[[S. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html)
+[[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh_sm.html) 
+
 ## Outlooks ##
 
 **Climate Prediction Center**  *[(NOAA CPC)](https://www.cpc.ncep.noaa.gov)*    

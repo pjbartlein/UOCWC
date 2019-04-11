@@ -80,4 +80,10 @@ Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/
 [[Flight delays]](https://www.fly.faa.gov/flyfaa/usmap.jsp)
 [[Airspace system status]](https://www.fly.faa.gov/ois/jsp/summary_sys.jsp)
 
+**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather.gov)*  
+[[Overview]](https://aviationweather.gov)
+[[SIGMET]](https://aviationweather.gov/sigmet)
+[[G-AIRMET]](https://aviationweather.gov/gairmet)
+
+
 
