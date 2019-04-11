@@ -210,25 +210,25 @@ small
 **NCEP (NMC) Ensemble Forecast Products** *[(NOAA ESRL PSD (CDC) Map Room)](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)*  
 
 500mb heights:  
-[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_nh.html)
-[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_nh_sm.html)
-[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_sh.html)
-[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/m500z_sh_sm.html)  
+[[N. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_nh.html)
+[[N. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_nh_sm.html)
+[[S. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_sh.html)
+[[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_sh_sm.html)  
 500mb anomalies:  
-[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_nh.html)
-[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_nh_sm.html)
-[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_sh.html)
-[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/z500anom_sh_sm.html)  
+[[N. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_nh.html)
+[[N. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_nh_sm.html)
+[[S. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_sh.html)
+[[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_sh_sm.html)  
 500mb spaghetti plots:  
-[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_nh.html)
-[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_nh_sm.html)
-[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_sh.html)
-[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/spag_sh_sm.html)  
+[[N. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh.html)
+[[N. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh_sm.html)
+[[S. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html)
+[[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh_sm.html)  
 500mb std. dev.:  
-[[N. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_nh.html)
-[[N. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_nh_sm.html)
-[[S. Hemis. (large)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_sh.html)
-[[S. Hemis. (small)]](http://geog.uoregon.edu/weather/anim/maps/ncep_ens/std_sh_sm.html) 
+[[N. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_nh.html)
+[[N. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_nh_sm.html)
+[[S. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh.html)
+[[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh_sm.html) 
 
 
 

@@ -4,7 +4,7 @@
 [[Interactive overview page]](https://www.cpc.ncep.noaa.gov)
 [[Week-2 hazards outlook]](https://www.cpc.ncep.noaa.gov/products/predictions/threats/threats.php)
 
-**COLA** *[(COLA0](http://wxmaps.org)*  
+**COLA** *[(COLA)](http://wxmaps.org)*  
  
 Forecast meteograms:
 Eugene [[84hr]](http://wxmaps.org/pix/eugnam.png)
