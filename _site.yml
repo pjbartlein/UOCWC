@@ -42,7 +42,7 @@ output:
   html_document:
     theme: united
     highlight: haddock
-    css: SI-md-08.css
+    css: page_01.css
     lib_dir: site_libs
     self_contained: no
     output_dir: "./docs/"
