@@ -60,6 +60,7 @@ WRF-GFS 4km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif)
 [[land cover]](http://www.atmos.washington.edu/mm5rt/domains/may06.4kmlanduse.gif)   
 [[1hr. ppt.]](https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_pcp1+///1)
+[[700mb omega]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_700w+///3)
 [[850mb T]](https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_850t+///3)
 [[2m T]](https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_tsfc+///3)
 [[SLP]](https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_slp+///3)
