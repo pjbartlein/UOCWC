@@ -84,9 +84,10 @@ WRF-GFS 1.33km
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)  
 
-WRF-GFS extended runs
+WRF-GFS extended runs  
 [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
-[[700mb omega]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3)
+[[700mb omega 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3)
+[[CAPE 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3)
 [[3hr ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcp3+///3)
 [[3hr ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3)
 
