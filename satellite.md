@@ -20,6 +20,12 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 
 ## Other satellite imagery ##
 
+**Composiite images** *[(U. Wisc. SSEC)](https://www.ssec.wisc.edu/data/composites)*  
+[[Global montage]](https://www.ssec.wisc.edu/data/comp/latest_cmoll.gif)
+[[loop]](https://www.ssec.wisc.edu/data/composites/cmoll-animation/)
+[[Global IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
+[[Global WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
+
 **Aviation Weather Center International Mosaics** *[(AWC Satellite)](https://www.aviationweather.gov/satellite)*  
 [[N. Pacific]](https://www.aviationweather.gov/satellite/intl?region=i)
 [[N. Atlantic]](https://www.aviationweather.gov/satellite/intl?region=h)
