@@ -1,3 +1,21 @@
+<table style="text-align: left; width: 100% height: 240px" border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 31%;">
+				<a href="http://webcam.uoregon.edu/oneshotimage1">
+				<img src="http://webcam.uoregon.edu/oneshotimage1" 					alt="UO Webcam" width="426" height="240" style="border:1px solid black"></a>  
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top; width: 31%">
+		        <a href="http://webcam.uoregon.edu/oneshotimage1">[UO Webcam]</a>
+		        (click to enlarge)
+			</td>
+		</tr>
+	</tbody>
+	
+</table>
+
 ## Basic information ##
 **NOAA (National)**   
 [[Weather.gov]](https://www.weather.gov/)
