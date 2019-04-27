@@ -2,6 +2,7 @@
 
 **NOAA Climate Prediction Center** *[(CPC)](https://www.cpc.ncep.noaa.gov)*  
 [[Interactive overview page]](https://www.cpc.ncep.noaa.gov)
+[[3 to 7-day hazard outlook]](https://www.wpc.ncep.noaa.gov/threats/threats.php)
 [[Week-2 hazards outlook]](https://www.cpc.ncep.noaa.gov/products/predictions/threats/threats.php)
 
 **COLA** *[(COLA)](http://wxmaps.org)*  
