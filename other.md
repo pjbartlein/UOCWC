@@ -22,7 +22,7 @@
 - [[Large-fire map]](http://gacc.nifc.gov/nwcc/)  
 - [[GEOMAC Wildfire Mapping *(USGS)*]](https://www.geomac.gov/viewer/viewer.shtml)  
 - [[Fire-weather outlooks *(SPC)*]](https://www.spc.noaa.gov/products/fire_wx/overview.html)
-- [[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5k m resolution) 
+- [[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution) 
 - [[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)
 
 **Volcanos** *[(USGS)](https://volcanoes.usgs.gov/index.html)*   

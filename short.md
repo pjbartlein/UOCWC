@@ -232,7 +232,7 @@ small
 ## NOAA Earth Modeling Branch -- RAP and HRRR forecasts##
 
 **Rapid Refresh (RAP) Products** *[(Rapid Refresh Web Page)](https://rapidrefresh.noaa.gov)*  
-[[RAP plots page]](https://rapidrefresh.noaa.gov/RAP/) [[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5k m resolution) 
+[[RAP plots page]](https://rapidrefresh.noaa.gov/RAP/) [[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution) 
 
 **High-Resolution Rapid Refresh (HRRR) Products** *[(High-Resolution Rapid Refresh Web Page)](https://rapidrefresh.noaa.gov/hrrr/)*  
 [[HRRR CONUS Hourly plots page]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) [[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)
