@@ -229,7 +229,16 @@ small
 [[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh_sm.html) 
 
 
+## NOAA Earth Modeling Branch -- RAP and HRRR forecasts##
 
+**Rapid Refresh (RAP) Products** *[(Rapid Refresh Web Page)](https://rapidrefresh.noaa.gov)*  
+[[RAP plots page]](https://rapidrefresh.noaa.gov/RAP/) [[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5k m resolution) 
+
+**High-Resolution Rapid Refresh (HRRR) Products** *[(High-Resolution Rapid Refresh Web Page)](https://rapidrefresh.noaa.gov/hrrr/)*  
+[[HRRR CONUS Hourly plots page]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) [[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)
+
+[[HRRR-Smoke Experimental Forecast Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf)
+[[VIIRS Active Fire Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf)
 
 
 
