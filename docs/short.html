@@ -1,474 +1,513 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
-<meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-
-
-
-
-<title>Short-term &amp; medium-range forecasts</title>
-
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>short</title>
 
 
 <style type="text/css">
+body, td {
+   font-family: Times, TimesNewRoman, serif;
+   background-color: white;
+   font-size: 1.0em;
+   margin: 40px;
+   width:  720px;
+   text-align:justify;
+}
+
+tt, code, pre {
+   font-family: Arial, Helvetica, Geneva, sans-serif;
+   font-size: 0.88em;
+}
+
 h1 {
-  font-size: 34px;
+   font-size:1.8em;
+   font-weight: normal;
 }
-h1.title {
-  font-size: 38px;
-}
+
 h2 {
-  font-size: 30px;
+   font-size:1.6em;
+   font-weight: normal;
 }
+
 h3 {
-  font-size: 24px;
+   font-size:1.4em;
+   font-weight: normal;
+   font-style: italic;
 }
+
 h4 {
-  font-size: 18px;
+   font-size:1.2em;
+   font-weight: normal;
 }
+
 h5 {
-  font-size: 16px;
+   font-size:0.9em;
 }
+
 h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-<link rel="stylesheet" href="page_01.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-</style>
-
-
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+   font-size:0.8em;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+a:visited {
+   color: rgb(50%, 0%, 50%);
 }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
+pre { 
+   margin-top: 0;
+   max-width: 100%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0em;
+   background-color:  #E0E0E0;
+}
+
+.code-block {padding-top: 0; padding-bottom: 0;}
+
+code.r, code.noeval, code.cpp {
+   background-color: #eeeeee;
+}
+
+table, td, th {
   border: none;
 }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+blockquote {
+   color:#000000;
+   margin:0;
+   padding-left: 1.0em;
+   padding-right:1.0em;
+   border-left: 0.5em #E0E0E0 solid;
+   border-right: 0.5em #E0E0E0 solid
 }
 
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
 
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
 
-<!-- code folding -->
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
 
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
 
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
 
 
 </head>
 
 <body>
 
+<h2 id="toc_0">NCEP &amp; NWS</h2>
 
-<div class="container-fluid main-container">
+<p><strong>NWS Portland</strong>  <em><a href="https://www.weather.gov/pqr/">(NWS Portland)</a></em><br>
+<a href="https://forecast.weather.gov/MapClick.php?lon=-123.07004928588869&amp;lat=44.03768897706345#.XKPy_C2ZPUI">[Eugene forecast at a glance]</a> 
+<a href="html/eugwx/all3.html">[Eugene 6-day hourly forecast]</a>
+<a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&amp;wfo=PQR">[Portland area forecast discussion]</a></p>
 
+<p><strong>NCEP</strong> <em><a href="https://www.ncep.noaa.gov/">(NCEP)</a></em><br>
+<a href="http://www.weather.gov/forecastmaps">[National forecast maps]</a>
+<a href="https://www.ncep.noaa.gov/nationalmaps/">[Tables]</a>
+<a href="http://mag.ncep.noaa.gov/model-guidance-model-area.php">[Model guidance page]</a> 
+<a href="https://www.emc.ncep.noaa.gov">[Environmental Modeling Center]</a></p>
 
+<p><strong>Storm Prediction Center (Severe storms)</strong> <em><a href="https://www.spc.noaa.gov/">(SPC)</a></em><br>
+<a href="https://www.spc.noaa.gov/">[Overview]</a>
+<a href="https://www.spc.noaa.gov/products/outlook/">[Convective outlooks]</a>
+<a href="https://www.spc.noaa.gov/climo/online/">[Storm reports]</a></p>
 
+<p><strong>National Hurricane Center</strong> <em><a href="https://www.nhc.noaa.gov/">(NHC)</a></em><br>
+<a href="https://www.nhc.noaa.gov/">[Atlantic]</a>
+<a href="https://www.nhc.noaa.gov/?epac">[E. Pacific]</a>
+<a href="https://www.prh.noaa.gov/cphc/">[Central Pacific]</a></p>
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">&#9729; UO CW&C</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Weather
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="current.html">Observations</a>
-    </li>
-    <li>
-      <a href="satellite.html">Satellite images</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Forecasts
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="short.html">Short-term &amp; medium range</a>
-    </li>
-    <li>
-      <a href="extended.html">Extended forecasts &amp; outlooks</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Climate
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="climatemaps.html">Climate maps &amp; figures</a>
-    </li>
-    <li>
-      <a href="climatedisc.html">Climate discussions</a>
-    </li>
-    <li>
-      <a href="enso.html">ENSO</a>
-    </li>
-    <li>
-      <a href="globalclimate.html">Global climate animations</a>
-    </li>
-    <li>
-      <a href="climatedata.html">Climate data</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Other
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="other.html">Other environmental information</a>
-    </li>
-    <li>
-      <a href="misc.html">Miscellaneous info (time zones, glossaries)</a>
-    </li>
-  </ul>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    About
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="about.html">About this page</a>
-    </li>
-  </ul>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<h2 id="toc_1">PNW WRF-GFS mesoscale forecasts</h2>
 
-<div class="fluid-row" id="header">
+<p><strong>NW Regional Modelling Consortium</strong> <em><a href="http://www.atmos.washington.edu/mm5rt/">(NWRMC)</a></em>  <br></p>
 
+<p>WRF-GFS 36km
+<a href="http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif">[model topography]</a>
+<a href="http://www.atmos.washington.edu/mm5rt/domains/may06.36kmlanduse.gif">[land cover]</a><br>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3">[300mb winds]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_500vor+//72/3">[500mb vort.]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_700w+//72/3">[700mb omega]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcp1+//72/1">[1hr ppt]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_850t+//84/3">[850mb T]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_850rh+//72/3">[850mb RH]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d1_mcape+//84/3">[CAPE]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_tsfc+//72/3">[2m T]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3">[SLP]</a><br>
+<a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_ivt+//84/3">[water-vapor flux]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3">[column-integrated WV]</a>  </p>
 
+<p>WRF-GFS 12km
+<a href="http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif">[model topography]</a>
+<a href="http://www.atmos.washington.edu/mm5rt/domains/may06.12kmlanduse.gif">[land cover]</a><br>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_300j+//72/3">[300mb winds]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_500vor+//72/3">[500mb vort.]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_700w+//72/3">[700mb omega]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_pcp1+//72/1">[1hr ppt]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd2_850t+//84/3">[850mb T]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_850rh+//72/3">[850mb RH]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d2_mcape+//84/3">[CAPE]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_tsfc+//72/3">[2m T]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_slp+//72/3">[SLP]</a><br>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1">[1hr snow]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3">[24hr snow]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3">[Pr frz ppt]</a></p>
 
-<h1 class="title toc-ignore">Short-term &amp; medium-range forecasts</h1>
+<p>WRF-GFS 4km 
+<a href="http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif">[model topography]</a>
+<a href="http://www.atmos.washington.edu/mm5rt/domains/may06.4kmlanduse.gif">[land cover]</a><br>
+<a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_pcp1+///1">[1hr. ppt.]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_700w+///3">[700mb omega]</a>
+<a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_850t+///3">[850mb T]</a>
+<a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_tsfc+///3">[2m T]</a>
+<a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_slp+///3">[SLP]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow1+///1">[1hr snow]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow24+///3">[24hr snow]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_ptype+///3">[Pr frz ppt]</a><br>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_cx9+///3">[N. Will Valley x-sec]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_cx10+///3">[S. Will Valley x-sec]</a>
+<a href="https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&amp;yyyymmddhh=timeindep&amp;reqhr=12&amp;loc=keug&amp;locname=Eugene,OR&amp;latlon=44.13N,123.2W">[Eugene sounding]</a></p>
 
-</div>
+<p>WRF-GFS 1.33km
+<a href="http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif">[model topography]</a>
+<a href="http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif">[land cover]</a><br>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1">[1hr ppt]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3">[850mb T]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3">[2m T]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_rhsfc+///3">[RH]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3">[SLP]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1">[1hr snow]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3">[24hr snow]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3">[snow depth]</a>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3">[snow cover]</a>  </p>
 
+<p>WRF-GFS extended runs<br>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_x_300j+///3">[300mb winds 36km]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_x_500w+///3">[700mb omega 36km]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd2_x_mcape+///3">[CAPE 12km]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_x_pcp3+///3">[3hr ppt 36km]</a>
+<a href="https://a.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd2_x_pcp3+///3">[3hr ppt 12km]</a></p>
 
-<div id="ncep-nws" class="section level2">
-<h2>NCEP &amp; NWS</h2>
-<p><strong>NWS Portland</strong> <em><a href="https://www.weather.gov/pqr/">(NWS Portland)</a></em><br />
-<a href="https://forecast.weather.gov/MapClick.php?lon=-123.07004928588869&amp;lat=44.03768897706345#.XKPy_C2ZPUI">[Eugene forecast at a glance]</a> <a href="html/eugwx/all3.html">[Eugene 6-day hourly forecast]</a> <a href="http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&amp;wfo=PQR">[Portland area forecast discussion]</a></p>
-<p><strong>NCEP</strong> <em><a href="https://www.ncep.noaa.gov/">(NCEP)</a></em><br />
-<a href="http://www.weather.gov/forecastmaps">[National forecast maps]</a> <a href="https://www.ncep.noaa.gov/nationalmaps/">[Tables]</a> <a href="http://mag.ncep.noaa.gov/model-guidance-model-area.php">[Model guidance page]</a></p>
-<p><strong>Storm Prediction Center (Severe storms)</strong> <em><a href="https://www.spc.noaa.gov/">(SPC)</a></em><br />
-<a href="https://www.spc.noaa.gov/">[Overview]</a> <a href="https://www.spc.noaa.gov/products/outlook/">[Convective outlooks]</a> <a href="https://www.spc.noaa.gov/climo/online/">[Storm reports]</a></p>
-<p><strong>National Hurricane Center</strong> <em><a href="https://www.nhc.noaa.gov/">(NHC)</a></em><br />
-<a href="https://www.nhc.noaa.gov/">[Atlantic]</a> <a href="https://www.nhc.noaa.gov/?epac">[E. Pacific]</a> <a href="https://www.prh.noaa.gov/cphc/">[Central Pacific]</a></p>
-</div>
-<div id="pnw-wrf-gfs-mesoscale-forecasts" class="section level2">
-<h2>PNW WRF-GFS mesoscale forecasts</h2>
-<p><strong>NW Regional Modelling Consortium</strong> <em><a href="http://www.atmos.washington.edu/mm5rt/">(NWRMC)</a></em> <br></p>
-<p>WRF-GFS 36km <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.36kmlanduse.gif">[land cover]</a><br />
-<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3">[300mb winds]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_500vor+//72/3">[500mb vort.]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_700w+//72/3">[700mb omega]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcp1+//72/1">[1hr ppt]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_850t+//84/3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_850rh+//72/3">[850mb RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d1_mcape+//84/3">[CAPE]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_tsfc+//72/3">[2m T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3">[SLP]</a><br />
-<a href="https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3">[water-vapor flux]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3">[column-integrated WV]</a></p>
-<p>WRF-GFS 12km <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.12kmlanduse.gif">[land cover]</a><br />
-<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_300j+//72/3">[300mb winds]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_500vor+//72/3">[500mb vort.]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_700w+//72/3">[700mb omega]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_pcp1+//72/1">[1hr ppt]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd2_850t+//84/3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_850rh+//72/3">[850mb RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d2_mcape+//84/3">[CAPE]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_tsfc+//72/3">[2m T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_slp+//72/3">[SLP]</a><br />
-<a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3">[Pr frz ppt]</a></p>
-<p>WRF-GFS 4km <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.4kmlanduse.gif">[land cover]</a><br />
-<a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_pcp1+///1">[1hr. ppt.]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_700w+///3">[700mb omega]</a> <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_850t+///3">[850mb T]</a> <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_tsfc+///3">[2m T]</a> <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_slp+///3">[SLP]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow1+///1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow24+///3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_ptype+///3">[Pr frz ppt]</a><br />
-<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx9+///3">[N. Will Valley x-sec]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx10+///3">[S. Will Valley x-sec]</a> <a href="https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&amp;yyyymmddhh=timeindep&amp;reqhr=12&amp;loc=keug&amp;locname=Eugene,OR&amp;latlon=44.13N,123.2W">[Eugene sounding]</a></p>
-<p>WRF-GFS 1.33km <a href="http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif">[land cover]</a><br />
-<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1">[1hr ppt]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3">[2m T]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3">[RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3">[SLP]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3">[snow depth]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3">[snow cover]</a></p>
-<p>WRF-GFS extended runs<br />
-<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3">[300mb winds 36km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3">[700mb omega 36km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3">[CAPE 12km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcp3+///3">[3hr ppt 36km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3">[3hr ppt 12km]</a></p>
-</div>
-<div id="ncep-north-american-mesoscale-model-nam-forecasts" class="section level2">
-<h2>NCEP North American Mesoscale Model (NAM) forecasts</h2>
-<p><strong>NCEP Operational NAM Graphics</strong> <em><a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">(NCEP)</a></em></p>
-<p>Surface conditions:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.pcp.html">[SLP &amp; 3hr ppt]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.2mt.html">[2m air T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.2mdewpt.html">[Dew pt. T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.ptype.html">[Precip type]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.cprate.html">[Convective ppt rate]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.totcf.html">[Total cloud]</a><br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.acsnow.html">[3hr snow]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.snowd.html">[Snow depth]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.radarcomp.html">[Sim radar refl]</a></p>
-<p>Upper air:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.850.html">[850mb hgt &amp; T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.850wind.html">[850mb winds]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700rh.html">[700mb RH &amp; omega]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700.html">[700mb hgt &amp; PWV]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.500.html">[500mb hgt &amp; vort]</a><br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.300.html">[300mb hgt &amp; wind]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.cape.html">[CAPE]</a></p>
-<p>Surface energy and water balance:<br />
-Sfc SW <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.dswf.html">[Down]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.uswf.html">[Up]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.netswf.html">[Net]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.effalb.html">[albedo]</a> Sfc LW <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.dlwf.html">[Down]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.ulwf.html">[Up]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.netlwf.html">[Net]</a> Sfc Net <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.netswflwf.html">[Net SW+LW]</a><br />
-Heat flux <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.shf.html">[Sensible]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.lhf.html">[Latent]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.ghf.html">[Ground]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.tskin.html">[Skin T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.skindiff.html">[2m - Skin Tdiff]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.soilmoist1.html">[0-10cm Soil moist.]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.potevap.html">[PE]</a></p>
-</div>
-<div id="ncep-gfs-northern-hemisphere-forecasts" class="section level2">
-<h2>NCEP GFS (Northern Hemisphere) forecasts</h2>
+<h2 id="toc_2">NCEP North American Mesoscale Model (NAM) forecasts</h2>
+
+<p><strong>NCEP Operational NAM Graphics</strong>
+<em><a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">(NCEP)</a></em>  </p>
+
+<p>Surface conditions:<br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.pcp.html">[SLP &amp; 3hr ppt]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.2mt.html">[2m air T]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.2mdewpt.html">[Dew pt. T]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.ptype.html">[Precip type]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.cprate.html">[Convective ppt rate]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.totcf.html">[Total cloud]</a><br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.acsnow.html">[3hr snow]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.snowd.html">[Snow depth]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.radarcomp.html">[Sim radar refl]</a>  </p>
+
+<p>Upper air:<br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.850.html">[850mb hgt &amp; T]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.850wind.html">[850mb winds]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700rh.html">[700mb RH &amp; omega]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700.html">[700mb hgt &amp; PWV]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.500.html">[500mb hgt &amp; vort]</a><br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.300.html">[300mb hgt &amp; wind]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.cape.html">[CAPE]</a>  </p>
+
+<p>Surface energy and water balance:<br>
+Sfc SW <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.dswf.html">[Down]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.uswf.html">[Up]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.netswf.html">[Net]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.effalb.html">[albedo]</a>
+Sfc LW <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.dlwf.html">[Down]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.ulwf.html">[Up]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.netlwf.html">[Net]</a>
+Sfc Net <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.netswflwf.html">[Net SW+LW]</a><br>
+Heat flux <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.shf.html">[Sensible]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.lhf.html">[Latent]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.ghf.html">[Ground]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.tskin.html">[Skin T]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.skindiff.html">[2m - Skin Tdiff]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.soilmoist1.html">[0-10cm Soil moist.]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.potevap.html">[PE]</a></p>
+
+<h2 id="toc_3">NCEP GFS (Northern Hemisphere) forecasts</h2>
+
 <p><strong>Forecast model maps</strong> <em><a href="http://www.aos.wisc.edu/weather/Models">(U. Wisc. AOS Dept.)</a></em></p>
-<p>300mb heights and wind speed<br />
-large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300.html">[18 UTC]</a> small <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300_sm.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300_sm.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300_sm.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300_sm.html">[18 UTC]</a></p>
-<p>500mb heights, winds and absolute vorticity<br />
-large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500.html">[18 UTC]</a> small <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c500_sm.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500_sm.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500_sm.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500_sm.html">[18 UTC]</a></p>
-<p>700 mb heights, vertical veolocity and winds<br />
-large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700.html">[18 UTC]</a> small <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c700_sm.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700_sm.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700_sm.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700_sm.html">[18 UTC]</a></p>
-<p>850-500mb integrated relative humidity and lifted index<br />
-large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia.html">[18 UTC]</a> small <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia_sm.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia_sm.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia_sm.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia_sm.html">[18 UTC]</a></p>
-<p>850mb temperature, heights, and winds<br />
-large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850.html">[18 UTC]</a> small <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850_sm.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850_sm.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850_sm.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850_sm.html">[18 UTC]</a></p>
-<p>Forecast accumulated precipitation and surface pressure<br />
-large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres.html">[18 UTC]</a> small <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres_sm.html">[00 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres_sm.html">[06 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres_sm.html">[12 UTC]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres_sm.html">[18 UTC]</a></p>
-</div>
-<div id="ncep-ensemble-forecasts" class="section level2">
-<h2>NCEP Ensemble forecasts</h2>
-<p><strong>NCEP (NMC) Ensemble Forecast Products</strong> <em><a href="https://www.esrl.noaa.gov/psd/map/images/ens/ens.html">(NOAA ESRL PSD (CDC) Map Room)</a></em></p>
-<p>500mb heights:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_nh.html">[N. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_nh_sm.html">[N. Hemis. (small)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_sh.html">[S. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_sh_sm.html">[S. Hemis. (small)]</a><br />
-500mb anomalies:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_nh.html">[N. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_nh_sm.html">[N. Hemis. (small)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_sh.html">[S. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_sh_sm.html">[S. Hemis. (small)]</a><br />
-500mb spaghetti plots:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh.html">[N. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh_sm.html">[N. Hemis. (small)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html">[S. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh_sm.html">[S. Hemis. (small)]</a><br />
-500mb std. dev.:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_nh.html">[N. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_nh_sm.html">[N. Hemis. (small)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh.html">[S. Hemis. (large)]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh_sm.html">[S. Hemis. (small)]</a></p>
-</div>
-<div id="noaa-earth-modeling-branch-rap-and-hrrr-forecasts" class="section level2">
-<h2>NOAA Earth Modeling Branch – RAP and HRRR forecasts</h2>
-<p><strong>Rapid Refresh (RAP) Products</strong> <em><a href="https://rapidrefresh.noaa.gov">(Rapid Refresh Web Page)</a></em><br />
-<a href="https://rapidrefresh.noaa.gov/RAP/">[RAP plots page]</a> <a href="https://rapidrefresh.noaa.gov/RAPsmoke/">[RAP-Smoke Model Fields - Experimental]</a> (13.5 k m resolution)</p>
-<p><strong>High-Resolution Rapid Refresh (HRRR) Products</strong> <em><a href="https://rapidrefresh.noaa.gov/hrrr/">(High-Resolution Rapid Refresh Web Page)</a></em><br />
+
+<p>300mb heights and wind speed<br>
+large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300.html">[18 UTC]</a>
+small
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300_sm.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300_sm.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300_sm.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300_sm.html">[18 UTC]</a>  </p>
+
+<p>500mb heights, winds and absolute vorticity<br>
+large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500.html">[18 UTC]</a>
+small
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c500_sm.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500_sm.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500_sm.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500_sm.html">[18 UTC]</a> </p>
+
+<p>700 mb heights, vertical veolocity and winds<br>
+large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700.html">[18 UTC]</a>
+small
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c700_sm.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700_sm.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700_sm.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700_sm.html">[18 UTC]</a>  </p>
+
+<p>850-500mb integrated relative humidity and lifted index<br>
+large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia.html">[18 UTC]</a>
+small
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia_sm.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia_sm.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia_sm.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia_sm.html">[18 UTC]</a>  </p>
+
+<p>850mb temperature, heights, and winds<br>
+large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850.html">[18 UTC]</a>
+small
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850_sm.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850_sm.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850_sm.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850_sm.html">[18 UTC]</a>  </p>
+
+<p>Forecast accumulated precipitation and surface pressure<br>
+large <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres.html">[18 UTC]</a>
+small
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres_sm.html">[00 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres_sm.html">[06 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres_sm.html">[12 UTC]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres_sm.html">[18 UTC]</a>  </p>
+
+<h2 id="toc_4">NCEP Ensemble forecasts</h2>
+
+<p><strong>NCEP (NMC) Ensemble Forecast Products</strong> <em><a href="https://www.esrl.noaa.gov/psd/map/images/ens/ens.html">(NOAA ESRL PSD (CDC) Map Room)</a></em>  </p>
+
+<p>500mb heights:<br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_nh.html">[N. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_nh_sm.html">[N. Hemis. (small)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_sh.html">[S. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/m500z_sh_sm.html">[S. Hemis. (small)]</a><br>
+500mb anomalies:<br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_nh.html">[N. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_nh_sm.html">[N. Hemis. (small)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_sh.html">[S. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/z500anom_sh_sm.html">[S. Hemis. (small)]</a><br>
+500mb spaghetti plots:<br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh.html">[N. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh_sm.html">[N. Hemis. (small)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html">[S. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh_sm.html">[S. Hemis. (small)]</a><br>
+500mb std. dev.:<br>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_nh.html">[N. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_nh_sm.html">[N. Hemis. (small)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh.html">[S. Hemis. (large)]</a>
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh_sm.html">[S. Hemis. (small)]</a> </p>
+
+<h2 id="toc_5">NOAA Earth Modeling Branch -- RAP and HRRR forecasts</h2>
+
+<p><strong>Rapid Refresh (RAP) Products</strong> <em><a href="https://rapidrefresh.noaa.gov">(Rapid Refresh Web Page)</a></em><br>
+<a href="https://rapidrefresh.noaa.gov/RAP/">[RAP plots page]</a> <a href="https://rapidrefresh.noaa.gov/RAPsmoke/">[RAP-Smoke Model Fields - Experimental]</a> (13.5 k m resolution) </p>
+
+<p><strong>High-Resolution Rapid Refresh (HRRR) Products</strong> <em><a href="https://rapidrefresh.noaa.gov/hrrr/">(High-Resolution Rapid Refresh Web Page)</a></em><br>
 <a href="https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet">[HRRR CONUS Hourly plots page]</a> <a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/">[HRRR CONUS Smoke Model Fields - Experimental]</a> (3 km resolution)</p>
-<p><a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf">[HRRR-Smoke Experimental Forecast Quick Guide]</a> <a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf">[VIIRS Active Fire Quick Guide]</a></p>
-</div>
+
+<p><a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf">[HRRR-Smoke Experimental Forecast Quick Guide]</a>
+<a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf">[VIIRS Active Fire Quick Guide]</a></p>
 
 
 
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
 
-</div>
+<script type="text/x-mathjax-config">
+(function () {
 
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
 });
 
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
 
+})();
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
 </body>
+
 </html>

@@ -9,7 +9,8 @@
 **NCEP** *[(NCEP)](https://www.ncep.noaa.gov/)*  
 [[National forecast maps]](http://www.weather.gov/forecastmaps)
 [[Tables]](https://www.ncep.noaa.gov/nationalmaps/)
-[[Model guidance page]](http://mag.ncep.noaa.gov/model-guidance-model-area.php)  
+[[Model guidance page]](http://mag.ncep.noaa.gov/model-guidance-model-area.php) 
+[[Environmental Modeling Center]](https://www.emc.ncep.noaa.gov)
 
 **Storm Prediction Center (Severe storms)** *[(SPC)](https://www.spc.noaa.gov/)*  
 [[Overview]](https://www.spc.noaa.gov/)
