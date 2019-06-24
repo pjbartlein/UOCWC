@@ -96,12 +96,14 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 [[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
 [[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
 [[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
-[[Pendleton]]([Pendleton])
+[[Pendleton]](https://radar.weather.gov/radar_lite.php?rid=pdt&product=N0R&loop=no)
+[[Boise]](https://radar.weather.gov/radar_lite.php?rid=cbx&product=N0R&loop=no)
 [[PNW]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
 [[PNW loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
 [[US]](https://radar.weather.gov/Conus/index_lite.php)
 [[US loop]](https://radar.weather.gov/Conus/index_lite_loop.php)
 [[AWC Radar imagery]](https://aviationweather.gov/radar)  
+
 **Lightning**  
 [[US *(TWC)*]](http://geog.uoregon.edu/weather/eugwx/usradarlightning.htm)
 [[US *(Vaisala)*]](http://thunderstorm.vaisala.com/explorer_files/lts-image.jpg?foo=468)
@@ -129,7 +131,13 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 [[Pendleton]](http://www.tripcheck.com/RoadCams/cams/LorenzenRoad_pid635.jpg)
 [[Riley]](https://tripcheck.com/RoadCams/cams/US20%20at%20US395%20Riley_pid2569.JPG)
 
-## Water, Fires, Volcanos ##
+## Fires, Floods, Volcanos ##
+
+**Fires**  *[(National Interagency Coordination Center)](https://www.nifc.gov/nicc/index.htm)*   
+[[Northwest Coordination Center]](http://gacc.nifc.gov/nwcc/)
+[[Large-fire map]](http://gacc.nifc.gov/nwcc/)  
+[[GEOMAC Wildfire Mapping *(USGS)*]](https://www.geomac.gov/viewer/viewer.shtml)  
+[[Fire-weather outlooks *(SPC)*]](https://www.spc.noaa.gov/products/fire_wx/overview.html)
 
 **Waterwatch** *[(USGS)](https://waterwatch.usgs.gov)*  
 [[Current]](https://waterwatch.usgs.gov)
@@ -143,12 +151,6 @@ MFJD Q [[above Camp Cr]](http://waterdata.usgs.gov/or/nwis/uv?site_no=14043840)
 **NWS Oregon River observations**
 *[(NWS Portland)](http://newweb.wrh.noaa.gov/pqr/)*   
 [[River observations and forecasts]](https://water.weather.gov/ahps2/index.php?wfo=pqr)
-
-**Fires**  *[(National Interagency Coordination Center)](https://www.nifc.gov/nicc/index.htm)*   
-[[Northwest Coordination Center]](http://gacc.nifc.gov/nwcc/)
-[[Large-fire map]](http://gacc.nifc.gov/nwcc/)  
-[[GEOMAC Wildfire Mapping *(USGS)*]](https://www.geomac.gov/viewer/viewer.shtml)  
-[[Fire-weather outlooks *(SPC)*]](https://www.spc.noaa.gov/products/fire_wx/overview.html)
 
 **Volcanos** *[(USGS)](https://volcanoes.usgs.gov/index.html)*    
 [[Cascades Volcano Observatory]](https://volcanoes.usgs.gov/observatories/cvo/)

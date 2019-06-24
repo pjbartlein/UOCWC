@@ -1,5 +1,5 @@
 ---
-title: "Middle Fork John Day R. Weather"
+title: "Middle Fork John Day R. weather"
 output: 
   html_document:
     theme: cerulean
