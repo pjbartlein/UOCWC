@@ -10,11 +10,13 @@
 [[0-144 hrs time-series plot]](html/eugwx/all3_mfjd.html)  
 [[NWS Pendleton web page]](http://www.wrh.noaa.gov/pdt/) 
 [[Weather story]](http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=pdt) 
-[[Severe weather]](http://forecast.weather.gov/hazards/?wfo=pdt) 
+[[Current hazards]](https://www.wrh.noaa.gov/map/?wfo=pdt) 
+[[Fire weather]](https://www.wrh.noaa.gov/fire2/?wfo=pdt)
 [[Forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPDT&wfo=PDT)  
 [[NWS Boise web page]](http://www.wrh.noaa.gov/boi/) 
 [[Weather story]](http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=boi) 
-[[Severe weather]](http://forecast.weather.gov/hazards/?wfo=boi) 
+[[Current hazards]](https://www.wrh.noaa.gov/map/?wfo=boi) 
+[[Fire weather]](https://www.wrh.noaa.gov/fire2/?wfo=boi)
 [[Forecast discussion]](https://www.wrh.noaa.gov/total_forecast/getprod.php?new&wfo=boi&sid=BOI&pil=AFD)
 
 **Storm Prediction Center (Severe storms)** *[(SPC)](https://www.spc.noaa.gov/)*  
