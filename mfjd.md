@@ -148,9 +148,10 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 MFJD Q [[above Camp Cr]](http://waterdata.usgs.gov/or/nwis/uv?site_no=14043840)
 [[Ritter]](http://waterdata.usgs.gov/or/nwis/uv?site_no=14044000)
 
-**NWS Oregon River observations**
-*[(NWS Portland)](http://newweb.wrh.noaa.gov/pqr/)*   
-[[River observations and forecasts]](https://water.weather.gov/ahps2/index.php?wfo=pqr)
+**NWS Oregon River observations**  
+[[Portland]](https://water.weather.gov/ahps2/index.php?wfo=pqr)
+[[Pendleton]](https://water.weather.gov/ahps2/index.php?wfo=pdt)
+[[Boise]](https://water.weather.gov/ahps2/index.php?wfo=boi)
 
 **Volcanos** *[(USGS)](https://volcanoes.usgs.gov/index.html)*    
 [[Cascades Volcano Observatory]](https://volcanoes.usgs.gov/observatories/cvo/)
