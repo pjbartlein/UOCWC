@@ -25,9 +25,9 @@
 [[Storm reports]](https://www.spc.noaa.gov/climo/online/)
 
 
-**NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)*  <br>
+**NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)*  
 
-WRF-GFS 36km
+- WRF-GFS 36km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif)
 [[land cover]](http://www.atmos.washington.edu/mm5rt/domains/may06.36kmlanduse.gif)  
 [[300mb winds]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3)
@@ -42,7 +42,7 @@ WRF-GFS 36km
 [[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
 [[column-integrated WV]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3)  
 
-WRF-GFS 1.33km
+- WRF-GFS 1.33km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
 [[land cover]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif)  
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
@@ -55,7 +55,7 @@ WRF-GFS 1.33km
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)  
 
-WRF-GFS extended runs  
+- WRF-GFS extended runs  
 [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
 [[700mb omega 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3)
 [[CAPE 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3)
