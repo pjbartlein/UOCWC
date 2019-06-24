@@ -35,10 +35,10 @@
 [[700mb omega]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_700w+//72/3)
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcp1+//72/1)
 [[850mb T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_850t+//84/3)
-[[850mb RH]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_850rh+//72/3)
 [[CAPE]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d1_mcape+//84/3)
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_tsfc+//72/3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)  
+[[850mb RH]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_850rh+//72/3)
 [[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
 [[column-integrated WV]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3)  
 
