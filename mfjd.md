@@ -1,4 +1,4 @@
-## Current conditions, forecasts, and 3-day histories ##
+## Current conditions and forecasts ##
 
 **Current conditions**  
 [[John Day, OR]](http://forecast.weather.gov/MapClick.php?lat=44.4159883&lon=-118.95301&site=all&smap=1&searchresult=John%20Day%2C%20OR%2097845%2C%20USA)
@@ -19,53 +19,45 @@
 [[Fire weather]](https://www.wrh.noaa.gov/fire2/?wfo=boi)
 [[Forecast discussion]](https://www.wrh.noaa.gov/total_forecast/getprod.php?new&wfo=boi&sid=BOI&pil=AFD)
 
-**Storm Prediction Center (Severe storms)** *[(SPC)](https://www.spc.noaa.gov/)*  
-[[Overview]](https://www.spc.noaa.gov/)
-[[Convective outlooks]](https://www.spc.noaa.gov/products/outlook/)
-[[Storm reports]](https://www.spc.noaa.gov/climo/online/)
-
-
-**NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)*  
-
-- WRF-GFS 36km
-[[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif)
-[[land cover]](http://www.atmos.washington.edu/mm5rt/domains/may06.36kmlanduse.gif)  
-[[300mb winds]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3)
-[[500mb vort.]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_500vor+//72/3)
-[[700mb omega]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_700w+//72/3)
+**NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)* 
+Model topography 
+[[36km]](http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif) 
+[[12km]](http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif)
+[[4km]](http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif)
+[[1.33km]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)  
+36 km 
+[[Winds]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3)
+[[Water vapor]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3) 
+[[WV flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3) 
+12km 
+[[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcp1+//72/1)
-[[850mb T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_850t+//84/3)
-[[CAPE]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d1_mcape+//84/3)
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_tsfc+//72/3)
-[[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)  
-[[850mb RH]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_850rh+//72/3)
-[[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
-[[column-integrated WV]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3)  
-
-- WRF-GFS 1.33km
-[[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
-[[land cover]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif)  
+[[CAPE t-storm potential]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d1_mcape+//84/3)  
+1.33km
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
-[[850mb T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3)
-[[2m T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3)
-[[RH]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3)
+[[2m T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3)
+[[RH]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3) 
+[[10m wind]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_wssfc+///3)
+[[10m gusts]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_wgsfc+///3)
+[[soil moist]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_smois1+///3) 
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1)
-[[24hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3)
-[[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
-[[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)  
-
-- WRF-GFS extended runs  
-[[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
+[[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)  
+Extended runs  [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
 [[700mb omega 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3)
 [[CAPE 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3)
 [[3hr ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcp3+///3)
 [[3hr ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3)
 
-**Rapid Refresh (RAP) Smoke Products** *[(RAP Web Page)](https://rapidrefresh.noaa.gov)*  
-[[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution) 
+**Storm Prediction Center (Severe storms)** *[(SPC)](https://www.spc.noaa.gov/)*  
+[[Overview]](https://www.spc.noaa.gov/)
+[[Convective outlooks]](https://www.spc.noaa.gov/products/outlook/)
+[[Storm reports]](https://www.spc.noaa.gov/climo/online/)
 
-**High-Resolution Rapid Refresh (HRRR) Smoke Products** *[(HRRR Web Page)](https://rapidrefresh.noaa.gov/hrrr/)*  
+**Experimental Smoke Products** *[(RAP Web Page)](https://rapidrefresh.noaa.gov)* 
+*[(HRRR Web Page)](https://rapidrefresh.noaa.gov/hrrr/)*  
+[[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution)  
 [[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)  
 [[HRRR-Smoke Experimental Forecast Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf)
 [[VIIRS Active Fire Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf)
