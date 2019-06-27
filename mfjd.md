@@ -29,7 +29,11 @@ Model topography
 &nbsp;&nbsp;[[Winds]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3)
 [[Water vapor]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3) 
 [[WV flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3) 
+<<<<<<< HEAD
 [[500mb vort.]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_500vor+//72/3)
+=======
+[[500mb vort]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_500vor+//72/3)
+>>>>>>> eb74c8eac0fc9f961a6b39f455a0485d6f9c8a8b
 [[700mb omega]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_700w+//72/3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcp1+//72/1)
