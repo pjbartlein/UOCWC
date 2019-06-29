@@ -25,8 +25,8 @@ Model topography
 [[12km]](http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif)
 [[4km]](http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif)
 [[1.33km]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)  
-36 km 
-&nbsp;&nbsp;[[Winds]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3)
+&nbsp;&nbsp;36 km 
+[[Winds]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3)
 [[Water vapor]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3) 
 [[WV flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3) 
 [[500mb vort.]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_500vor+//72/3)
