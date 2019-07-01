@@ -1,8 +1,10 @@
 ## Current conditions and forecasts ##
 
-**Current conditions**  
-[[John Day, OR]](http://forecast.weather.gov/MapClick.php?lat=44.4159883&lon=-118.95301&site=all&smap=1&searchresult=John%20Day%2C%20OR%2097845%2C%20USA)
-[[Baker City, OR]](http://forecast.weather.gov/MapClick.php?CityName=Baker+City&state=OR&site=BOI&textField1=44.775&textField2=-117.833&e=0) 
+**Current conditions & 3-day history**  
+[[John Day]](http://forecast.weather.gov/MapClick.php?lat=44.4159883&lon=-118.95301&site=all&smap=1&searchresult=John%20Day%2C%20OR%2097845%2C%20USA)
+[[3-day history]](https://www.wrh.noaa.gov/mesowest/getobext.php?wfo=pdt&sid=KGCD&num=72&raw=0)
+[[Baker City]](http://forecast.weather.gov/MapClick.php?CityName=Baker+City&state=OR&site=BOI&textField1=44.775&textField2=-117.833&e=0) 
+[[3-day history]](https://www.wrh.noaa.gov/mesowest/getobext.php?wfo=boi&sid=KBKE&num=72&raw=0)
 [[Pacific NW GOES-W Satellite]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12)  
 
 **Forecasts**  
