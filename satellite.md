@@ -46,8 +46,12 @@ animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/
 [[Europe/Asia]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_asiaeurope.gif)
 [[Special sector]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_afghanistan.gif)
 
-**Fire and smoke**
-*[(NOAA Hazard Mapping System)](https://www.ospo.noaa.gov/Products/land/hms.html)* 
+**Fire and smoke**  
+[[NOAA Hazard Mapping System]](https://www.ospo.noaa.gov/Products/land/hms.html)  
+[[FIRMS Fire Information for Resource Management System]](https://firms.modaps.eosdis.nasa.gov/map/)
+
+**MODIS images**  
+[[NASA Woldview]](https://worldview.earthdata.nasa.gov)
 
 ## Satellite discussion and information pages ##
  
