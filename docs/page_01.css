@@ -13,12 +13,12 @@ div#TOC li {
 }
 
 .navbar-default {
-    background-color: #0000ff;
+    background-color: #0066FF;
     border-color: #E7E7E7;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #0000ff;
+    background-color: #0066FF;
 }
 
 body, td {
@@ -87,10 +87,10 @@ tt, code, pre {
 }
 
 a, a:visited {
-  color: #3333ff;
+  color: #0066FF;
 }
 
 a:hover {
-  color: #000099;
+  color: #ff0000;
 }
 

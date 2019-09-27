@@ -9,7 +9,8 @@
 
 **Forecasts**  
 [[text:  10 Miles WSW Greenhorn OR]](http://forecast.weather.gov/MapClick.php?lat=44.654977979262924&lon=-118.68804931640625&site=pdt&smap=1&marine=0&unit=0&lg=en&TextType=1) 
-[[0-144 hrs time-series plot]](html/eugwx/all3_mfjd.html)  
+[[0-144 hrs time-series plot]](html/eugwx/all3_mfjd.html) 
+[[winter]](html/eugwx/all3_mfjd_winter.html)  
 [[NWS Pendleton web page]](http://www.wrh.noaa.gov/pdt/) 
 [[Weather story]](http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=pdt) 
 [[Current hazards]](https://www.wrh.noaa.gov/map/?wfo=pdt) 
