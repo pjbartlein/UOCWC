@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -67,7 +68,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -228,18 +228,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -399,7 +387,7 @@ $(document).ready(function () {
 <h2>NCEP North American Mesoscale Model (NAM) forecasts</h2>
 <p><strong>NCEP Operational NAM Graphics</strong> <em><a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">(NCEP)</a></em></p>
 <p>Surface conditions:<br />
-<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.pcp.html">[SLP &amp; 3hr ppt]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.2mt.html">[2m air T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.2mdewpt.html">[Dew pt. T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.ptype.html">[Precip type]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.cprate.html">[Convective ppt rate]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.totcf.html">[Total cloud]</a><br />
+<a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.pcp.html">[SLP &amp; 3hr ppt]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.2mt.html">[2m air T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.2mdewpt.html">[Dew pt. T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.ptype.html">[Precip type]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.cprate.html">[Convective ppt rate]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.totcf.html">[Total cloud]</a><br />
 <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.acsnow.html">[3hr snow]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.snowd.html">[Snow depth]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.radarcomp.html">[Sim radar refl]</a></p>
 <p>Upper air:<br />
 <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.850.html">[850mb hgt &amp; T]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.850wind.html">[850mb winds]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700rh.html">[700mb RH &amp; omega]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700.html">[700mb hgt &amp; PWV]</a> <a href="https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.500.html">[500mb hgt &amp; vort]</a><br />
@@ -462,6 +450,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

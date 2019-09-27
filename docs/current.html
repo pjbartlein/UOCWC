@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -67,7 +68,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -228,18 +228,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -399,7 +387,7 @@ $(document).ready(function () {
 <p><strong>Northern Hemisphere</strong> <em><a href="https://www.esrl.noaa.gov/psd/map/">(NOAA ESRL PSD (CDC) map room)</a></em><br />
 <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif">[NH 500mb]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html">[7-day animation]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif">[NH SLP]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif">[NH Temperature]</a><br />
 <strong>U.S. (TWC)</strong> <em><a href="https://weather.com/">([TWC]</a></em><br />
-<a href="https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg">[U.S. Surface]</a> <a href="https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg">[radar]</a> <a href="https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg">[temperature (F)]</a> <a href="https://dsx.weather.com/util/image/map/actdew_1280x720.jpg">[dew pt. temp. (F)]</a> <a href="https://dsx.weather.com/util/image/map/ussat_1280x720.jpg">[IR satellite]</a></p>
+<a href="https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg">[U.S. Surface]</a> <a href="https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg">[radar]</a> <a href="https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg">[temperature (F)]</a> <a href="https://dsx.weather.com/util/image/map/actdew_1280x720.jpg">[dew pt. temp. (F)]</a> <a href="https://dsx.weather.com/util/image/map/ussat_1280x720.jpg">[IR satellite]</a></p>
 </div>
 <div id="radar-and-lightning" class="section level2">
 <h2>Radar and lightning</h2>
@@ -446,6 +434,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
