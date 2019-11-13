@@ -57,7 +57,9 @@
 
 **Forecasts**  
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
-[[Eugene hourly weather forecast]](html/eugwx/all3.html)
+Eugene 6-day (144-hr) hourly forecast plot: 
+[[summer]](html/eugwx/all3_summer.html)
+[[winter]](html/eugwx/all3_winter.html)  
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
 
 <p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Spring 2019)</span></p>

@@ -2,7 +2,9 @@
 
 **NWS Portland**  *[(NWS Portland)](https://www.weather.gov/pqr/)*  
 [[Eugene forecast at a glance]](https://forecast.weather.gov/MapClick.php?lon=-123.07004928588869&lat=44.03768897706345#.XKPy_C2ZPUI) 
-[[Eugene 6-day hourly forecast]](html/eugwx/all3.html)
+Eugene 6-day (144-hr) hourly forecast plot: 
+[[summer]](html/eugwx/all3_summer.html)
+[[winter]](html/eugwx/all3_winter.html)  
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
 
 
