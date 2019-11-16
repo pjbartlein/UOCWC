@@ -62,5 +62,5 @@ Eugene 6-day (144-hr) hourly forecast plot:
 [[winter]](html/eugwx/all3_eug_winter.html)  
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
 
-<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Spring 2019)</span></p>
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Fall 2019)</span></p>
 
