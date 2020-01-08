@@ -1,0 +1,74 @@
+## NOAA Monitoring ##
+
+**NOAA Climate Monitoring Portal** *[(NOAA)](https://www.ncdc.noaa.gov/climate-monitoring/)*  
+
+**NOAA State of the Climate** *[(SOTC)](https://www.ncdc.noaa.gov/sotc/)*  
+
+- [[Current SOTC]](https://www.ncdc.noaa.gov/sotc/)
+- [[Temperature, Precipitation and Drought]](https://www.ncdc.noaa.gov/temp-and-precip/)
+- [[Climate at a Glance]](https://www.ncdc.noaa.gov/bams)
+- [[Monthly briefings]](https://www.ncdc.noaa.gov/sotc/briefings/)
+- [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
+- [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
+
+**BAMS State of the Climate** *[[BAMS SOTC]](https://www.ametsoc.org/index.cfm/ams/publications/bulletin-of-the-american-meteorological-society-bams/state-of-the-climate/)*
+
+- [[Download .pdf]](https://www.ametsoc.net/sotc2018/Socin2018_lowres.pdf)
+- [[Download high-res .pdf]](https://www.ametsoc.net/sotc2018/Socin2018_hires.pdf)
+
+**NOAA Global Monitoring Division (GHG Data)** *[[NOAA ESRL GMD]](http://www.cmdl.noaa.gov)*  
+
+- [[Trends in carbon dioxide]](https://www.esrl.noaa.gov/gmd/ccgg/trends/)
+- [[Trends in methane]](https://www.esrl.noaa.gov/gmd/ccgg/trends_ch4/)
+- [[Carbon Tracker]](https://www.esrl.noaa.gov/gmd/ccgg/carbontracker/)
+- [[Global Greenhous Gas Reference Network Figures]](https://www.esrl.noaa.gov/gmd/ccgg/gallery/figures/index.html)
+
+## Intergovermental Panel on Climate Change (IPCC)##
+
+**Web Page and Assessments** 
+
+- [[IPCC]](https://www.ipcc.ch)  [[Old website]](http://archive.ipcc.ch/)
+- Assessments:  [[AR5]](https://archive.ipcc.ch/report/ar5/) [[AR4]](https://archive.ipcc.ch/report/ar4/)
+
+**Reports**  
+
+- [[Reports page]](https://www.ipcc.ch/reports/) [[Old reports page]](https://archive.ipcc.ch/publications_and_data/publications_and_data_reports.shtml) 
+- [[SR15: Global Warming of 1.5<sup>o</sup>C]](https://www.ipcc.ch/report/sr15/)
+- [[SRCCL:  Climate Change and Land]](https://www.ipcc.ch/report/srccl/)
+- [[SROCC:  The Ocean and Cryosphere in a Changing Climate]](https://www.ipcc.ch/report/srocc/)
+- [[SREX:  Extreme Events]](https://archive.ipcc.ch/report/srex/)
+- [[SRREN:  Renewable Energy Sources and Climate Change Mitigation]](https://archive.ipcc.ch/report/srren/)
+- [[CCW:  Climate Change and Water]](https://www.ipcc.ch/publication/climate-change-and-water-2/)
+
+## U.S. Global Change Rsearch Program ##
+
+**Web page** *[[GlobalChange.gov]](https://www.globalchange.gov)*
+
+**Fourth National Climate Assessment**
+
+- [[Vol. I:  Climate Science Special Report]](https://science2017.globalchange.gov)
+- [[Vol II:  Impacts, Risks, and Adaptation in the United States]](https://www.globalchange.gov/nca4)
+
+**Reports** *[[Reports Library]](https://www.globalchange.gov/browse/reports)*
+ 
+- [[Second State of the Carbon Cycle Report]](https://carbon2018.globalchange.gov)
+- [[Climate Change, Global Food Security, and the U.S. Food System]](https://www.usda.gov/oce/climate_change/FoodSecurity.htm)
+- [[The Impacts of Climate Change on Human Health in the United States]](http://health2016.globalchange.gov/)
+- [[Third National Assessment (2010-2014)]](https://www.globalchange.gov/engage/process-products/NCA3)
+- [[Second National Assessment (2009)]](https://www.globalchange.gov/browse/reports/global-climate-change-impacts-united-states)
+	- [[CCSP Synthesis and Assessment Products (2006-2009)]](https://www.globalchange.gov/engage/process-products/sap-summary)
+- [[First National Assessment (1997-2000)]](https://www.globalchange.gov/engage/process-products/NCA1)
+
+
+## Future Earth ##
+
+- [[Web page]](http://futureearth.org)  [[About Future Earth]](https://futureearth.org/networks/global-research-projects/) 
+- [[Publications]](https://futureearth.org/publications)
+- [[Global Research Projects]](https://futureearth.org/networks/global-research-projects/)
+
+
+
+
+
+
+

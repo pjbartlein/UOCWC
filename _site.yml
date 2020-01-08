@@ -28,6 +28,8 @@ navbar:
       href: climatedata.html
   - text: Other
     menu:
+    - text:  Global Environmental Change
+      href:  globalchange.html
     - text:  Other environmental information
       href:  other.html
     - text:  Middle Fork John Day R. weather
