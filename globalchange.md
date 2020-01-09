@@ -23,6 +23,19 @@
 - [[Carbon Tracker]](https://www.esrl.noaa.gov/gmd/ccgg/carbontracker/)
 - [[Global Greenhous Gas Reference Network Figures]](https://www.esrl.noaa.gov/gmd/ccgg/gallery/figures/index.html)
 
+**Satellites**
+
+- [[Satellite and Information Service]](https://www.nesdis.noaa.gov)
+- [[Geostationary Satellite Imagery]](https://www.star.nesdis.noaa.gov/GOES/index.php)
+
+## NASA ##
+
+- [[NASA Earth Science]](http://science.nasa.gov/earth-science/) 
+- [[Earth Observer]](http://eospso.gsfc.nasa.gov/earth-observer-archive/)
+- [[Worldview]](https://worldview.earthdata.nasa.gov/)
+- [[NASA EOS (Earth-Observing System]](http://eospso.gsfc.nasa.gov/)
+- [[NASA GMD (Global Change Master Directory]](http://gcmd.nasa.gov/)
+
 ## Intergovermental Panel on Climate Change (IPCC)##
 
 **Web Page and Assessments** 
@@ -40,7 +53,7 @@
 - [[SRREN:  Renewable Energy Sources and Climate Change Mitigation]](https://archive.ipcc.ch/report/srren/)
 - [[CCW:  Climate Change and Water]](https://www.ipcc.ch/publication/climate-change-and-water-2/)
 
-## U.S. Global Change Rsearch Program ##
+## U.S. Global Change Research Program ##
 
 **Web page** *[[GlobalChange.gov]](https://www.globalchange.gov)*
 
@@ -59,12 +72,29 @@
 	- [[CCSP Synthesis and Assessment Products (2006-2009)]](https://www.globalchange.gov/engage/process-products/sap-summary)
 - [[First National Assessment (1997-2000)]](https://www.globalchange.gov/engage/process-products/NCA1)
 
+**U.S. EPA**
+
+- [[Climate Change Indicators 2016]](https://www.epa.gov/climate-indicators
+)
 
 ## Future Earth ##
 
 - [[Web page]](http://futureearth.org)  [[About Future Earth]](https://futureearth.org/networks/global-research-projects/) 
 - [[Publications]](https://futureearth.org/publications)
 - [[Global Research Projects]](https://futureearth.org/networks/global-research-projects/)
+
+## NGOs, GOs, Universities, and Institutes
+
+- [[World Resources Institute]](https://www.wri.org)
+- [[ClimateCentral]](https://climatecentral.org)
+- [[Yale Program on Climate Change Communication]](https://climatecommunication.yale.edu)
+	- [[Yale Climate Opinion Maps]](https://climatecommunication.yale.edu/visualizations-data/ycom-us/)
+- [[Union of Concerned Scientists (UCS)]](https://www.ucsusa.org)
+- [[U.S. National Academies of Science Press]]( https://www.nap.edu)
+	- [[Earth-Science Publications]](https://www.nap.edu/topic/281/earth-sciences)
+- [[USGS (U.S. Geological Survey)]](http://eros.usgs.gov)
+
+
 
 
 
