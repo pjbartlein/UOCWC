@@ -92,6 +92,7 @@ WRF-GFS extended runs
 [[700mb omega 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3)
 [[CAPE 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3)
 [[3hr ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcp3+///3)
+[[3hr snow 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_ti_msnow3+///3)  
 [[3hr ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3)
 
 ## NCEP North American Mesoscale Model (NAM) forecasts ##
