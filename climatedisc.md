@@ -1,3 +1,5 @@
+**NOAA News** *[[National Centers for Environmental Information]](https://www.ncei.noaa.gov/news)*
+
 **NOAA Climate Monitoring Portal** *[(NOAA)](https://www.ncdc.noaa.gov/climate-monitoring/)*  
 
 **CPC Climate Diagnostics Bulletin**  *[(NOAA CPC Publications)](https://www.cpc.ncep.noaa.gov/products/outreach/publications.shtml)*  
@@ -8,6 +10,8 @@
 
 - [[Current SOTC]](https://www.ncdc.noaa.gov/sotc/)
 - [[Climate at a Glance]](https://www.ncdc.noaa.gov/bams)
+- [[Monthly Climate Briefing]](https://www.ncdc.noaa.gov/sotc/briefings)
+- [[Synoptic Discussion]](https://www.ncdc.noaa.gov/sotc/briefings)
 - [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
 - [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
 
