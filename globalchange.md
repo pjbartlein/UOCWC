@@ -8,7 +8,6 @@
 - [[Temperature, Precipitation and Drought]](https://www.ncdc.noaa.gov/temp-and-precip/)
 - [[Climate at a Glance]](https://www.ncdc.noaa.gov/bams)
 - [[Monthly briefings]](https://www.ncdc.noaa.gov/sotc/briefings/)
-- [[Synoptic Discussion]](https://www.ncdc.noaa.gov/sotc/briefings)
 - [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
 - [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
 

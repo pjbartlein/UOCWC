@@ -11,7 +11,6 @@
 - [[Current SOTC]](https://www.ncdc.noaa.gov/sotc/)
 - [[Climate at a Glance]](https://www.ncdc.noaa.gov/bams)
 - [[Monthly Climate Briefing]](https://www.ncdc.noaa.gov/sotc/briefings)
-- [[Synoptic Discussion]](https://www.ncdc.noaa.gov/sotc/briefings)
 - [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
 - [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
 
