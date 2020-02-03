@@ -6,7 +6,7 @@
 
 - [[Current SOTC]](https://www.ncdc.noaa.gov/sotc/)
 - [[Temperature, Precipitation and Drought]](https://www.ncdc.noaa.gov/temp-and-precip/)
-- [[Climate at a Glance]](https://www.ncdc.noaa.gov/bams)
+- [[Climate at a Glance]](https://www.ncdc.noaa.gov/cag/)
 - [[Monthly briefings]](https://www.ncdc.noaa.gov/sotc/briefings/)
 - [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
 - [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
