@@ -44,11 +44,7 @@
 - [[Monthly climate update]](https://climate.copernicus.eu/monthly-climate-update)
 
 
-
-
-
-
-## Intergovermental Panel on Climate Change (IPCC)##
+## Intergovernmental Panel on Climate Change (IPCC)##
 
 **Web Page and Assessments** 
 
