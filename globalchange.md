@@ -36,6 +36,18 @@
 - [[NASA EOS (Earth-Observing System]](http://eospso.gsfc.nasa.gov/)
 - [[NASA GMD (Global Change Master Directory]](http://gcmd.nasa.gov/)
 
+## Copernicus Earth Observation Programme ##
+
+**Copernicus Climate Change Service** *[[C3S]](https://climate.copernicus.eu)*
+
+- [[Climate bulletins]](https://climate.copernicus.eu/climate-bulletins)
+- [[Monthly climate update]](https://climate.copernicus.eu/monthly-climate-update)
+
+
+
+
+
+
 ## Intergovermental Panel on Climate Change (IPCC)##
 
 **Web Page and Assessments** 
