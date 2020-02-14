@@ -44,6 +44,10 @@
 [[Satellite data *(NASA SOHO)*]](https://sohowww.nascom.nasa.gov)
 [[Space Weather *(NOAA SWPC)*]](https://www.swpc.noaa.gov)
 
+**Eugene and PNW Solar Radiation Data**  
+[[UO Solar Radiation Monitoring Laboratory]](http://solardat.uoregon.edu/index.html)
+[[data download page]](http://solardat.uoregon.edu/SolarData.html)
+
 **Local Air Quality** *[(LRAPA)](http://www.lrapa.org)*  
 [[Overview]](http://www.lrapa.org)
 [[Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing)
