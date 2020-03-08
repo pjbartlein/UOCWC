@@ -54,7 +54,7 @@
 
 **Air-Quality Trends** *[(EPA)](https://www.epa.gov/air-trends)*
 
-**Pollen, spores, and mold** *[(Allergy & Asthma Research Group, Eugene)](http://pollen.aaaai.org/nab/index.cfm?p=allergenreport&stationid=1)*
+**Pollen, spores, and mold (Eugene)** *[(Oregon Allergy Associates)](https://www.oregonallergyassociates.com/pollen-counts.html)*
 
 
 
