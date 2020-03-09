@@ -54,7 +54,10 @@
 
 **Air-Quality Trends** *[(EPA)](https://www.epa.gov/air-trends)*
 
-**Pollen, spores, and mold (Eugene)** *[(Oregon Allergy Associates)](https://www.oregonallergyassociates.com/pollen-counts.html)*
+**Pollen, spores, and mold (Eugene)**   
+
+- [[Oregon Allergy Associates]](https://www.oregonallergyassociates.com/pollen-counts.html)  [[AAAAI]](http://pollen.aaaai.org/nab/index.cfm?p=allergenreport&stationid=1) --  pollen counts
+- Pollen.com [[current]](https://www.pollen.com/forecast/current/pollen/97404) [[forecast]](https://www.pollen.com/forecast/extended/pollen/97404) [[history]](https://www.pollen.com/forecast/historic/pollen/97404) -- relative abundance
 
 
 
