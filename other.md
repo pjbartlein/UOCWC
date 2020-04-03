@@ -4,7 +4,8 @@
 *[(NWS Portland)](http://newweb.wrh.noaa.gov/pqr/)*  
 
 - [[Watches and warnings]](http://www.wrh.noaa.gov/warnings.php?wfo=pqr)
-- [[River observations and forecasts]](https://water.weather.gov/ahps2/index.php?wfo=pqr)
+- [[Western OR River observations and forecasts]](https://water.weather.gov/ahps2/index.php?wfo=pqr)
+- [[Northwest River Forecast Center]](https://www.nwrfc.noaa.gov/ws/)
 - [[Coastal and marine data]](https://www.wrh.noaa.gov/pqr/marine.php) [[Tides]](https://www.wrh.noaa.gov/pqr/tides.php)
 
 **Earthquakes** *[(USGS Earthquake Hazards Program)](https://earthquake.usgs.gov/earthquakes/)*  

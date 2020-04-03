@@ -54,7 +54,7 @@ Outlooks:  [[6-10 day]](https://www.cpc.ncep.noaa.gov/products/predictions/610da
 [[National Significant Wildland Fire Outlook]](https://www.predictiveservices.nifc.gov/outlooks/outlooks.htm)
 
 **National Water and Climate Center** *[(NWCC)](https://www.wcc.nrcs.usda.gov/wsf/)*  
-[[Western Water Supply Outlook]](https://www.wcc.nrcs.usda.gov/wsf/westwide.html)
+[[Snow & Climate Monitoring and Water Supply Forecasts]](https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap)
 
-**Northwest River Forecast Center** *[(NWRFC)](https://www.nwrfc.noaa.gov/ws/)*  
-[[Water Supply Forecasts]](https://www.nwrfc.noaa.gov/ws/)
+**NOAA/NWS River Forecast Centers** *[(RFC)](https://water.weather.gov/ahps/rfc/rfc.php)*  
+[[Northwest River Forecast Center]](https://www.nwrfc.noaa.gov/ws/)
