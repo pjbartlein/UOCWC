@@ -23,9 +23,11 @@
 [[Current surface analysis]](https://www.wpc.ncep.noaa.gov/html/sfc2.shtml)
 
 **Oregon and PNW**  *[(NWS Portland)](https://www.weather.gov/pqr/)*  
+[[NWS Forecast Office, Portland, OR]](https://www.weather.gov/pqr/)
+[[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)  
+[[OR Current observations]](https://www.wrh.noaa.gov/pqr/observations.php)
 [[Eugene 168-hour summary]](https://www.wrh.noaa.gov/mesowest/timeseries.php?wfo=pqr&sid=KEUG&num=48&raw=0&banner=off)
-[[Current observations]](https://www.wrh.noaa.gov/pqr/observations.php)
-[[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
+
 
 **MesoWest stations near Eugene** *[(MesoWestData)](http://mesowest.utah.edu/index.html)*  
 [[Eugene airport 111m]](http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=KEUG&unit=0&time=LOCAL&product=&year1=&month1=&day1=00&hour1=00&hours=&graph=1&past=0)
