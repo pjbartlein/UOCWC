@@ -35,7 +35,7 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 
 **Water-vapor imagery** *[(NOAA ESRL PSD real-time images)](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/realtime.html)*  
 Most-recent pass:  [[Pacific]](http://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/wx_cl/wvp/recent.png)
-[[Globe]](http://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/ssmis_iwv/global_iwv/recent.png)
+[[Globe]](http://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/ssmis_iwv/global_iwv/recent_small.png)
 animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/wx_cl/animate/psd_ssmi_anim.gif)
 [[Globe]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/ssmis_iwv/animate/ssmis_anim_gl.gif)
 
