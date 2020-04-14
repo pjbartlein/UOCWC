@@ -72,7 +72,7 @@ WRF-GFS 4km
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_ptype+///3)  
 [[N. Will Valley x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx9+///3)
 [[S. Will Valley x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx10+///3)
-[[Eugene sounding]](https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&yyyymmddhh=timeindep&reqhr=12&loc=keug&locname=Eugene,OR&latlon=44.13N,123.2W)
+[[Eugene sounding]](https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&yyyymmddhh=timeindep&reqhr=0&loc=keug&locname=Eugene%2COR&latlon=44.13N,123.2W)
 
 WRF-GFS 1.33km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
