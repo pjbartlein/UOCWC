@@ -118,7 +118,8 @@ Upper air:
 [[700mb hgt & PWV]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.700.html)
 [[500mb hgt & vort]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.500.html)  
 [[300mb hgt & wind]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.300.html)
-[[CAPE]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.cape.html)  
+[[CAPE]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.cape.html)
+[[LI]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.conus.li.html)   
 
 Surface energy and water balance:  
 Sfc SW [[Down]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.dswf.html)
