@@ -5,15 +5,17 @@
 [[3 to 7-day hazard outlook]](https://www.wpc.ncep.noaa.gov/threats/threats.php)
 [[Week-2 hazards outlook]](https://www.cpc.ncep.noaa.gov/products/predictions/threats/threats.php)
 
-**COLA** *[(COLA)](http://wxmaps.org)*  
+**COLA** *[(Center for Ocean-Land-Atmosphere Studies)](http://wxmaps.org)*  
  
-Forecast meteograms:
-Eugene [[84hr]](http://wxmaps.org/pix/eugnam.png)
+Forecast meteograms:  
+Eugene  &nbsp;&nbsp;[[84hr]](http://wxmaps.org/pix/eugnam.png)
 [[10-day]](http://wxmaps.org/pix/euggfs.png)
 [[day 10-16]](http://wxmaps.org/pix/euggfsb.png)
-Portland [[84hr]](http://wxmaps.org/pix/pdxnam.png)
+[[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)  
+Portland &nbsp;[[84hr]](http://wxmaps.org/pix/pdxnam.png)
 [[10-day]](http://wxmaps.org/pix/pdxgfs.png)
-[[day 10-16]](http://wxmaps.org/pix/pdxgfsb.png)  
+[[day 10-16]](http://wxmaps.org/pix/pdxgfsb.png)
+[[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
 
 10-day outlooks  
 Continental U.S. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
