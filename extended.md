@@ -15,7 +15,7 @@ Eugene  &nbsp;&nbsp;[[84hr]](http://wxmaps.org/pix/eugnam.png)
 Portland &nbsp;[[84hr]](http://wxmaps.org/pix/pdxnam.png)
 [[10-day]](http://wxmaps.org/pix/pdxgfs.png)
 [[day 10-16]](http://wxmaps.org/pix/pdxgfsb.png)
-[[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
+[[day 1-16]](html/eugwx/pdx_cola_meteo_0-16.html)
 
 10-day outlooks  
 Continental U.S. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
