@@ -65,4 +65,13 @@ Global surface winds:
 
 **USDA Weekly Weather & Crop Bulletin** *[(USDA OCE)](https://www.usda.gov/oce/weather/pubs/Weekly/Wwcb/)*
 
-**NOAA North American Drought Monitor**  *[(NOAA NCEI)](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps)*  
+**US Drought Monitor** *[(USDM)](https://droughtmonitor.unl.edu/)*   
+[[summary]](https://droughtmonitor.unl.edu/Summary.aspx)
+[[comparison slider]](https://droughtmonitor.unl.edu/Maps/ComparisonSlider.aspx)
+[[animations]](https://droughtmonitor.unl.edu/Maps/Animations.aspx)
+[[change maps]](https://droughtmonitor.unl.edu/Maps/ChangeMaps.aspx)
+
+
+**NOAA North American Drought Monitor**  *[(NOAA NCEI)](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/)*  
+[[maps]](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps)
+[[supplemental web site]](https://droughtmonitor.unl.edu/nadm/Home.aspx) 
