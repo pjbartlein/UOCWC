@@ -23,6 +23,7 @@ Eugene 6-day (144-hr) hourly forecast plot:
 [[Atlantic]](https://www.nhc.noaa.gov/)
 [[E. Pacific]](https://www.nhc.noaa.gov/?epac)
 [[Central Pacific]](https://www.prh.noaa.gov/cphc/)
+[[Climatology]](https://www.nhc.noaa.gov/climo/)
 
 ## PNW WRF-GFS mesoscale forecasts ##
 

@@ -25,6 +25,16 @@ Global surface winds:
 [[30-day animation]](http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01_30frames.fnl.anim.html)
 [[30-day anomaly animation]](http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a_30frames.fnl.anim.html)  
 
+**SST animations** *[(NOAA ESRL PDS Map Room SST page)](https://psl.noaa.gov/map/clim/sst.shtml)*  
+Anomalies: 
+[[Weekly]](https://psl.noaa.gov/map/clim/sst.anom.anim.week.html)
+[[Seasonal]](https://psl.noaa.gov/map/clim/sst.anom.anim.html)
+[[Annual]](https://psl.noaa.gov/map/clim/sst.anom.anim.year.html)  
+Averages:
+[[Weekly]](https://psl.noaa.gov/map/clim/sst.anim.week.html)
+[[Seasonal]](https://psl.noaa.gov/map/clim/sst.anim.html)
+[[Annual]](https://psl.noaa.gov/map/clim/sst.anim.year.html)
+
 **Hovmöller Plots**  
 [[tropical SSTs (40E-80W)]](http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.hov.io.gif)
 [[eastern and western Pacific zonal means]](http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.pacific.lat.gif)

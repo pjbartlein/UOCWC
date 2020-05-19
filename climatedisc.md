@@ -9,7 +9,7 @@
 **NOAA State of the Climate** *[(SOTC)](https://www.ncdc.noaa.gov/sotc/)*  
 
 - [[Current SOTC]](https://www.ncdc.noaa.gov/sotc/)
-- [[Climate at a Glance]](https://www.ncdc.noaa.gov/bams)
+- [[Climate at a Glance]](https://www.ncdc.noaa.gov/cag/)
 - [[Monthly Climate Briefing]](https://www.ncdc.noaa.gov/sotc/briefings)
 - [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
 - [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
