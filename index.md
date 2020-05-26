@@ -20,7 +20,7 @@
 			</td>
 			<td style="vertical-align: top; width: 37%;">
 				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
-			</td>
+				<a href="short.html#NCEP">[NAM forecasts]</a>			</td>
 			<td style="vertical-align: top; width: 33%;">
 				<a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW radar]</a>
 				<a href="https://radar.weather.gov/Conus/pacnorthwest_lite_loop.php">[loop]</a>
@@ -59,6 +59,7 @@
 **Forecasts**  
 Eugene
 [[GFS 10-day meteogram]](http://wxmaps.org/pix/euggfs.png)
+[[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
 6-day (144-hr) hourly forecast plot: 
 [[summer]](html/eugwx/all3_eug_summer.html)
 [[winter]](html/eugwx/all3_eug_winter.html)  

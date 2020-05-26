@@ -5,6 +5,7 @@
 Eugene 6-day (144-hr) hourly forecast plot: 
 [[summer]](html/eugwx/all3_eug_summer.html)
 [[winter]](html/eugwx/all3_eug_winter.html)  
+[[GFS Eugene meteogram day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
 
 
@@ -103,7 +104,7 @@ WRF-GFS extended runs
 [[3hr snow 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_ti_msnow3+///3)  
 [[3hr ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3)
 
-## NCEP North American Mesoscale Model (NAM) forecasts ##
+<h2 id="NCEP">NCEP North American Mesoscale Model (NAM) forecasts</h2>
 
 **NCEP Operational NAM Graphics**
 *[(NCEP)](https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/)*  
