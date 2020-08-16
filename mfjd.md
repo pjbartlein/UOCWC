@@ -120,8 +120,7 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 [[AWC Radar imagery]](https://aviationweather.gov/radar)  
 
 **Lightning**  
-[[US *(TWC)*]](http://geog.uoregon.edu/weather/eugwx/usradarlightning.htm)
-[[US *(Vaisala)*]](http://thunderstorm.vaisala.com/explorer_files/lts-image.jpg?foo=468)
+[[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)
 [[US *(Blitzortung)*]](http://en.blitzortung.org/live_lightning_maps.php?map=30)
 [[PNW *(LightningMaps.org)*]](http://www.lightningmaps.org/?lang=en#m=oss;t=3;s=0;o=0;b=;ts=0;y=44.5983;x=-119.9542;z=7;d=2;dl=2;dc=0;)
 

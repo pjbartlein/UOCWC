@@ -46,7 +46,12 @@
 [[NH 500mb]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif)
 [[7-day animation]](https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html)
 [[NH SLP]](https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif)
-[[NH Temperature]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)  
+[[NH Temperature]](https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif)
+ 
+**Soundings**  
+[[US *(Storm Prediction Center)*]](https://www.spc.noaa.gov/exper/soundings/)
+[[US *(NCAR)*]](http://weather.rap.ucar.edu/upper/)
+
 **U.S. (TWC)** *[([TWC]](https://weather.com/)*  
 [[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg)
 [[radar]](https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg)
@@ -67,8 +72,7 @@
 [[US loop]](https://radar.weather.gov/Conus/index_lite_loop.php)
 [[AWC Radar imagery]](https://aviationweather.gov/radar)  
 **Lightning**  
-[[US *(TWC)*]](http://geog.uoregon.edu/weather/eugwx/usradarlightning.htm)
-[[US *(Vaisala)*]](http://thunderstorm.vaisala.com/explorer_files/lts-image.jpg?foo=468)
+[[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)
 [[Globe *(Blitzortung)*]](http://en.blitzortung.org/live_lightning_maps.php)
 [[US *(Blitzortung)*]](http://en.blitzortung.org/live_lightning_maps.php?map=30)
 [[PNW *(LightningMaps.org)*]](http://www.lightningmaps.org/?lang=en#m=oss;t=3;s=0;o=0;b=;ts=0;y=44.5983;x=-119.9542;z=7;d=2;dl=2;dc=0;)
