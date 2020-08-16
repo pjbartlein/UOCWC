@@ -2,7 +2,7 @@
 	<tbody>
 		<tr>
 			<td style="vertical-align: top; width: 31%;">
-				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/GIFS/GOES17-PNW-GEOCOLOR-600x600.gif" 					alt="GOES-W" width="250" height="250" style="border:1px solid black"> <br>
+				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/pnw/GEOCOLOR/thumbnail.jpg" 					alt="GOES-W" width="250" height="250" style="border:1px solid black"> <br>
 			</td>
 			<td style="vertical-align: top; width: 37%;">
 				<img src="http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/nam.na.30000.png" alt="NCEP"
@@ -16,7 +16,7 @@
 		<tr>
 			<td style="vertical-align: top; width: 31%">
 		        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[GOES-W PNW]</a>
-				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[Full Disk]</a>
+				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[Full Disk]</a> (loops)
 			</td>
 			<td style="vertical-align: top; width: 37%;">
 				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
