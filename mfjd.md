@@ -147,10 +147,10 @@ Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
 
 ## Fires, Floods, Volcanos ##
 
-**Fires**  *[(National Interagency Coordination Center)](https://www.nifc.gov/nicc/index.htm)*   
-[[Northwest Coordination Center]](http://gacc.nifc.gov/nwcc/)
-[[Large-fire map]](http://gacc.nifc.gov/nwcc/)  
-[[GEOMAC Wildfire Mapping *(USGS)*]](https://www.geomac.gov/viewer/viewer.shtml)  
+**Fires**   
+[[NWCG Situational Awareness Map]](https://maps.nwcg.gov/sa/#/%3F/%3F/38.8697/-101.2707/5) *[(NWCG)](https://maps.nwcg.gov/)*  
+[[Northwest Coordination Center]](http://gacc.nifc.gov/nwcc/)  [[Large-fire map]](http://gacc.nifc.gov/nwcc/).  
+[[US Wildfire Reports Map]](https://disasterresponse.maps.arcgis.com/apps/webappviewer/index.html) *[(ESRI Disaster Response)](https://www.esri.com/en-us/disaster-response/overview)*   
 [[Fire-weather outlooks *(SPC)*]](https://www.spc.noaa.gov/products/fire_wx/overview.html)
 
 **Waterwatch** *[(USGS)](https://waterwatch.usgs.gov)*  
