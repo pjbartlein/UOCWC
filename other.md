@@ -49,9 +49,14 @@
 [[UO Solar Radiation Monitoring Laboratory]](http://solardat.uoregon.edu/index.html)
 [[data download page]](http://solardat.uoregon.edu/SolarData.html)
 
-**Local Air Quality** *[(LRAPA)](http://www.lrapa.org)*  
-[[Overview]](http://www.lrapa.org)
-[[Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing)
+**Air Quality**  
+[[Local air quality overview]](http://www.lrapa.org)
+[[Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing) *[(LRAPA)](http://www.lrapa.org)*  
+[[Oregon Air Quality Monitoring Data (interactive map)]](https://oraqi.deq.state.or.us/home/map)
+*[(Oregon DEQ)](https://oraqi.deq.state.or.us)*  
+[[Air-quality forecast guidance]](https://airquality.weather.gov)
+*[(NOAA)](https://www.noaa.gov)*.  
+[[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov) *[(AirNow.gov)](https://www.airnow.gov/fires/)*
 
 **Air-Quality Trends** *[(EPA)](https://www.epa.gov/air-trends)*
 
