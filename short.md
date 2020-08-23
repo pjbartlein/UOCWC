@@ -246,22 +246,25 @@ small
 ## NCEP GFS & NAM Model Analysis & Forecast maps ##
 
 **Model Analysis and Forecast Maps** *[(Center for Ocean-Land-Atmosphere Studies (COLA))](http://wxmaps.org/fcst.php)*  
-
 [[Multiple domains including NH, SH, N. Amer, S. Amer, Europe, E. Asia, Austl & N.Z., etc.]](http://wxmaps.org/fcst.php)
 
 
 
-## NOAA Earth Modeling Branch -- RAP and HRRR smoke forecasts##
+## NOAA Earth Modeling Branch -- RAP and HRRR (smoke forecasts)##
 
-**Rapid Refresh (RAP) Products** *[(Rapid Refresh Web Page)](https://rapidrefresh.noaa.gov)*  
-[[RAP plots page]](https://rapidrefresh.noaa.gov/RAP/) [[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution) 
+**Rapid Refresh (RAP) Products** 
+*[(RAP web page)](https://rapidrefresh.noaa.gov)*   
+[[RAP plots page]](https://rapidrefresh.noaa.gov/RAP/) (13.5 km resolution, North America)  
+[[RAP NA Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/)  
 
-**High-Resolution Rapid Refresh (HRRR) Products** *[(High-Resolution Rapid Refresh Web Page)](https://rapidrefresh.noaa.gov/hrrr/)*  
-[[HRRR CONUS Hourly plots page]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) [[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)  
+**High-Resolution Rapid Refresh (HRRR) Products** *[(HRRR web page)](https://rapidrefresh.noaa.gov/hrrr/)*  
+[[HRRR CONUS plots page]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) (3 km resolution, CONUS)  
+[[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/)   
+
 [[HRRR-Smoke Experimental Forecast Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf)
 [[VIIRS Active Fire Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf)
 
-[[Air-quality forecast guidance]](https://airquality.weather.gov)
+**NOAA** [[Air-quality forecast guidance]](https://airquality.weather.gov)
 *[(NOAA)](https://www.noaa.gov)*.  
 
 
