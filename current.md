@@ -68,7 +68,7 @@
 [[PNW]](https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif)
 [[PNW loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
 [[NCA]](https://aviationweather.gov/data/obs/radar/rad_cref_wmc.gif)
-[[NCA loop]](hhttps://aviationweather.gov/radar/plot?region=wmc)
+[[NCA loop]](https://aviationweather.gov/radar/plot?region=wmc)
 [[SCA]](https://aviationweather.gov/data/obs/radar/rad_cref_las.gif)
 [[SCA loop]](https://aviationweather.gov/radar/plot?region=las&type=cref&date=)  
 [[AWC US Comp Reflect]](https://aviationweather.gov/data/obs/radar/rad_cref_us.gif)
