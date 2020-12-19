@@ -1,6 +1,6 @@
 ## GOES satellite imagery ##
 
-**GOES 16 & 17 Image Viewer** *[(www.star.nesdis.noaa.gov/GOES/)](https://www.star.nesdis.noaa.gov/GOES/index.php)*  
+**GOES 16 & 17 (E & W) Image Viewer** *[(www.star.nesdis.noaa.gov/GOES/)](https://www.star.nesdis.noaa.gov/GOES/index.php)*  
 [[GOES-West (full disk)]](https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=127)
 [[GOES-East (full disk)]](https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G16&band=GEOCOLOR&length=12)
 [[CONUS]](https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&band=GEOCOLOR&length=12)
@@ -9,14 +9,6 @@
 [[GOES-W image page]](https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G17)
 [[Pacific NW image page]](https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&sector=pnw)  
 [[Explanation of GOES 16 and 17 sensor bands *(NOAA Jetsream)*]](https://www.weather.gov/jetstream/goes)  
-
-**GOES 15 (old GOES-W)**  
-Western VIS [[image]](http://www.goes.noaa.gov/GIFS/WCVS.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
-Western IR [[image]](http://www.goes.noaa.gov/GIFS/WCIR.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
-Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
 
 ## Other satellite imagery ##
 

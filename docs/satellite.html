@@ -13,6 +13,7 @@
 
 <title>Satellite imagery</title>
 
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -20,6 +21,17 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -360,12 +372,10 @@ $(document).ready(function () {
 
 <div id="goes-satellite-imagery" class="section level2">
 <h2>GOES satellite imagery</h2>
-<p><strong>GOES 16 &amp; 17 Image Viewer</strong> <em><a href="https://www.star.nesdis.noaa.gov/GOES/index.php">(www.star.nesdis.noaa.gov/GOES/)</a></em><br />
+<p><strong>GOES 16 &amp; 17 (E &amp; W) Image Viewer</strong> <em><a href="https://www.star.nesdis.noaa.gov/GOES/index.php">(www.star.nesdis.noaa.gov/GOES/)</a></em><br />
 <a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&amp;band=GEOCOLOR&amp;length=127">[GOES-West (full disk)]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G16&amp;band=GEOCOLOR&amp;length=12">[GOES-East (full disk)]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&amp;band=GEOCOLOR&amp;length=12">[CONUS]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&amp;sector=np&amp;band=GEOCOLOR&amp;length=12">[N. Pacific]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&amp;sector=pnw&amp;band=GEOCOLOR&amp;length=12">[Pacific NW]</a><br />
 <a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G17">[GOES-W image page]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&amp;sector=pnw">[Pacific NW image page]</a><br />
 <a href="https://www.weather.gov/jetstream/goes">[Explanation of GOES 16 and 17 sensor bands <em>(NOAA Jetsream)</em>]</a></p>
-<p><strong>GOES 15 (old GOES-W)</strong><br />
-Western VIS <a href="http://www.goes.noaa.gov/GIFS/WCVS.JPG">[image]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcvs.html">[loop]</a> Western IR <a href="http://www.goes.noaa.gov/GIFS/WCIR.JPG">[image]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcwv.html">[loop]</a> Western WV <a href="http://www.goes.noaa.gov/GIFS/WCWV.JPG">[image]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcwv.html">[loop]</a></p>
 </div>
 <div id="other-satellite-imagery" class="section level2">
 <h2>Other satellite imagery</h2>
@@ -400,7 +410,7 @@ Most-recent pass: <a href="http://www.esrl.noaa.gov/psd/psd2/coastal/satres/data
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
