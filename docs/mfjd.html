@@ -13,7 +13,7 @@
 
 <title>Middle Fork John Day R. weather</title>
 
-<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -21,7 +21,17 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -387,13 +397,12 @@ Extended runs <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_
 <a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&amp;band=GEOCOLOR&amp;length=127">[GOES-West (full disk)]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G16&amp;band=GEOCOLOR&amp;length=12">[GOES-East (full disk)]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&amp;band=GEOCOLOR&amp;length=12">[CONUS]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&amp;sector=np&amp;band=GEOCOLOR&amp;length=12">[N. Pacific]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&amp;sector=pnw&amp;band=GEOCOLOR&amp;length=12">[Pacific NW]</a><br />
 <a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G17">[GOES-W image page]</a> <a href="https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&amp;sector=pnw">[Pacific NW image page]</a><br />
 <a href="https://www.weather.gov/jetstream/goes">[Explanation of GOES 16 and 17 sensor bands <em>(NOAA Jetsream)</em>]</a></p>
-<p><strong>GOES 15 (old GOES-W)</strong><br />
-Western VIS <a href="http://www.goes.noaa.gov/GIFS/WCVS.JPG">[image]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcvs.html">[loop]</a> Western IR <a href="http://www.goes.noaa.gov/GIFS/WCIR.JPG">[image]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcwv.html">[loop]</a> Western WV <a href="http://www.goes.noaa.gov/GIFS/WCWV.JPG">[image]</a> <a href="http://www.goes.noaa.gov/GSSLOOPS/wcwv.html">[loop]</a></p>
 </div>
 <div id="radar-and-lightning" class="section level2">
 <h2>Radar and lightning</h2>
-<p><strong>NWS Radar</strong> <em><a href="https://radar.weather.gov/">(National Doppler Radar Sites)</a></em> <a href="https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg">[Coverage map]</a><br />
-<a href="http://radar.weather.gov/radar_lite.php?product=N0R&amp;rid=RTX&amp;loop=no">[Portland]</a> <a href="http://radar.weather.gov/radar_lite.php?rid=max&amp;product=N0R&amp;loop=no">[Medford]</a> <a href="https://radar.weather.gov/radar_lite.php?rid=pdt&amp;product=N0R&amp;loop=no">[Pendleton]</a> <a href="https://radar.weather.gov/radar_lite.php?rid=cbx&amp;product=N0R&amp;loop=no">[Boise]</a> <a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW]</a> <a href="http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php">[PNW loop]</a> <a href="https://radar.weather.gov/Conus/index_lite.php">[US]</a> <a href="https://radar.weather.gov/Conus/index_lite_loop.php">[US loop]</a> <a href="https://aviationweather.gov/radar">[AWC Radar imagery]</a></p>
+<p><strong>NWS Radar</strong> <em><a href="https://radar.weather.gov/">(NWS Radar Page)</a></em> <a href="https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg">[Coverage map]</a></p>
+<p><strong>AWC Radar</strong> <em><a href="https://aviationweather.gov/radar">(Aviation Weather Center Radar Imagery)</a></em><br />
+<a href="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif">[Lewiston Regional Composite]</a> <a href="https://aviationweather.gov/radar/plot?region=lws&amp;type=cref&amp;date=">[Lewiston Regional Composite loop]</a></p>
 <p><strong>Lightning</strong><br />
 <a href="https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg">[US <em>(TWC)</em>]</a> <a href="http://en.blitzortung.org/live_lightning_maps.php?map=30">[US <em>(Blitzortung)</em>]</a> <a href="http://www.lightningmaps.org/?lang=en#m=oss;t=3;s=0;o=0;b=;ts=0;y=44.5983;x=-119.9542;z=7;d=2;dl=2;dc=0;">[PNW <em>(LightningMaps.org)</em>]</a></p>
 </div>
@@ -428,7 +437,7 @@ MFJD Q <a href="http://waterdata.usgs.gov/or/nwis/uv?site_no=14043840">[above Ca
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

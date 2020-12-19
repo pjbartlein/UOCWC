@@ -97,27 +97,14 @@ Extended runs  [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop
 [[Pacific NW image page]](https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&sector=pnw)  
 [[Explanation of GOES 16 and 17 sensor bands *(NOAA Jetsream)*]](https://www.weather.gov/jetstream/goes)  
 
-**GOES 15 (old GOES-W)**  
-Western VIS [[image]](http://www.goes.noaa.gov/GIFS/WCVS.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
-Western IR [[image]](http://www.goes.noaa.gov/GIFS/WCIR.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
-Western WV [[image]](http://www.goes.noaa.gov/GIFS/WCWV.JPG)
-[[loop]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
-
 ## Radar and lightning ##
 
-**NWS Radar**  *[(National Doppler Radar Sites)](https://radar.weather.gov/)*
+**NWS Radar**  *[(NWS Radar Page)](https://radar.weather.gov/)*
 [[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
-[[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
-[[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
-[[Pendleton]](https://radar.weather.gov/radar_lite.php?rid=pdt&product=N0R&loop=no)
-[[Boise]](https://radar.weather.gov/radar_lite.php?rid=cbx&product=N0R&loop=no)
-[[PNW]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
-[[PNW loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
-[[US]](https://radar.weather.gov/Conus/index_lite.php)
-[[US loop]](https://radar.weather.gov/Conus/index_lite_loop.php)
-[[AWC Radar imagery]](https://aviationweather.gov/radar)  
+
+**AWC Radar** *[(Aviation Weather Center Radar Imagery)](https://aviationweather.gov/radar)*  
+[[Lewiston Regional Composite]](https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif)
+[[Lewiston Regional Composite loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
 
 **Lightning**  
 [[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)

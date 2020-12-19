@@ -9,7 +9,7 @@
 					width="300" height="250" style="border:1px solid black"> <br>
 			</td>
 			<td style="vertical-align: top; width: 33;">
-				<img src="https://radar.weather.gov/Conus/RadarImg/pacnorthwest.gif" alt="UO"
+				<img src="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif" alt="UO"
 					width="260" height="250" style="border:1px solid black"> <br> 
 			</td>
 		</tr>
@@ -22,8 +22,8 @@
 				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
 				<a href="short.html#NCEP">[NAM forecasts]</a>			</td>
 			<td style="vertical-align: top; width: 33%;">
-				<a href="http://radar.weather.gov/Conus/pacnorthwest_lite.php">[PNW radar]</a>
-				<a href="https://radar.weather.gov/Conus/pacnorthwest_lite_loop.php">[loop]</a>
+				<a href="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif">[AWC PNW radar]</a>
+				<a href="https://aviationweather.gov/radar/plot?region=lws&type=cref&date=">[loop]</a>
 			</td>
 		</tr>
 	</tbody>
@@ -43,9 +43,9 @@
 [[Oregon weather and climate reports]](https://w2.weather.gov/climate/index.php?wfo=pqr)
 
 **Radar**  
-[[PNW sector and loop]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
-[[Portland long-range reflectivity]](https://radar.weather.gov/radar_lite.php?rid=rtx&product=N0Z&loop=yes)
-[[Medford long-range reflectivity]](https://radar.weather.gov/radar_lite.php?rid=max&product=N0Z&loop=yes)
+[[AWC PNW sector and loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
+[[AWC US Comp Reflect]](https://aviationweather.gov/data/obs/radar/rad_cref_us.gif)
+[[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
 [[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)
 
 **Satellite**  
@@ -67,5 +67,5 @@ PNW
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1) 
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
 
-<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Autumn 2020)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Winter 2021)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
 

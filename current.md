@@ -61,16 +61,20 @@
 
 ## Radar and lightning ##
 
-**NWS Radar**  *[(National Doppler Radar Sites)](https://radar.weather.gov/)*
+**NWS Radar**  *[(National Radar Page)](https://radar.weather.gov/)*
 [[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
-[[Portland]](http://radar.weather.gov/radar_lite.php?product=N0R&rid=RTX&loop=no)
-[[Medford]](http://radar.weather.gov/radar_lite.php?rid=max&product=N0R&loop=no)
-[[Pendleton]]([Pendleton])
-[[PNW]](http://radar.weather.gov/Conus/pacnorthwest_lite.php)
-[[PNW loop]](http://radar.weather.gov/Conus/pacnorthwest_lite_loop.php)
-[[US]](https://radar.weather.gov/Conus/index_lite.php)
-[[US loop]](https://radar.weather.gov/Conus/index_lite_loop.php)
-[[AWC Radar imagery]](https://aviationweather.gov/radar)  
+
+**AWC Radar** *[(Aviation Weather Center Radar Imagery)](https://aviationweather.gov/radar)*  
+[[PNW]](https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif)
+[[PNW loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
+[[NCA]](https://aviationweather.gov/data/obs/radar/rad_cref_wmc.gif)
+[[NCA loop]](hhttps://aviationweather.gov/radar/plot?region=wmc)
+[[SCA]](https://aviationweather.gov/data/obs/radar/rad_cref_las.gif)
+[[SCA loop]](https://aviationweather.gov/radar/plot?region=las&type=cref&date=)  
+[[AWC US Comp Reflect]](https://aviationweather.gov/data/obs/radar/rad_cref_us.gif)
+[[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
+[[AWC radar files list]](https://aviationweather.gov/data/obs/radar/)
+
 **Lightning**  
 [[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)
 [[Globe *(Blitzortung)*]](http://en.blitzortung.org/live_lightning_maps.php)
