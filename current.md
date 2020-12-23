@@ -75,6 +75,10 @@
 [[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
 [[AWC radar files list]](https://aviationweather.gov/data/obs/radar/)
 
+**Other** *[(Weather Underground Maps)](https://www.wunderground.com/maps)*  
+[[WSI weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wxtype/none/usa/animate.png)  
+[[Weather Underground weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/conus/current.png)
+
 **Lightning**  
 [[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)
 [[Globe *(Blitzortung)*]](http://en.blitzortung.org/live_lightning_maps.php)
