@@ -14,6 +14,8 @@
 - [[Societal impacts]](https://www.ncdc.noaa.gov/societal-impacts/)
 - [[BAMS State of the Climate Annual Issues]](https://www.ncdc.noaa.gov/bams)
 
+[[SOTC release schedule]](https://www.ncdc.noaa.gov/monitoring-references/dyk/monthly-releases). 
+
 **USDA Weekly Weather & Crop Bulletin** *[(USDA OCE)](https://www.usda.gov/oce/weather/pubs/Weekly/Wwcb/)*
 
 **NOAA North American Drought Monitor**  *[(NOAA NCEI)](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps)*  
