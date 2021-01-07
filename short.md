@@ -149,7 +149,7 @@ Heat flux [[Sensible]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_na
 
 ## NCEP GFS (Northern Hemisphere) forecasts
 
-**Forecast model maps** *[(U. Wisc. AOS Dept.)](http://www.aos.wisc.edu/weather/Models)*
+**Forecast model maps** *[(U. Wisc. AOS Dept.)](http://www.aos.wisc.edu/weather/Models)* [[basemap]](https://pjbartlein.github.io/UOCWC/html/exercises/UW-GFS-basemap.png)
 
 300mb heights and wind speed  
 large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
