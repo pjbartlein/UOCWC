@@ -107,7 +107,7 @@ WRF-GFS extended runs
 <h2 id="NCEP">NCEP North American Mesoscale Model (NAM) forecasts</h2>
 
 **NCEP Operational NAM Graphics**
-*[(NCEP)](https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/)*  
+*[(NCEP)](https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/)*  [[Time zone conversion]](TimeZones.png)
 
 Surface conditions:  
 [[SLP & 3hr ppt]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_nam/nam.na.pcp.html)
