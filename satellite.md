@@ -31,12 +31,12 @@ Most-recent pass:  [[Pacific]](http://www.esrl.noaa.gov/psd/psd2/coastal/satres/
 animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/wx_cl/animate/psd_ssmi_anim.gif)
 [[Globe]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/ssmis_iwv/animate/ssmis_anim_gl.gif)
 
-**Snow and ice** *[(National Ice Center/Naval Ice Center)](https://www.natice.noaa.gov/ims/)*  
-[[N. Hemis]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow.gif)
-[[US & S. Canada]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_usa.gif)
-[[Alaska]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_alaska.gif)
-[[Europe/Asia]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_asiaeurope.gif)
-[[Special sector]](https://www.natice.noaa.gov/pub/ims/ims_gif/DATA/cursnow_afghanistan.gif)
+**Snow and ice** *[(National Ice Center](https://usicecenter.gov/Products/ImsHome)*  
+[[N. Hemis]](https://usicecenter.gov/pub/ims_nhemi.gif)
+[[US & S. Canada]](https://usicecenter.gov/pub/ims_usa.gif)
+[[Alaska]](https://usicecenter.gov/pub/ims_eurasia.gif)
+[[Europe/Asia]](https://usicecenter.gov/pub/ims_eurasia.gif)
+[[Special sector]](https://usicecenter.gov/pub/ims_afghan.gif)
 
 **Fire and smoke**  
 [[NOAA Hazard Mapping System]](https://www.ospo.noaa.gov/Products/land/hms.html)  
