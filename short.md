@@ -93,12 +93,16 @@ WRF-GFS 1.33km
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3)
 [[RH]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3)
+[[T/H]](https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)  
+[[FrzLvl]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3)
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3)
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)
-[[T/H]](https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)  
+[[E.OR 1hr snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_rsnow1+//84/1) 
 [[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3)
+
+
 
 WRF-GFS extended runs  
 [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
