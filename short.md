@@ -94,7 +94,7 @@ WRF-GFS 1.33km
 [[RH]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3)
 [[T/H]](https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)  
-[[FrzLvl]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3)
+[[FrzLvl]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_fzlt+//84/3)
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3)
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
