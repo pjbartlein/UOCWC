@@ -59,4 +59,5 @@ Outlooks:  [[6-10 day]](https://www.cpc.ncep.noaa.gov/products/predictions/610da
 [[Snow & Climate Monitoring and Water Supply Forecasts]](https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap)
 
 **NOAA/NWS River Forecast Centers** *[(RFC)](https://water.weather.gov/ahps/rfc/rfc.php)*  
-[[Northwest River Forecast Center]](https://www.nwrfc.noaa.gov/ws/)
+[[10-day River and Hydrology Forecast]](https://www.nwrfc.noaa.gov/rfc/?zoom=6&center=47.33882269482202,-117.333984375&density=1&map_type=ESRI%20Topographic&overlay_basins=false&overlay_hsa=false&overlay_counties=false&overlay_burn_areas=false&lid=&search_type=river)  
+[[120-day River and Hydrology Forecast]](https://www.nwrfc.noaa.gov/rfc/?zoom=6&center=47.33882269482202,-117.333984375&density=4&map_type=ESRI%20Topographic&overlay_basins=false&overlay_hsa=false&overlay_counties=false&overlay_burn_areas=false&lid=&search_type=stp)

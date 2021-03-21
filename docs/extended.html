@@ -13,6 +13,7 @@
 
 <title>Extended forecasts &amp; outlooks</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -20,6 +21,15 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -50,6 +60,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="page_01.css" type="text/css" />
 
@@ -386,7 +397,8 @@ Outlooks: <a href="https://www.cpc.ncep.noaa.gov/products/predictions/610day/">[
 <p><strong>National Water and Climate Center</strong> <em><a href="https://www.wcc.nrcs.usda.gov/wsf/">(NWCC)</a></em><br />
 <a href="https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap">[Snow &amp; Climate Monitoring and Water Supply Forecasts]</a></p>
 <p><strong>NOAA/NWS River Forecast Centers</strong> <em><a href="https://water.weather.gov/ahps/rfc/rfc.php">(RFC)</a></em><br />
-<a href="https://www.nwrfc.noaa.gov/ws/">[Northwest River Forecast Center]</a></p>
+<a href="https://www.nwrfc.noaa.gov/rfc/?zoom=6&amp;center=47.33882269482202,-117.333984375&amp;density=1&amp;map_type=ESRI%20Topographic&amp;overlay_basins=false&amp;overlay_hsa=false&amp;overlay_counties=false&amp;overlay_burn_areas=false&amp;lid=&amp;search_type=river">[10-day River and Hydrology Forecast]</a><br />
+<a href="https://www.nwrfc.noaa.gov/rfc/?zoom=6&amp;center=47.33882269482202,-117.333984375&amp;density=4&amp;map_type=ESRI%20Topographic&amp;overlay_basins=false&amp;overlay_hsa=false&amp;overlay_counties=false&amp;overlay_burn_areas=false&amp;lid=&amp;search_type=stp">[120-day River and Hydrology Forecast]</a></p>
 </div>
 
 
@@ -398,7 +410,7 @@ Outlooks: <a href="https://www.cpc.ncep.noaa.gov/products/predictions/610day/">[
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

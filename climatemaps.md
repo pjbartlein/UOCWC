@@ -79,7 +79,12 @@ Averages:
 [[animations]](https://droughtmonitor.unl.edu/Maps/Animations.aspx)
 [[change maps]](https://droughtmonitor.unl.edu/Maps/ChangeMaps.aspx)
 
-
 **NOAA North American Drought Monitor**  *[(NOAA NCEI)](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/)*  
 [[maps]](https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps)
 [[supplemental web site]](https://droughtmonitor.unl.edu/nadm/Home.aspx) 
+
+**NOAA Northwest River Forecast Center** *[(NOAA NWRFC)](https://www.nwrfc.noaa.gov/rfc/)*  
+[[PNW Observed water-year runoff]](https://www.nwrfc.noaa.gov/ws/index.html?zoom=6&center=47.35371061951363,-117.0263671875&map_type=ro_status) 
+[[PNW Current station snow conditions]](https://www.nwrfc.noaa.gov/snow/index.html?zoom=6&center=47.35371061951363,-117.0263671875&map_type=current_station_snow_conditions&overlay_basins=false&overlay_hsa=false&overlay_counties=false&xmap_type=ESRI%20Topographic)  
+[[PNW Water-year summary graphics]](https://www.nwrfc.noaa.gov/water_supply/wy_summary/wy_summary.php?tab=1)
+[[PNW Current month summary graphics]](https://www.nwrfc.noaa.gov/ws/index.html?zoom=6&center=47.35371061951363,-117.0263671875&map_type=ro_status)
