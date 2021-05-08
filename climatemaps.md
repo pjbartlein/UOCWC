@@ -40,8 +40,8 @@ Averages:
 [[eastern and western Pacific zonal means]](http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.pacific.lat.gif)
 
 **Daily data plots** *[((NWS Portland)](https://www.weather.gov/pqr/)*  
-[[Eugene]](https://www.wrh.noaa.gov/climate/yeardisp.php?wfo=pqr&stn=KEUG&submit=Yearly+Charts)
-[[Portland]](https://www.wrh.noaa.gov/climate/yeardisp.php?wfo=pqr&year=2019&span=Calendar%20Year&stn=KPDX)
+[[Calendar year charts]](https://www.weather.gov/pqr/cliplot#tabs-2)
+[[Current month chart and tables]](https://www.weather.gov/pqr/cliplot#tabs-1)
 
 **U.S. Anomalies**  *[(NOAA CPC)](https://www.cpc.ncep.noaa.gov)*  
 30-day [[temperature]](http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_monthly_tanom.shtml)

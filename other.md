@@ -19,6 +19,8 @@
 
 **Fires**  *[(National Interagency Coordination Center)](https://www.nifc.gov/nicc/index.htm)*   
 
+- [[Portland fire WX discussion]](https://forecast.weather.gov/product.php?site=PQR&issuedby=PQR&product=FWF&format=CI&version=1&glossary=0)
+[[Portland fire weather graphics]](https://www.weather.gov/pqr/fire_briefing)  
 - [[NWCG Situational Awareness Map]](https://maps.nwcg.gov/sa/#/%3F/%3F/38.8697/-101.2707/5) *[(NWCG)](https://maps.nwcg.gov/)*
 - [[Northwest Coordination Center]](http://gacc.nifc.gov/nwcc/)  [[Large-fire map]](http://gacc.nifc.gov/nwcc/)  
 - [[US Wildfire Reports Map]](https://www.esri.com/en-us/disaster-response/disasters/wildfires) *[(ESRI Disaster Response)](https://www.esri.com/en-us/disaster-response/overview)*

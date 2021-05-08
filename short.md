@@ -7,6 +7,7 @@ Eugene 6-day (144-hr) hourly forecast plot:
 [[winter]](html/eugwx/all3_eug_winter.html)  
 [[GFS Eugene meteogram day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
+[[Portland fire WX discussion]](https://forecast.weather.gov/product.php?site=PQR&issuedby=PQR&product=FWF&format=CI&version=1&glossary=0)
 
 
 **NCEP** *[(NCEP)](https://www.ncep.noaa.gov/)*  
