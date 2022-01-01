@@ -54,6 +54,7 @@
 [[precipitation rate]](https://pages.uoregon.edu/bartlein/maps/globe/tp_globe_1991-2020_ltm/tp_globe_1991-2020_ltm.html)
 [[evaporation rate]](https://pages.uoregon.edu/bartlein/maps/globe/e_globe_1991-2020_ltm/e_globe_1991-2020_ltm.html)
 [[P - E]](https://pages.uoregon.edu/bartlein/maps/globe/pme_globe_1991-2020_ltm/pme_globe_1991-2020_ltm.html)
+[[all]](https://pages.uoregon.edu/bartlein/maps/globe/pmeall_globe_1991-2020_ltm/pmeall_globe_1991-2020_ltm.html)
 
 *Surface water balance*  
 [[precipitation rate]](https://pages.uoregon.edu/bartlein/maps/globe/tp_globe_1991-2020_ltm/tp_globe_1991-2020_ltm.html)
