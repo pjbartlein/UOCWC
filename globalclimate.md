@@ -31,7 +31,7 @@
 **Temperature**  
 
 [[2m air temperature]](https://pages.uoregon.edu/bartlein/maps/globe/t2m_globe_1991-2020_ltm/t2m_globe_1991-2020_ltm.html) 
-[[2m air temperature (polar)]](https://pages.uoregon.edu/bartlein/maps/globe/w500_globe_1991-2020_ltm/w500_globe_1991-2020_ltm.html)  
+[[2m air temperature (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/t2m_polar_1991-2020_ltm/t2m_polar_1991-2020_ltm.html)  
 
 **Atmospheric Circulation & Winds**  
 
