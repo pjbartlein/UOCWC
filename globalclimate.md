@@ -63,8 +63,8 @@ Radiative components follow the Sellers (1968) sign convention:
 Vertical velocity (omega) and the U and V components of the wind use the following sign convention:
 
 * omega, sinking is positive (orange), rising is negative (blue) 
-* U component, positive (blue) toward the east, negative toward the west (red);
-* V component, positive (blue) toward the north, negative toward the south (red)
+* U component, positive toward the east (blue), negative toward the west (red);
+* V component, positive toward the north (blue), negative toward the south (red)
 	 
 **Global water balance/precipitation**   
  
