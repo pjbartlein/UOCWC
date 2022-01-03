@@ -26,20 +26,45 @@
 [[substrate heat flux/change in storage]](https://pages.uoregon.edu/bartlein/maps/globe/sghf_globe_1991-2020_ltm/sghf_globe_1991-2020_ltm.html)
 [[all]](https://pages.uoregon.edu/bartlein/maps/globe/shf_globe_1991-2020_ltm/shf_globe_1991-2020_ltm.html)
 
-(Radiative components follow the Sellers (1968) sign convention:  For radiative fluxes (e.g. net radiation), energy flow toward the surface is positive (orange); energy flow away is negative (blue).  For non-radiative fluxes (e.g. latent heat flux), energy flow from the surface toward the atmosphere is positive (orange); energy flow from the atmosphere toward the surface is negative (blue).  For substrate heat flux/change in storage, energy flow from the subsurface to the atmosphere (i.e. out of storage) is positive (orange); energy flow from the surface toward the subsurface (i.e. into storage) is negative (blue).)
+Radiative components follow the Sellers (1968) sign convention:  
+
+* radiative fluxes (e.g. net radiation), energy flow toward the surface is positive (orange); energy flow away is negative (blue);  
+* non-radiative fluxes (e.g. latent heat flux), energy flow from the surface toward the atmosphere is positive (orange); energy flow from the atmosphere toward the surface is negative (blue);  
+* substrate heat flux/change in storage, energy flow from the subsurface to the atmosphere (i.e. out of storage) is positive (orange); energy flow from the surface toward the subsurface (i.e. into storage) is negative (blue).)
   
 **Temperature**  
 
 [[2m air temperature]](https://pages.uoregon.edu/bartlein/maps/globe/t2m_globe_1991-2020_ltm/t2m_globe_1991-2020_ltm.html) 
 [[2m air temperature (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/t2m_polar_1991-2020_ltm/t2m_polar_1991-2020_ltm.html)  
 
-**Atmospheric Circulation & Winds**  
+**Atmospheric circulation & winds**  
 
+*Surface*  
 [[SLP & 10m winds]](https://pages.uoregon.edu/bartlein/maps/globe/msl_sfcwind_globe_1991-2020_ltm/msl_sfcwind_globe_1991-2020_ltm.html)
-[[SLP & 10m winds (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/msl_sfcwind_polar_1991-2020_ltm/msl_sfcwind_polar_1991-2020_ltm.html)
+[[SLP & 10m winds (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/msl_sfcwind_polar_1991-2020_ltm/msl_sfcwind_polar_1991-2020_ltm.html)  
+[[U-component 10 m wind]](https://pages.uoregon.edu/bartlein/maps/globe/u10_wind_globe_1991-2020_ltm/u10_wind_globe_1991-2020_ltm.html) 
+[[V-component 10 m wind]](https://pages.uoregon.edu/bartlein/maps/globe/v10_wind_globe_1991-2020_ltm/v10_wind_globe_1991-2020_ltm.html)
+[[10 m wind speed]](https://pages.uoregon.edu/bartlein/maps/globe/vmag10_wind_globe_1991-2020_ltm/vmag10_wind_globe_1991-2020_ltm.html)  
+[[U-component 10 m wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/u10_wind_polar_1991-2020_ltm/u10_wind_polar_1991-2020_ltm.html)
+[[V-component 10 m wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/v10_wind_polar_1991-2020_ltm/v10_wind_polar_1991-2020_ltm.html)
+[[10 m wind speed (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/vmag10_wind_polar_1991-2020_ltm/vmag10_wind_polar_1991-2020_ltm.html)
+
+*Upper-level*  
 [[500 hPa hgt & wind]](https://pages.uoregon.edu/bartlein/maps/globe/z500_wind_globe_1991-2020_ltm/z500_wind_globe_1991-2020_ltm.html)
-[[500 hPa hgt & wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/z500_wind_polar_1991-2020_ltm/z500_wind_polar_1991-2020_ltm.html)  
-[[500 hPa vertical velocity]](https://pages.uoregon.edu/bartlein/maps/globe/w500_globe_1991-2020_ltm/w500_globe_1991-2020_ltm.html)	 
+[[500 hPa hgt & wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/z500_wind_polar_1991-2020_ltm/z500_wind_polar_1991-2020_ltm.html)
+[[500 hPa vertical velocity]](https://pages.uoregon.edu/bartlein/maps/globe/w500_globe_1991-2020_ltm/w500_globe_1991-2020_ltm.html)   
+[[U-component 300 hPa wind]](https://pages.uoregon.edu/bartlein/maps/globe/u10_wind_globe_1991-2020_ltm/u10_wind_globe_1991-2020_ltm.html) 
+[[V-component 300 hPa wind]](https://pages.uoregon.edu/bartlein/maps/globe/v10_wind_globe_1991-2020_ltm/v10_wind_globe_1991-2020_ltm.html)
+[[10 m wind speed]](https://pages.uoregon.edu/bartlein/maps/globe/vmag10_wind_globe_1991-2020_ltm/vmag10_wind_globe_1991-2020_ltm.html)  
+[[U-component 10 m wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/u10_wind_polar_1991-2020_ltm/u10_wind_polar_1991-2020_ltm.html)
+[[V-component 10 m wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/v10_wind_polar_1991-2020_ltm/v10_wind_polar_1991-2020_ltm.html)
+[[10 m wind speed (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/vmag10_wind_polar_1991-2020_ltm/vmag10_wind_polar_1991-2020_ltm.html)  
+ 	
+Vertical velocity (omega) and the U and V components of the wind use the following sign convention:
+
+* omega, sinking is positive (orange), rising is negative (blue) 
+* U component, positive (blue) toward the east, negative toward the west (red);
+* V component, positive (blue) toward the north, negative toward the south (red)
 	 
 **Global water balance/precipitation**   
  
