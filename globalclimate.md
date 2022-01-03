@@ -35,7 +35,8 @@ Radiative components follow the Sellers (1968) sign convention:
 **Temperature**  
 
 [[2m air temperature]](https://pages.uoregon.edu/bartlein/maps/globe/t2m_globe_1991-2020_ltm/t2m_globe_1991-2020_ltm.html) 
-[[2m air temperature (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/t2m_polar_1991-2020_ltm/t2m_polar_1991-2020_ltm.html)  
+[[2m air temperature (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/t2m_polar_1991-2020_ltm/t2m_polar_1991-2020_ltm.html)
+[[Surface net radiation | 2m air temp]](https://pages.uoregon.edu/bartlein/maps/global/t2m_snr_global_991-2020_ltm/t2m_snr_global_1991-2020_ltm.html)  
 
 **Atmospheric circulation & winds**  
 
