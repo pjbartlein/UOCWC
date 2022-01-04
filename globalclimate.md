@@ -54,12 +54,12 @@ Radiative components follow the Sellers (1968) sign convention:
 [[500 hPa hgt & wind]](https://pages.uoregon.edu/bartlein/maps/globe/z500_wind_globe_1991-2020_ltm/z500_wind_globe_1991-2020_ltm.html)
 [[500 hPa hgt & wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/z500_wind_polar_1991-2020_ltm/z500_wind_polar_1991-2020_ltm.html)
 [[500 hPa vertical velocity]](https://pages.uoregon.edu/bartlein/maps/globe/w500_globe_1991-2020_ltm/w500_globe_1991-2020_ltm.html)   
-[[U-component 300 hPa wind]](https://pages.uoregon.edu/bartlein/maps/globe/u10_wind_globe_1991-2020_ltm/u10_wind_globe_1991-2020_ltm.html) 
-[[V-component 300 hPa wind]](https://pages.uoregon.edu/bartlein/maps/globe/v10_wind_globe_1991-2020_ltm/v10_wind_globe_1991-2020_ltm.html)
-[[10 m wind speed]](https://pages.uoregon.edu/bartlein/maps/globe/vmag10_wind_globe_1991-2020_ltm/vmag10_wind_globe_1991-2020_ltm.html)  
-[[U-component 10 m wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/u10_wind_polar_1991-2020_ltm/u10_wind_polar_1991-2020_ltm.html)
-[[V-component 10 m wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/v10_wind_polar_1991-2020_ltm/v10_wind_polar_1991-2020_ltm.html)
-[[10 m wind speed (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/vmag10_wind_polar_1991-2020_ltm/vmag10_wind_polar_1991-2020_ltm.html)  
+[[U-component 300 hPa wind]](https://pages.uoregon.edu/bartlein/maps/globe/u300_wind_globe_1991-2020_ltm/u300_wind_globe_1991-2020_ltm.html) 
+[[V-component 300 hPa wind]](https://pages.uoregon.edu/bartlein/maps/globe/v300_wind_globe_1991-2020_ltm/v300_wind_globe_1991-2020_ltm.html)
+[[300 hPa wind speed]](https://pages.uoregon.edu/bartlein/maps/globe/vmag300_wind_globe_1991-2020_ltm/vmag300_wind_globe_1991-2020_ltm.html)  
+[[U-component 300 hPa wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/u300_wind_polar_1991-2020_ltm/u300_wind_polar_1991-2020_ltm.html)
+[[V-component 300 hPa wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/v300_wind_polar_1991-2020_ltm/v300_wind_polar_1991-2020_ltm.html)
+[[300 hPa wind speed (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/vmag300_wind_polar_1991-2020_ltm/vmag300_wind_polar_1991-2020_ltm.html)  
  	
 Vertical velocity (omega) and the U and V components of the wind use the following sign convention:
 
