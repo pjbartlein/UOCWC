@@ -57,7 +57,7 @@
 [[US *(Storm Prediction Center)*]](https://www.spc.noaa.gov/exper/soundings/)
 [[US *(NCAR)*]](http://weather.rap.ucar.edu/upper/)
 
-**U.S. (TWC)** *[([TWC]](https://weather.com/)*  
+**U.S. (TWC)** *[([TWC])](https://weather.com/)*  
 [[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg)
 [[radar]](https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg)
 [[temperature (F)]](https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg)
@@ -92,7 +92,7 @@
 
 ## Traffic cams ##
 
-**ODOT TripCheck Road Conditions** *[(ODOT](https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&mainNav=RoadConditions)*
+**ODOT TripCheck Road Conditions** *[(ODOT)](https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&mainNav=RoadConditions)*
 [[Camera page]](https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&mainNav=RoadConditions)  
 [[Eugene I-5]](https://tripcheck.com/RoadCams/cams/I-5%20SB%20at%20I-105_pid1612.jpg?rand=1553714107603)
 [[US101]](https://tripcheck.com/RoadCams/cams/CapeCove_pid618.jpg?rand=1553714136808)

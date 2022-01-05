@@ -13,13 +13,22 @@
 
 <title>Short-term &amp; medium-range forecasts</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 <style type="text/css">
@@ -34,32 +43,6 @@
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="page_01.css" type="text/css" />
@@ -71,10 +54,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -91,40 +70,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -152,7 +104,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -164,7 +116,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -175,10 +127,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -190,7 +155,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -360,7 +324,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -386,16 +350,16 @@ $(document).ready(function () {
 <p><strong>NW Regional Modelling Consortium</strong> <em><a href="http://www.atmos.washington.edu/mm5rt/">(NWRMC)</a></em> <br></p>
 <p>WRF-GFS 36km <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.36kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.36kmlanduse.gif">[land cover]</a><br />
 <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_300j+//72/3">[300mb winds]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_500vor+//72/3">[500mb vort.]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_700w+//72/3">[700mb omega]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcp1+//72/1">[1hr ppt]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_olr+//84/3">[OLR]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd1_850t+//84/3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_850rh+//72/3">[850mb RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d1_mcape+//84/3">[CAPE]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_tsfc+//72/3">[2m T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3">[SLP]</a><br />
-<a href="https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3">[water-vapor flux]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3">[column-integrated WV]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3">[84 hr accum ppt]</a></p>
+<a href="https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3">[water-vapor flux]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3">[column-integrated WV]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3">[72 hr accum ppt]</a></p>
 <p>WRF-GFS 12km <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.12kmlanduse.gif">[land cover]</a><br />
 <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_300j+//72/3">[300mb winds]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_500vor+//72/3">[500mb vort.]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_700w+//72/3">[700mb omega]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_pcp1+//72/1">[1hr ppt]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_olr+//84/3">[OLR]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd2_850t+//84/3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_850rh+//72/3">[850mb RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?mm5d2_mcape+//84/3">[CAPE]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_tsfc+//72/3">[2m T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_slp+//72/3">[SLP]</a><br />
-<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ivt+//84/3">[water-vapor flux]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpwv+//84/3">[column-integrated WV]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3">[84 hr accum precip]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3">[Pr frz ppt]</a></p>
+<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ivt+//84/3">[water-vapor flux]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpwv+//84/3">[column-integrated WV]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3">[72 hr accum precip]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3">[Pr frz ppt]</a></p>
 <p>WRF-GFS 4km <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/may06.4kmlanduse.gif">[land cover]</a><br />
 <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_pcp1+///1">[1hr ppt]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_olr+///3">[OLR]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_700w+///3">[700mb omega]</a> <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_850t+///3">[850mb T]</a> <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_tsfc+///3">[2m T]</a> <a href="https://atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd3_ti_slp+///3">[SLP]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow1+///1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow24+///3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_ptype+///3">[Pr frz ppt]</a><br />
-<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3">[84 hr accum precip]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx9+///3">[N. Will Valley x-sec]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx10+///3">[S. Will Valley x-sec]</a> <a href="https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&amp;yyyymmddhh=timeindep&amp;reqhr=0&amp;loc=keug&amp;locname=Eugene%2COR&amp;latlon=44.13N,123.2W">[Eugene sounding]</a></p>
+<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3">[72 hr accum precip]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx9+///3">[N. Will Valley x-sec]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx10+///3">[S. Will Valley x-sec]</a> <a href="https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&amp;yyyymmddhh=timeindep&amp;reqhr=0&amp;loc=keug&amp;locname=Eugene%2COR&amp;latlon=44.13N,123.2W">[Eugene sounding]</a></p>
 <p>WRF-GFS 1.33km <a href="http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif">[model topography]</a> <a href="http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif">[land cover]</a><br />
-<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1">[1hr ppt]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_olr+//84/3">[OLR]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3">[2m T]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3">[RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3">[SLP]</a> <a href="https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W">[T/H]</a><br />
-<a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_fzlt+//84/3">[FrzLvl]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3">[24hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3">[snow depth]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3">[snow cover]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_rsnow1+//84/1">[E.OR 1hr snow]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3">[84 hr accum precip]</a></p>
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1">[1hr ppt]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3">[72 hr accum precip]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_olr+//84/3">[OLR]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3">[850mb T]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3">[2m T]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_rhsfc+///3">[RH]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_slp+///3">[SLP]</a> <a href="https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/%20keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W">[T/H]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_fzlt+//84/3">[FrzLvl]</a><br />
+<a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1">[1hr snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3">[24hr snow]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_snowacc+//84/3">[72 hr accum snow]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3">[snow depth]</a> <a href="http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3">[snow cover]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_rsnow1+//84/1">[E.OR 1hr snow]</a></p>
 <p>WRF-GFS extended runs<br />
 <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3">[300mb winds 36km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3">[700mb omega 36km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3">[CAPE 12km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcp3+///3">[3hr ppt 36km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcpt+///3">[180 hr accum ppt 36km]</a><br />
 <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_ti_msnow3+///3">[3hr snow 12km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3">[3hr ppt 12km]</a> <a href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcpt+///3">[180 hr accum ppt 12km]</a></p>
@@ -485,7 +449,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

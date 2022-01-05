@@ -13,13 +13,22 @@
 
 <title>Observations</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 <style type="text/css">
@@ -34,32 +43,6 @@
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="page_01.css" type="text/css" />
@@ -71,10 +54,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -91,40 +70,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -152,7 +104,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -164,7 +116,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -175,10 +127,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -190,7 +155,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -360,7 +324,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -405,7 +369,7 @@ $(document).ready(function () {
 <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/500z_01.fnl.gif">[NH 500mb]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/500z_07.fnl.anim.html">[7-day animation]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/mslp_01.fnl.gif">[NH SLP]</a> <a href="https://www.esrl.noaa.gov/psd/map/images/fnl/sfctmp_01.fnl.gif">[NH Temperature]</a></p>
 <p><strong>Soundings</strong><br />
 <a href="https://www.spc.noaa.gov/exper/soundings/">[US <em>(Storm Prediction Center)</em>]</a> <a href="http://weather.rap.ucar.edu/upper/">[US <em>(NCAR)</em>]</a></p>
-<p><strong>U.S. (TWC)</strong> <em><a href="https://weather.com/">([TWC]</a></em><br />
+<p><strong>U.S. (TWC)</strong> <em><a href="https://weather.com/">([TWC])</a></em><br />
 <a href="https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg">[U.S. Surface]</a> <a href="https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg">[radar]</a> <a href="https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg">[temperature (F)]</a> <a href="https://dsx.weather.com/util/image/map/actdew_1280x720.jpg">[dew pt. temp. (F)]</a> <a href="https://dsx.weather.com/util/image/map/ussat_1280x720.jpg">[IR satellite]</a></p>
 </div>
 <div id="radar-and-lightning" class="section level2">
@@ -422,7 +386,7 @@ $(document).ready(function () {
 </div>
 <div id="traffic-cams" class="section level2">
 <h2>Traffic cams</h2>
-<p><strong>ODOT TripCheck Road Conditions</strong> <em><a href="https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&amp;mainNav=RoadConditions">(ODOT</a></em> <a href="https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&amp;mainNav=RoadConditions">[Camera page]</a><br />
+<p><strong>ODOT TripCheck Road Conditions</strong> <em><a href="https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&amp;mainNav=RoadConditions">(ODOT)</a></em> <a href="https://www.tripcheck.com/Pages/Road-Conditions?curRegion=0&amp;mainNav=RoadConditions">[Camera page]</a><br />
 <a href="https://tripcheck.com/RoadCams/cams/I-5%20SB%20at%20I-105_pid1612.jpg?rand=1553714107603">[Eugene I-5]</a> <a href="https://tripcheck.com/RoadCams/cams/CapeCove_pid618.jpg?rand=1553714136808">[US101]</a> <a href="https://tripcheck.com/RoadCams/cams/Santiam%20Pass_pid2728.JPG?rand=1553714236397">[Santiam Pass]</a> <a href="https://tripcheck.com/RoadCams/cams/Willamette%20Pass_pid3351.JPG?rand=1553714209804">[Willamette Pass]</a></p>
 </div>
 <div id="water" class="section level2">
@@ -468,7 +432,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
