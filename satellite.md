@@ -48,7 +48,7 @@ animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/
 ## Satellite discussion and information pages ##
  
 
-**CMISS Satellite blog** *[(U. Wisc. SSEC)](http://cimss.ssec.wisc.edu/goes/blog/)*
+**CIMSS Satellite blog** *[(U. Wisc. SSEC)](http://cimss.ssec.wisc.edu/goes/blog/)*
 
 **National Environmental Satellite, Data,  and Information Service**  [[*(NOAA NESDIS)*]](https://www.nesdis.noaa.gov)
 
