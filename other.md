@@ -12,10 +12,10 @@
 [[Latest earthquake maps]](https://earthquake.usgs.gov/earthquakes/map/)
 [[Lists, maps, and statistics]](https://earthquake.usgs.gov/earthquakes/browse/)
 
-**Tsunamis** *[(U.S. Tsunami Warning System)](tsunami.gov)*  
-[[Warnings, Advisories, etc]](tsunami.gov)
+**Tsunamis** *[(NOAA Tsunami Program)](https://www.tsunami.noaa.gov)*  
+[[Tsunami Warning System (Warnings, Advisories, etc)]](https://tsunami.gov/)  
 [[NOAA Center for Tsunami Research]](https://nctr.pmel.noaa.gov)
-[[Data Buoy Center]](https://www.ndbc.noaa.gov/dart.shtml)
+[[Data Buoy Center]](https://www.ndbc.noaa.gov/)
 
 **Fires**  *[(National Interagency Coordination Center)](https://www.nifc.gov/nicc/index.htm)*   
 
