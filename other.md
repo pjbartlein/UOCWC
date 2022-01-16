@@ -64,8 +64,8 @@
 
 **Pollen, spores, and mold (Eugene)**   
 
-- [[Oregon Allergy Associates]](https://[www.oregonallergyassociates.com/pollen-counts.html](https://pollen.aaaai.org/#/station/39a1b2e2-eab8-4fb7-b957-23006216f042))  [(AAAAI)](https://www.aaaai.org/) --  pollen counts
-- Pollen.com [[current]](https://www.pollen.com/forecast/current/pollen/97404) [[forecast]](https://www.pollen.com/forecast/extended/pollen/97404) [[history]](https://www.pollen.com/forecast/historic/pollen/97404) -- relative abundance
+- [[Oregon Allergy Associates]](https://www.oregonallergyassociates.com/pollen-counts/) [[NAB version]](https://pollen.aaaai.org/#/station/39a1b2e2-eab8-4fb7-b957-23006216f042)  [*(AAAAI)*](https://www.aaaai.org/) --  pollen counts
+- Pollen.com [[current]](https://www.oregonallergyassociates.com/pollen-counts/) [[forecast]](https://www.pollen.com/forecast/extended/pollen/97404) [[history]](https://www.pollen.com/forecast/historic/pollen/97404) -- relative abundance
 
 
 
