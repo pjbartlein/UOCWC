@@ -26,11 +26,11 @@
 [[substrate heat flux/change in storage]](https://pages.uoregon.edu/bartlein/maps/globe/sghf_globe_1991-2020_ltm/sghf_globe_1991-2020_ltm.html)
 [[all]](https://pages.uoregon.edu/bartlein/maps/globe/shf_globe_1991-2020_ltm/shf_globe_1991-2020_ltm.html)
 
-Radiative components follow the Sellers (1968) sign convention:  
+Energy-balance components follow the Sellers (1968) sign convention:  
 
-* radiative fluxes (e.g. net radiation), energy flow toward the surface is positive (orange); energy flow away is negative (blue);  
-* non-radiative fluxes (e.g. latent heat flux), energy flow from the surface toward the atmosphere is positive (orange); energy flow from the atmosphere toward the surface is negative (blue);  
-* substrate heat flux/change in storage, energy flow from the subsurface to the atmosphere (i.e. out of storage) is positive (orange); energy flow from the surface toward the subsurface (i.e. into storage) is negative (blue).)
+* radiative fluxes (e.g. net radiation): energy flow toward the surface is positive (orange); energy flow away is negative (blue);  
+* non-radiative fluxes (e.g. latent heat flux): energy flow from the surface toward the atmosphere is positive (orange); energy flow from the atmosphere toward the surface is negative (blue);  
+* substrate heat flux/change in storage: energy flow from the subsurface to the atmosphere (i.e. out of storage) is positive (orange); energy flow from the surface toward the subsurface (i.e. into storage) is negative (blue).)
   
 **Temperature**  
 
@@ -60,6 +60,15 @@ Radiative components follow the Sellers (1968) sign convention:
 [[U-component 300 hPa wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/u300_wind_polar_1991-2020_ltm/u300_wind_polar_1991-2020_ltm.html)
 [[V-component 300 hPa wind (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/v300_wind_polar_1991-2020_ltm/v300_wind_polar_1991-2020_ltm.html)
 [[300 hPa wind speed (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/vmag300_wind_polar_1991-2020_ltm/vmag300_wind_polar_1991-2020_ltm.html)  
+
+*Meridional cross sections*   
+[[Zonal wind & meridional mass streamfunction]](https://pages.uoregon.edu/bartlein/maps/xsect/zonal_xsect_1991-2020_ltm/zonal_xsect_1991-2020_ltm.html)
+[[Zonal wind and meridional mass streamfunction -- annual average]](https://pages.uoregon.edu/bartlein/maps/xsect/zonal_xsect_1991-2020_ltm/png/zonal_xsect_1991-2020_ltm_ann.png)   
+[[Zonal wind & meridional mass streamfunction & vectors]](https://pages.uoregon.edu/bartlein/maps/xsect/zonal_vec_xsect_1991-2020_ltm/zonal_vec_xsect_1991-2020_ltm.html)
+[[Zonal wind and meridional mass streamfunction & vectors -- annual average]](https://pages.uoregon.edu/bartlein/maps/xsect/zonal_vec_xsect_1991-2020_ltm/png/zonal_vec_xsect_1991-2020_ltm_ann.png)   
+[[Zonal & meridional wind]](https://pages.uoregon.edu/bartlein/maps/xsect/uv_xsect_1991-2020_ltm/uv_xsect_1991-2020_ltm.html)
+[[Zonal & meridional wind -- annual average]](https://pages.uoregon.edu/bartlein/maps/xsect/uv_xsect_1991-2020_ltm/png/uv_xsect_1991-2020_ltm_ann.png)   
+
  	
 Vertical velocity (omega) and the U and V components of the wind use the following sign convention:
 
@@ -67,10 +76,20 @@ Vertical velocity (omega) and the U and V components of the wind use the followi
 * U component, positive toward the east (blue), negative toward the west (red);
 * V component, positive toward the north (blue), negative toward the south (red)
 	 
+**Atmospheric moisture**
+
+*Moisture flux and water vapor*   
+[[Moisture-flux divergence]](https://pages.uoregon.edu/bartlein/maps/globe/uqvq_divmf_globe_1991-2020_ltm/uqvq_divmf_globe_1991-2020_ltm.html)
+[[Vertically integrated moisture flux]](https://pages.uoregon.edu/bartlein/maps/globe/uqvq_vmag_globe_1991-2020_ltm/uqvq_vmag_globe_1991-2020_ltm.html)
+[[vertically integrated water vapor]](https://pages.uoregon.edu/bartlein/maps/globe/tcwv_globe_1991-2020_ltm/tcwv_globe_1991-2020_ltm.html)
+[[all]](https://pages.uoregon.edu/bartlein/maps/globe/mflux_globe_1991-2020_ltm/mflux_globe_1991-2020_ltm.html)  
+[[air temperature and specific humidity meridional cross section]](https://pages.uoregon.edu/bartlein/maps/xsect/t_q_xsect_1991-2020_ltm/t_q_xsect_1991-2020_ltm.html)
+[[below 100 hPa]](https://pages.uoregon.edu/bartlein/maps/xsect/t_q_xsect2_1991-2020_ltm/t_q_xsect2_1991-2020_ltm.html)
+
 **Global water balance/precipitation**   
  
 *Precipitation controls*   
-[[column-integrated water vapor]](https://pages.uoregon.edu/bartlein/maps/globe/tcwv_globe_1991-2020_ltm/tcwv_globe_1991-2020_ltm.html) 
+[[vertically integrated water vapor]](https://pages.uoregon.edu/bartlein/maps/globe/tcwv_globe_1991-2020_ltm/tcwv_globe_1991-2020_ltm.html) 
 [[500 hPa vertical velocity]](https://pages.uoregon.edu/bartlein/maps/globe/w500_globe_1991-2020_ltm/w500_globe_1991-2020_ltm.html)
 [[total cloud cover]](https://pages.uoregon.edu/bartlein/maps/globe/tcc_globe_1991-2020_ltm/tcc_globe_1991-2020_ltm.html)
 [[precipitation rate]](https://pages.uoregon.edu/bartlein/maps/globe/tp_globe_1991-2020_ltm/tp_globe_1991-2020_ltm.html)
