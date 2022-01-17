@@ -1,14 +1,19 @@
+"use strict";
 /** @constructor */
 function PEvs (ele, down, up, move, drag, click, stopped) {
   var touches, first, isTouching, isDown, downTime, upTime, durTime;
   var element, offsetLeft, offsetTop, didMove, sentStop, timer;
   var callUp, callDown, callDrag, callMove, callClick, callStopped;
+  var callWheel;
+  var debugWindow;
   var x = 0;
   var y = 0;
   var oldX, oldY;
-  var npcnt=0;
-  var isMulti = false;
+  var ptrID, isMulti = false, isPinch = false;;
+  var dist=0, oldDist=0, dx=0,dy=0, avgX, avgY;
+  var hys = 3;
 
+  var myele = ele;
 
   var getPosition = function(event) {
     element = event.target; 
@@ -19,9 +24,9 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
       offsetTop += (element.offsetTop - element.scrollTop);
       element = element.offsetParent;
     }
-
-    x = event.pageX - offsetLeft - document.body.scrollLeft;
-    y = event.pageY - offsetTop - document.body.scrollTop;
+    
+    x = (isMulti ? avgX : event.pageX) - offsetLeft - document.body.scrollLeft;
+    y = (isMulti ? avgY : event.pageY) - offsetTop - document.body.scrollTop;  
 
   };
 
@@ -30,6 +35,19 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
   }
   this.getY = function() { 
     return y; 
+  }
+
+  this.setHysteresis = function(v) {
+    hys = v;
+  }
+
+  var buck = function(e) {
+    e.preventDefault();
+    if (e.stopImmediatePropagation) {
+      e.stopImmediatePropagation();
+    } else {
+      e.stopPropagation();
+    }
   }
 
   var doDown = function(e) {
@@ -42,6 +60,7 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
   }
 
   var doUp = function(e) {
+    if (!isDown) return;
     getPosition(e);
     isDown = false;
     if (callUp != null) callUp(e);
@@ -54,7 +73,7 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
 
   var doMove = function(e) {
     getPosition(e);
-    if (Math.abs(x - oldX) < 3 && Math.abs(y - oldY) < 3) {
+    if (Math.abs(x - oldX) < hys && Math.abs(y - oldY) < hys) {
       return;
     }
 
@@ -71,39 +90,29 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
 
   this.touchDown = function(e) {
     isTouching = true;
-    npcnt = npcnt + e.changedTouches.length;
-    if (npcnt > 1) {
+    if (e.targetTouches.length > 1) {
       isMulti = true;
-      e.returnValue = true;
-      return true;
+      if (callWheel) {
+        oldDist = -1;
+        buck(e);
+      }
+      return false;
     }
-    /*
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
-    }
-    */
+
     touches = e.changedTouches; 
     first = touches[0];
     doDown(first);
   };
 
-  this.touchUp= function(e) {
-    isTouching = true;
-    npcnt = npcnt - e.changedTouches.length;
-    if (npcnt < 0) npcnt = 0;
-    if (npcnt == 0) isMulti = false;
-    if (isMulti) {
-      e.returnValue = true;
-      return true;
+  this.touchUp = function(e) {
+    if (e.targetTouches.length == 0) {
+      isTouching = false;
+      isMulti = false;
     }
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
+    buck(e);
+    if (isMulti || isPinch) {
+      if (!isMulti) isPinch = false;
+      return false;
     }
     touches = e.changedTouches; 
     first = touches[0];
@@ -112,15 +121,24 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
 
   this.touchMove = function(e) {
     isTouching = true;
+    buck(e);
+
     if (isMulti) {
-      e.returnValue = true;
-      return true;
-    }
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
+      if (callWheel) {
+        touches = e.targetTouches;
+        avgX = (touches[0].pageX + touches[1].pageX)/2;
+        avgY = (touches[0].pageY + touches[1].pageY)/2;
+        isPinch = true;
+        dx = touches[0].pageX - touches[1].pageX;
+        dy = touches[0].pageY - touches[1].pageY;
+        dist = dx*dx + dy*dy;
+        getPosition(e);
+        if (callWheel && (oldDist > 0) && (Math.abs(dist-oldDist) > 30)) {
+          callWheel( ((dist - oldDist)>0?1:-1));
+        }
+        oldDist = dist;
+      }
+      return false;
     }
 
     touches = e.changedTouches;
@@ -128,14 +146,74 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
     doMove(first);
   };
 
+  // begin pointerEvents
+  this.pointUp = function(e) {
+    buck(e);
+    for (var i=0; i<ptrID.length; i++) {
+      if (ptrID[i].pointerId == e.pointerId) {
+        ptrID.splice(i,1);
+        break;
+      }
+    }
+    //isMulti = false;
+    if (ptrID.length == 0) {
+      isMulti = false;
+      isTouching = false;
+    }
+    if (isMulti || isPinch) {
+      if (!isMulti) isPinch = false;
+      return false;
+    }
+    doUp(e);
+    return false;
+  }
+
+  this.pointDown = function(e) {
+    buck(e);
+    ptrID.push(e);
+    oldDist = -1;
+    isTouching = true;
+    if (ptrID.length > 1) {
+      isMulti = true;
+    } else {
+      doDown(e);
+    }
+    return false;
+  }
+
+  this.pointMove = function(e) {
+    buck(e);
+    // update target
+    for (var i=0; i<ptrID.length; i++) {
+      if (ptrID[i].pointerId == e.pointerId) ptrID[i] = e;
+    }
+    if (!isMulti && isPinch) return;
+    if (isMulti) {
+      avgX = (ptrID[0].pageX + ptrID[1].pageX)/2;
+      avgY = (ptrID[0].pageY + ptrID[1].pageY)/2;
+      getPosition(e);
+      if (callWheel) {
+        isPinch = true;
+        dx = ptrID[0].pageX - ptrID[1].pageX;
+        dy = ptrID[0].pageY - ptrID[1].pageY;
+        dist = dx*dx + dy*dy;
+        if (callWheel && (oldDist > 0) && (Math.abs(dist-oldDist) > 30)) {
+          callWheel( ((dist - oldDist)>0?1:-1));
+        }
+        oldDist = dist;
+      }
+      return false;
+    }
+
+    doMove(e);
+    return false;
+  }
+  // end pointerEvents
+
+
   this.mouseDown = function(e) {
     if (isTouching) return;
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
-    }
+    buck(e);
     doDown(e);
   };
 
@@ -145,44 +223,36 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
 
   this.mouseUp = function(e) {
     if (isTouching) return;
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
-    }
+    buck(e);
     doUp(e);
   };
 
+  this.useWheel = function(cw) {
+    myele.addEventListener("wheel", this.mouseWheel, true);
+    callWheel = cw;
+  }
+
+  this.mouseWheel = function(e) {
+    getPosition(e);
+    var delta = Math.max(-1, Math.min(1, (-e.deltaY || -e.detail)));
+    buck(e);
+    if (callWheel) callWheel(delta);
+  };
+
   this.mouseClick = function(e) {
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
-    }
+    buck(e);
     isDown = false;
   };
 
   this.mouseMove = function(e) {
     if (isTouching) return;
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
-    }
+    buck(e);
     doMove(e);
   };
 
   this.mouseDragged = function(e) {
     if (isTouching) return;
-    e.preventDefault();
-    if (e.stopImmediatePropagation) {
-      e.stopImmediatePropagation();
-    } else {
-      e.stopPropagation();
-    }
+    buck(e);
     getPosition(e);
     if (callDrag != null) callDrag(e);
     if (callStopped != null) doDidMove();
@@ -209,23 +279,35 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
   isDown = false;
   didMove = false;
   sentStop = true;
+  ptrID = [];
   ele.addEventListener("mousedown",this.mouseDown,false);
   ele.addEventListener("mouseup", this.mouseUp, false);
   ele.addEventListener("mousemove",this.mouseMove, false);
   ele.addEventListener("click",this.mouseClick, false);
-  ele.addEventListener("touchstart",this.touchDown,false);
-  ele.addEventListener("touchend",this.touchUp,false);
-  ele.addEventListener("touchmove",this.touchMove,false);
-  ele.addEventListener("pointerdown",this.mouseDown,false);
-  ele.addEventListener("pointerup", this.mouseUp, false);
-  ele.addEventListener("pointermove",this.mouseMove, false);
+
+  // Ongoing issue with Firefox with Pointer Events
+  //if (window.PointerEvent) {
+  //  ele.addEventListener("pointerdown",this.pointDown, false);
+  //  ele.addEventListener("pointerup", this.pointUp, false );
+  //  ele.addEventListener("pointermove",this.pointMove, false);
+  //  ele.addEventListener("pointerleave", this.pointUp, false );
+  //  ele.addEventListener("pointercancel", this.pointUp, false );
+  //} else {
+ 
+    ele.addEventListener("touchstart",this.touchDown,false);
+    ele.addEventListener("touchend",this.touchUp,false);
+    ele.addEventListener("touchmove",this.touchMove,false);
+    ele.addEventListener("touchleave", this.touchUp, false);
+    ele.addEventListener("touchcancel", this.touchUp, false);
+
+  // }
+  
   ele.addEventListener("contextmenu", function(e) {
     e.preventDefault();
   }, false);
 
-  ele.addEventListener("touchleave", this.touchUp, false);
-  ele.addEventListener("touchenter", this.touchDown, false);
-  ele.addEventListener("touchcancel", this.touchUp, false);
+
+  ele.style["touch-action"] = "none";
 
   ele.addEventListener("mouseout", function(e) {
     if (!isDown) {
@@ -236,5 +318,16 @@ function PEvs (ele, down, up, move, drag, click, stopped) {
     isDown = false;
   });
 
-}
+  /****  debug window when needed...
+  debugWindow = window.open("","pointerEvents Debug Info","scrollbars=yes,width=400,height=200");
+  info("pointerEvents ver 6/2020.....");
+  function info(s) {
+    try {
+       debugWindow.document.write(s+"<br>");
+    } catch (err) {
+    }
+  }
+  *****/
 
+
+}

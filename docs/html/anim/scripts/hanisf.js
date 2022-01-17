@@ -1,6 +1,7 @@
 "use strict";
 /** @constructor */
-var HAniS = new function() {
+var HAniSF = function() {
+  var HAniS = this;
   var userWindow, canH, canW, imgHeight, imgWidth, imgHChk, imgWChk,
   canXScale, canYScale,
   controls, bottomControls, firstlast, first, last, loadMsg, loadMsgAuto,
