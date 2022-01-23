@@ -1,0 +1,10 @@
+file_of_filenames = nam.na.pcp_files.txt
+bottom_controls = refresh
+bottom_controls_style = display:flex;flex-flow:row;
+bottom_controls_tooltip = Refresh
+buttons_style = flex:auto; margin:2px; font-family:arial; font-size:12px; border:1px solid #555555; display:inline-block; background-color: #e7e7e7;
+enable_smoothing = t
+pause = 1000
+start_looping = false
+window_size = 425,350
+

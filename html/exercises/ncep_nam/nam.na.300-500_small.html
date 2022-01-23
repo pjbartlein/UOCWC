@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <title>300mb Heights & Winds and 500mb Heights & Absolute Vorticity</title>
+	<script type="text/javascript" src="/bartlein/hanis/hanisf_min.js"> </script></head>
+</head>
+<body>
+
+<div id="handiv" style="display:inline-block;width:425px;"> </div>
+<div id="handiv22" style="display:inline-block;width:425px;"> </div>
+
+<div style="text-align: left; font-family: Helvetica,Arial,sans-serif;">
+<img style="width: 425px; height: 31px;" alt="Time conversion"
+  title="Time conversion" src="https://pjbartlein.github.io/UOCWC/html/anim/doc/TimeTable.png"></div>
+
+<script>
+var b = new HAniSF();
+var a = new HAniSF();
+
+function aready() {
+   a.frameChanged(changb);
+   a.zoomChanged(zchangb);
+}
+function changb(frm) {
+  b.showFrame(frm);
+}
+function zchangb(z) {
+  b.showZoom(z);
+}
+function init() {
+
+  a.setup('nam.na.300_small_config.txt', 'handiv', aready )
+
+  b.setup('nam.na.500_small_config.txt', 'handiv22' );
+  
+} 
+
+window.onload = init();
+</script>
+
+</body>
+
+</html>
+<!-- Animations constructed using HAniS by Tom Whittaker, http://www.ssec.wisc.edu/hanis/       -->
+<!-- Images from NCEP Operational NAM Graphics http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/  -->
+<!-- This .html file and associated config file, Pat Bartlein, bartlein@uoregon.edu             -->

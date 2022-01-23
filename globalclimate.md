@@ -84,9 +84,9 @@ Vertical velocity (omega) and the U and V components of the wind use the followi
 [[vertically integrated water vapor]](https://pages.uoregon.edu/bartlein/maps/globe/tcwv_globe_1991-2020_ltm/tcwv_globe_1991-2020_ltm.html)
 [[all]](https://pages.uoregon.edu/bartlein/maps/globe/mflux_globe_1991-2020_ltm/mflux_globe_1991-2020_ltm.html)  
 [[air temperature and specific humidity meridional cross section]](https://pages.uoregon.edu/bartlein/maps/xsect/t_q_xsect_1991-2020_ltm/t_q_xsect_1991-2020_ltm.html)
-[[below 100 hPa]](https://pages.uoregon.edu/bartlein/maps/xsect/t_q_xsect2_1991-2020_ltm/t_q_xsect2_1991-2020_ltm.html)
+[[below 100 hPa]](https://pages.uoregon.edu/bartlein/maps/xsect/t_q_xsect2_1991-2020_ltm/t_q_xsect2_1991-2020_ltm.html)	
 
-**Global water balance/precipitation**   
+**Global water balance/precipitation/snow**   
  
 *Precipitation controls*   
 [[vertically integrated water vapor]](https://pages.uoregon.edu/bartlein/maps/globe/tcwv_globe_1991-2020_ltm/tcwv_globe_1991-2020_ltm.html) 
@@ -107,6 +107,26 @@ Vertical velocity (omega) and the U and V components of the wind use the followi
 [[runoff rate]](https://pages.uoregon.edu/bartlein/maps/globe/ro_globe_1991-2020_ltm/ro_globe_1991-2020_ltm.html)
 [[&Delta;S]](https://pages.uoregon.edu/bartlein/maps/globe/ds_globe_1991-2020_ltm/ds_globe_1991-2020_ltm.html)
 [[all]](https://pages.uoregon.edu/bartlein/maps/globe/swb_globe_1991-2020_ltm/swb_globe_1991-2020_ltm.html)
+
+*Snow*  
+[[snowfall rate]](https://pages.uoregon.edu/bartlein/maps/polar/sf_polar_1991-2020_ltm/sf_polar_1991-2020_ltm.html)
+[[snowmelt rate]](https://pages.uoregon.edu/bartlein/maps/polar/smlt_polar_1991-2020_ltm/)
+[[snow depth]](https://pages.uoregon.edu/bartlein/maps/polar/sd_polar_1991-2020_ltm/sd_polar_1991-2020_ltm.html)
+[[all]](https://pages.uoregon.edu/bartlein/maps/polar/snow_polar_1991-2020_ltm/snow_polar_1991-2020_ltm.html)  
+[[precipitation rate]](https://pages.uoregon.edu/bartlein/maps/polar/tp_polar_1991-2020_ltm/tp_globe_1991-2020_ltm.html)
+[[rainfall rate]](https://pages.uoregon.edu/bartlein/maps/polar/rr_polar_1991-2020_ltm/rr_polar_1991-2020_ltm.html)
+[[snowfall rate]](https://pages.uoregon.edu/bartlein/maps/polar/sf_polar_1991-2020_ltm/sf_polar_1991-2020_ltm.html)
+[[snow depth]](https://pages.uoregon.edu/bartlein/maps/polar/sd_polar_1991-2020_ltm/sd_polar_1991-2020_ltm.html)
+[[all]](https://pages.uoregon.edu/bartlein/maps/polar/rain_snow_polar_1991-2020_ltm/rain_snow_polar_1991-2020_ltm.html)  
+[[snowfall rate]](https://pages.uoregon.edu/bartlein/maps/polar/sf_polar_1991-2020_ltm/sf_polar_1991-2020_ltm.html) 
+[[snowmelt rate]](https://pages.uoregon.edu/bartlein/maps/polar/smlt_polar_1991-2020_ltm/)
+[[snow depth]](https://pages.uoregon.edu/bartlein/maps/polar/sd_polar_1991-2020_ltm/sd_polar_1991-2020_ltm.html)
+[[all]](https://pages.uoregon.edu/bartlein/maps/polar/snow_polar_1991-2020_ltm/snow_polar_1991-2020_ltm.html) (*poleward of 30&deg; N and S*)  
+[[precipitation rate]](https://pages.uoregon.edu/bartlein/maps/polar/tp_polar_1991-2020_ltm/tp_globe_1991-2020_ltm.html)
+[[rainfall rate]](https://pages.uoregon.edu/bartlein/maps/polar/rr_polar_1991-2020_ltm/rr_polar_1991-2020_ltm.html)
+[[snowfall rate]](https://pages.uoregon.edu/bartlein/maps/polar/sf_polar_1991-2020_ltm/sf_polar_1991-2020_ltm.html)
+[[snow depth]](https://pages.uoregon.edu/bartlein/maps/polar/sd_polar_1991-2020_ltm/sd_polar_1991-2020_ltm.html)
+[[all]](https://pages.uoregon.edu/bartlein/maps/polar/rain_snow_polar_1991-2020_ltm/rain_snow_polar_1991-2020_ltm.html)
 
 **Acknowledgements**
 
