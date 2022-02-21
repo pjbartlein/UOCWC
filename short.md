@@ -46,7 +46,7 @@ WRF-GFS 36km
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)  
 [[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
 [[column-integrated WV]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3)
-[[72 hr accum ppt]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3)   
+[[84 hr accum ppt]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3)   
 
 WRF-GFS 12km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif)
@@ -63,7 +63,7 @@ WRF-GFS 12km
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_slp+//72/3)  
 [[water-vapor flux]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ivt+//84/3)
 [[column-integrated WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpwv+//84/3)
-[[72 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3)
+[[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3)
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3)
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3)
@@ -80,16 +80,15 @@ WRF-GFS 4km
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow1+///1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow24+///3)
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_ptype+///3)  
-[[72 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3)
-[[N. Will Valley x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx9+///3)
-[[S. Will Valley x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_ti_cx10+///3)
+[[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3)
+[[Eugene-Jackson x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_cxeugene+///3)
 [[Eugene sounding]](https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&yyyymmddhh=timeindep&reqhr=0&loc=keug&locname=Eugene%2COR&latlon=44.13N,123.2W)
 
 WRF-GFS 1.33km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
 [[land cover]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif)  
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
-[[72 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3)
+[[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3)
 [[OLR]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_olr+//84/3)
 [[850mb T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3)
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3)

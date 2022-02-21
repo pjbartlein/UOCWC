@@ -80,6 +80,24 @@
 [[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
 [[AWC radar files list]](https://aviationweather.gov/data/obs/radar/)
 
+**NWS Local Radar**  
+[[Portland]](https://radar.weather.gov/ridge/lite/KRTX_0.gif)
+[[Medford]](https://radar.weather.gov/ridge/lite/KMAX_0.gif)
+[[Pendleton]](https://radar.weather.gov/ridge/lite/KPDT_0.gif)
+[[Boise]](https://radar.weather.gov/ridge/lite/KCBX_0.gif)
+[[PNW]](https://radar.weather.gov/ridge/lite/PACNORTHWEST.gif)
+[[CONUS]](https://radar.weather.gov/ridge/lite/CONUS.gif)
+(*recent*)  
+[[Portland]](https://radar.weather.gov/ridge/lite/KRTX_loop.gif)
+[[Medford]](https://radar.weather.gov/ridge/lite/KMAX_loop.gif)
+[[Pendleton]](https://radar.weather.gov/ridge/lite/KPDT_loop.gif)
+[[Boise]](https://radar.weather.gov/ridge/lite/KCBX_loop.gif)
+[[PNW]](https://radar.weather.gov/ridge/lite/PACNORTHWEST_loop.gif)
+[[CONUS]](https://radar.weather.gov/ridge/lite/CONUS_loop.gif)
+(*loops*)  
+[[File list]](https://radar.weather.gov/ridge/lite/)
+
+
 **Other** *[(Weather Underground Maps)](https://www.wunderground.com/maps)*  
 [[WSI weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wxtype/none/usa/animate.png)  
 [[Weather Underground weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/conus/current.png)
