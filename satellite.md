@@ -31,6 +31,8 @@ Most-recent pass:  [[Pacific]](http://www.esrl.noaa.gov/psd/psd2/coastal/satres/
 animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/wx_cl/animate/psd_ssmi_anim.gif)
 [[Globe]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/ssmis_iwv/animate/ssmis_anim_gl.gif)
 
+[[MMIC-TPW ver2]](http://tropic.ssec.wisc.edu/real-time/mtpw2/product.php?color_type=tpw_nrl_colors&prod=global2&timespan=24hrs&anim=html5) [*(CMISS, U. Wisc.)*](https://cimss.ssec.wisc.edu)
+
 **Snow and ice** *[(National Ice Center](https://usicecenter.gov/Products/ImsHome)*  
 [[N. Hemis]](https://usicecenter.gov/pub/ims_nhemi.gif)
 [[US & S. Canada]](https://usicecenter.gov/pub/ims_usa.gif)
