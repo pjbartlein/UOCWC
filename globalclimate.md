@@ -164,7 +164,7 @@ Regional data are from the ERA5-Land Reanalysis Data set:  [[ERA5-Land monthly a
 
 The results contain modified Copernicus Climate Change Service information 2021. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.
 
-Muñoz Sabater, J., (2021): ERA5-Land monthly averaged data from 1950 to 1980. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on 11-Mar-2022), [[https://doi.org/10.24381/cds.68d2bb3]](https://doi.org/10.24381/cds.68d2bb3)
+Muñoz Sabater, J., (2021): ERA5-Land monthly averaged data from 1950 to 1980. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on 11-Mar-2022), [[https://doi.org/10.24381/cds.68d2bb30]](https://doi.org/10.24381/cds.68d2bb30). 
 
 J. Muñoz-Sabater, Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., Martens, B., Miralles, D. G., Piles, M., Rodríguez-Fernández, N. J., Zsoter, E., Buontempo, C., and Thépaut, J.-N.: ERA5-Land: A state-of-the-art global reanalysis dataset for land applications, *Earth Syst. Sci. Data*, 13:4349–4383, 2021. [[https://doi.org/10.5194/essd-13-4349-2021]](https://doi.org/10.5194/essd-13-4349-2021).
 
