@@ -142,10 +142,10 @@ These maps show ERA5-Land data for selected variables.  The ERA5-Land data are o
 [[precipitation rate, ERA5]](https://pages.uoregon.edu/bartlein/maps/namer/tp_namer_1991-2020_ltm/tp_namer_1991-2020_ltm.html)
 
 *CONUS*  
-[[2m air temperature, ERA5-Land]](https://pages.uoregon.edu/bartlein/maps/namer_e5land/t2m_namer_e5land_1991-2020_ltm/t2m_namer_e5land_1991-2020_ltm.html) 
-[[2m air temperature, ERA5]](https://pages.uoregon.edu/bartlein/maps/namer/t2m_namer_1991-2020_ltm/t2m_namer_1991-2020_ltm.html)   
-[[precipitation rate, ERA5-Land]](https://pages.uoregon.edu/bartlein/maps/namer_e5land/tp_namer_e5land_1991-2020_ltm/tp_namer_e5land_1991-2020_ltm.html) 
-[[precipitation rate, ERA5]](https://pages.uoregon.edu/bartlein/maps/namer/tp_namer_1991-2020_ltm/tp_namer_1991-2020_ltm.html)
+[[2m air temperature, ERA5-Land]](https://pages.uoregon.edu/bartlein/maps/conus_e5land/t2m_conus_e5land_1991-2020_ltm/t2m_conus_e5land_1991-2020_ltm.html) 
+[[2m air temperature, ERA5]](https://pages.uoregon.edu/bartlein/maps/conus/t2m_conus_1991-2020_ltm/t2m_conus_1991-2020_ltm.html)   
+[[precipitation rate, ERA5-Land]](https://pages.uoregon.edu/bartlein/maps/conus_e5land/tp_conus_e5land_1991-2020_ltm/tp_conus_e5land_1991-2020_ltm.html) 
+[[precipitation rate, ERA5]](https://pages.uoregon.edu/bartlein/maps/conus/tp_conus_1991-2020_ltm/tp_conus_1991-2020_ltm.html)
 
 
 **Acknowledgements**
