@@ -140,5 +140,14 @@ Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/
 [[SIGMET]](https://aviationweather.gov/sigmet)
 [[G-AIRMET]](https://aviationweather.gov/gairmet)
 
+## Space weather ##
+
+**NOAA Space Weather Prediction Center** [(*SWC*)](https://www.swpc.noaa.gov/)  
+[[summary]](https://www.swpc.noaa.gov/) 
+[[aurora forecast]](https://www.swpc.noaa.gov/products/aurora-30-minute-forecast)
+[[dashboards]](https://www.swpc.noaa.gov/dashboards)
+[[glossary]](https://www.swpc.noaa.gov/content/space-weather-glossary) 
+
+**SpaceWeather.com** [*(www.spaceweather.com/)*](https://www.spaceweather.com/)
 
 
