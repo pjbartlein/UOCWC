@@ -71,5 +71,14 @@ PNW
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1) 
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
 
+**Fire and Air Quality**  
+[[Portland fire WX discussion]](https://forecast.weather.gov/product.php?site=PQR&issuedby=PQR&product=FWF&format=CI&version=1&glossary=0)
+[[Portland fire weather graphics]](https://www.weather.gov/pqr/fire_briefing)
+[[US Wildfire Reports Map]](https://www.esri.com/en-us/disaster-response/disasters/wildfires)  
+[[RAP-Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 km) 
+[[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km)  
+[[LRAPA Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing) 
+[[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
+
 <p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Winter 2022)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
 
