@@ -80,5 +80,5 @@ PNW
 [[LRAPA Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing) 
 [[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
 
-<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Winter 2022)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Summer 2022)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
 
