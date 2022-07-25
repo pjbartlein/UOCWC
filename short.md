@@ -67,7 +67,7 @@ WRF-GFS 12km
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3)
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3)
-[[Hot-Dry-Windy]]([LOOP](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_hdw+//84/3))
+[[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_hdw+//84/3)
   
 WRF-GFS 4km 
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif)
@@ -84,7 +84,7 @@ WRF-GFS 4km
 [[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3)
 [[Eugene-Jackson x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_cxeugene+///3)
 [[Eugene sounding]](https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&yyyymmddhh=timeindep&reqhr=0&loc=keug&locname=Eugene%2COR&latlon=44.13N,123.2W)
-[[Hot-Dry-Windy]]([LOOP](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_hdw+///3))
+[[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_hdw+///3)
 
 WRF-GFS 1.33km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
@@ -105,7 +105,7 @@ keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)
 [[E.OR 1hr snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_rsnow1+//84/1)
-[[Hot-Dry-Windy]]([LOOP](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_hdw+//84/3)) 
+[[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_hdw+//84/3)
 
 WRF-GFS extended runs  
 [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
