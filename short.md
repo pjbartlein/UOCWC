@@ -45,7 +45,7 @@ WRF-GFS 36km
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_tsfc+//72/3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)  
 [[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
-[[column-integrated WV]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_pcpwv+//84/3)
+[[precipitable WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ti_pcpw+///3)
 [[84 hr accum ppt]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3)   
 
 WRF-GFS 12km
@@ -62,7 +62,7 @@ WRF-GFS 12km
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_tsfc+//72/3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_slp+//72/3)  
 [[water-vapor flux]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ivt+//84/3)
-[[column-integrated WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpwv+//84/3)
+[[precipitable WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ti_pcpw+///3)
 [[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3)
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3)
