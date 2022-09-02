@@ -3,5 +3,5 @@ This web site is intended to support instruction in climate-related geography co
 **Contact**  
 P.J. Bartlein, Dept. Geography, Univ. Oregon [[bartlein@uoregon.edu]](bartlein@uoregon.edu)
 
-This web site was contructed in [`RStudio`](https://rstudio.com/), using [`R Markdown`](https://rmarkdown.rstudio.com/).  Individual pages were written in Markdown, using [`MacDown`](https://macdown.uranusjr.com/).
+This web site was contructed in [`RStudio`](https://rstudio.com/), using [`R Markdown`](https://rmarkdown.rstudio.com/).  Individual pages were written in Markdown, using [`MultiMarkDownComposer`](https://multimarkdown.com) and [`MacDown`](https://macdown.uranusjr.com/).
 The GitHub repository for this web site is at [`https://github.com/pjbartlein/UOCWC/`](https://github.com/pjbartlein/UOCWC/)  
