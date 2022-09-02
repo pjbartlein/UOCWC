@@ -269,13 +269,13 @@ small
 **Rapid Refresh (RAP) Products** 
 *[(RAP web page)](https://rapidrefresh.noaa.gov)*   
 [[RAP plots page]](https://rapidrefresh.noaa.gov/RAP/) (13.5 km resolution, North America)  
-[[RAP NA Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/RAPsmoke/)  
+[[RAP NA Smoke Model Fields]](https://rapidrefresh.noaa.gov/RAPsmoke/)  
 
 **High-Resolution Rapid Refresh (HRRR) Products** *[(HRRR web page)](https://rapidrefresh.noaa.gov/hrrr/)*  
 [[HRRR CONUS plots page]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) (3 km resolution, CONUS)  
-[[HRRR CONUS Smoke Model Fields - Experimental]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/)   
+[[HRRR CONUS Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/)   
 
-[[HRRR-Smoke Experimental Forecast Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf)
+[[RAP and HRRR Smoke Forecast Users Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR-Smoke_VIIRS_Activefire_user_guide.pdf)
 [[VIIRS Active Fire Quick Guide]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf)
 
 **NOAA** [[Air-quality forecast guidance]](https://airquality.weather.gov)

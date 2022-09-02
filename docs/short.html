@@ -13,7 +13,7 @@
 
 <title>Short-term &amp; medium-range forecasts</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -130,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -793,7 +797,7 @@ href="https://rapidrefresh.noaa.gov">(RAP web page)</a></em><br />
 <a href="https://rapidrefresh.noaa.gov/RAP/">[RAP plots page]</a> (13.5
 km resolution, North America)<br />
 <a href="https://rapidrefresh.noaa.gov/RAPsmoke/">[RAP NA Smoke Model
-Fields - Experimental]</a></p>
+Fields]</a></p>
 <p><strong>High-Resolution Rapid Refresh (HRRR) Products</strong> <em><a
 href="https://rapidrefresh.noaa.gov/hrrr/">(HRRR web
 page)</a></em><br />
@@ -801,10 +805,10 @@ page)</a></em><br />
 href="https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet">[HRRR
 CONUS plots page]</a> (3 km resolution, CONUS)<br />
 <a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/">[HRRR CONUS
-Smoke Model Fields - Experimental]</a></p>
+Smoke Model Fields]</a></p>
 <p><a
-href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR_Smoke_IMET_Fire_QuickGuide_Aug14.pdf">[HRRR-Smoke
-Experimental Forecast Quick Guide]</a> <a
+href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/HRRR-Smoke_VIIRS_Activefire_user_guide.pdf">[RAP
+and HRRR Smoke Forecast Users Guide]</a> <a
 href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/VIIRSActiveFireQuickGuide-FinalForm-.pdf">[VIIRS
 Active Fire Quick Guide]</a></p>
 <p><strong>NOAA</strong> <a

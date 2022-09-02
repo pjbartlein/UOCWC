@@ -13,7 +13,7 @@
 
 <title>Other environmental information</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -45,6 +45,7 @@
 
 
 
+
 <link rel="stylesheet" href="page_01.css" type="text/css" />
 
 
@@ -69,6 +70,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -126,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -221,7 +229,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -231,7 +239,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Weather
      
     <span class="caret"></span>
@@ -246,7 +254,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Forecasts
      
     <span class="caret"></span>
@@ -261,7 +269,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Climate
      
     <span class="caret"></span>
@@ -285,7 +293,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Other
      
     <span class="caret"></span>
@@ -308,7 +316,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -335,54 +343,127 @@ $(document).ready(function () {
 
 <div id="other-observations-and-forecasts" class="section level2">
 <h2>Other observations and forecasts</h2>
-<p><strong>NW Oregon forecasts</strong> <em><a href="http://newweb.wrh.noaa.gov/pqr/">(NWS Portland)</a></em></p>
+<p><strong>NW Oregon forecasts</strong> <em><a
+href="http://newweb.wrh.noaa.gov/pqr/">(NWS Portland)</a></em></p>
 <ul>
-<li><a href="http://www.wrh.noaa.gov/warnings.php?wfo=pqr">[Watches and warnings]</a></li>
-<li><a href="https://water.weather.gov/ahps2/index.php?wfo=pqr">[Western OR River observations and forecasts]</a></li>
-<li><a href="https://www.nwrfc.noaa.gov/ws/">[Northwest River Forecast Center]</a></li>
-<li><a href="https://www.wrh.noaa.gov/pqr/marine.php">[Coastal and marine data]</a> <a href="https://www.wrh.noaa.gov/pqr/tides.php">[Tides]</a></li>
+<li><a href="http://www.wrh.noaa.gov/warnings.php?wfo=pqr">[Watches and
+warnings]</a></li>
+<li><a href="https://water.weather.gov/ahps2/index.php?wfo=pqr">[Western
+OR River observations and forecasts]</a></li>
+<li><a href="https://www.nwrfc.noaa.gov/ws/">[Northwest River Forecast
+Center]</a></li>
+<li><a href="https://www.wrh.noaa.gov/pqr/marine.php">[Coastal and
+marine data]</a> <a
+href="https://www.wrh.noaa.gov/pqr/tides.php">[Tides]</a></li>
 </ul>
-<p><strong>Earthquakes</strong> <em><a href="https://earthquake.usgs.gov/earthquakes/">(USGS Earthquake Hazards Program)</a></em><br />
-<a href="https://earthquake.usgs.gov/earthquakes/map/">[Latest earthquake maps]</a> <a href="https://earthquake.usgs.gov/earthquakes/browse/">[Lists, maps, and statistics]</a></p>
-<p><strong>Tsunamis</strong> <em><a href="https://www.tsunami.noaa.gov">(NOAA Tsunami Program)</a></em><br />
-<a href="https://tsunami.gov/">[Tsunami Warning System (Warnings, Advisories, etc)]</a><br />
-<a href="https://nctr.pmel.noaa.gov">[NOAA Center for Tsunami Research]</a> <a href="https://www.ndbc.noaa.gov/">[Data Buoy Center]</a></p>
-<p><strong>Fires</strong> <em><a href="https://www.nifc.gov/nicc/index.htm">(National Interagency Coordination Center)</a></em></p>
+<p><strong>Earthquakes</strong> <em><a
+href="https://earthquake.usgs.gov/earthquakes/">(USGS Earthquake Hazards
+Program)</a></em><br />
+<a href="https://earthquake.usgs.gov/earthquakes/map/">[Latest
+earthquake maps]</a> <a
+href="https://earthquake.usgs.gov/earthquakes/browse/">[Lists, maps, and
+statistics]</a></p>
+<p><strong>Tsunamis</strong> <em><a
+href="https://www.tsunami.noaa.gov">(NOAA Tsunami
+Program)</a></em><br />
+<a href="https://tsunami.gov/">[Tsunami Warning System (Warnings,
+Advisories, etc)]</a><br />
+<a href="https://nctr.pmel.noaa.gov">[NOAA Center for Tsunami
+Research]</a> <a href="https://www.ndbc.noaa.gov/">[Data Buoy
+Center]</a></p>
+<p><strong>Fires</strong> <em><a
+href="https://www.nifc.gov/nicc/index.htm">(National Interagency
+Coordination Center)</a></em></p>
 <ul>
-<li><a href="https://forecast.weather.gov/product.php?site=PQR&amp;issuedby=PQR&amp;product=FWF&amp;format=CI&amp;version=1&amp;glossary=0">[Portland fire WX discussion]</a> <a href="https://www.weather.gov/pqr/fire_briefing">[Portland fire weather graphics]</a><br />
+<li><a
+href="https://forecast.weather.gov/product.php?site=PQR&amp;issuedby=PQR&amp;product=FWF&amp;format=CI&amp;version=1&amp;glossary=0">[Portland
+fire WX discussion]</a> <a
+href="https://www.weather.gov/pqr/fire_briefing">[Portland fire weather
+graphics]</a><br />
 </li>
-<li><a href="https://maps.nwcg.gov/sa/#/%3F/%3F/38.8697/-101.2707/5">[NWCG Situational Awareness Map]</a> <em><a href="https://maps.nwcg.gov/">(NWCG)</a></em></li>
-<li><a href="http://gacc.nifc.gov/nwcc/">[Northwest Coordination Center]</a> <a href="http://gacc.nifc.gov/nwcc/">[Large-fire map]</a><br />
+<li><a
+href="https://maps.nwcg.gov/sa/#/%3F/%3F/38.8697/-101.2707/5">[NWCG
+Situational Awareness Map]</a> <em><a
+href="https://maps.nwcg.gov/">(NWCG)</a></em></li>
+<li><a href="http://gacc.nifc.gov/nwcc/">[Northwest Coordination
+Center]</a> <a href="http://gacc.nifc.gov/nwcc/">[Large-fire
+map]</a><br />
 </li>
-<li><a href="https://www.esri.com/en-us/disaster-response/disasters/wildfires">[US Wildfire Reports Map]</a> <em><a href="https://www.esri.com/en-us/disaster-response/overview">(ESRI Disaster Response)</a></em></li>
-<li><a href="https://www.spc.noaa.gov/products/fire_wx/overview.html">[Fire-weather outlooks <em>(SPC)</em>]</a></li>
-<li><a href="https://rapidrefresh.noaa.gov/RAPsmoke/">[RAP-Smoke Model Fields - Experimental]</a> (13.5 k m resolution)</li>
-<li><a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/">[HRRR CONUS Smoke Model Fields - Experimental]</a> (3 km resolution)</li>
+<li><a
+href="https://www.esri.com/en-us/disaster-response/disasters/wildfires">[US
+Wildfire Reports Map]</a> <em><a
+href="https://www.esri.com/en-us/disaster-response/overview">(ESRI
+Disaster Response)</a></em></li>
+<li><a
+href="https://www.spc.noaa.gov/products/fire_wx/overview.html">[Fire-weather
+outlooks <em>(SPC)</em>]</a></li>
+<li><a href="https://rapidrefresh.noaa.gov/RAPsmoke/">[RAP-Smoke Model
+Fields]</a> (13.5 k m resolution)</li>
+<li><a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/">[HRRR CONUS
+Smoke Model Fields]</a> (3 km resolution)</li>
 </ul>
-<p><strong>Volcanos</strong> <em><a href="https://volcanoes.usgs.gov/index.html">(USGS)</a></em></p>
+<p><strong>Volcanos</strong> <em><a
+href="https://volcanoes.usgs.gov/index.html">(USGS)</a></em></p>
 <ul>
-<li><a href="https://volcanoes.usgs.gov/observatories/cvo/">[Cascades Volcano Observatory]</a></li>
-<li><a href="https://www.ready.noaa.gov/ready2-bin/ashcurrent.pl">[Volcanic ash trajectory forecasts <em>(NOAA ARL)</em>]</a></li>
+<li><a href="https://volcanoes.usgs.gov/observatories/cvo/">[Cascades
+Volcano Observatory]</a></li>
+<li><a
+href="https://www.ready.noaa.gov/ready2-bin/ashcurrent.pl">[Volcanic ash
+trajectory forecasts <em>(NOAA ARL)</em>]</a></li>
 </ul>
-<p><strong>Current Levels of Greenhouse Gases</strong> <em><a href="https://www.esrl.noaa.gov/gmd/">(NOAA ESRL GMD)</a></em><br />
-<a href="https://www.esrl.noaa.gov/gmd/ccgg/trends/">[Trends in CO<sub>2</sub>]</a> <a href="https://www.esrl.noaa.gov/gmd/aggi/">[Annual Greenhouse Gas Index]</a></p>
-<p><strong>Ozone</strong> <em><a href="https://ozonewatch.gsfc.nasa.gov/index.html">(NASA Ozone Watch)</a></em></p>
+<p><strong>Current Levels of Greenhouse Gases</strong> <em><a
+href="https://www.esrl.noaa.gov/gmd/">(NOAA ESRL GMD)</a></em><br />
+<a href="https://www.esrl.noaa.gov/gmd/ccgg/trends/">[Trends in
+CO<sub>2</sub>]</a> <a
+href="https://www.esrl.noaa.gov/gmd/aggi/">[Annual Greenhouse Gas
+Index]</a></p>
+<p><strong>Ozone</strong> <em><a
+href="https://ozonewatch.gsfc.nasa.gov/index.html">(NASA Ozone
+Watch)</a></em></p>
 <p><strong>UV Radiation</strong><br />
-<a href="https://ofmpub.epa.gov/enviro/uv_search_v2?minx=-123.07791089999998&amp;miny=43.999754900000056&amp;maxx=-122.99391089999997&amp;maxy=44.08375490000006">[Current local forecast <em>(EPA)</em>]</a> <a href="https://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_current.shtml">[Current UV Index forecast <em>(CPC)</em>]</a></p>
+<a
+href="https://ofmpub.epa.gov/enviro/uv_search_v2?minx=-123.07791089999998&amp;miny=43.999754900000056&amp;maxx=-122.99391089999997&amp;maxy=44.08375490000006">[Current
+local forecast <em>(EPA)</em>]</a> <a
+href="https://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_current.shtml">[Current
+UV Index forecast <em>(CPC)</em>]</a></p>
 <p><strong>Current solar activity</strong><br />
-<a href="https://sohowww.nascom.nasa.gov">[Satellite data <em>(NASA SOHO)</em>]</a> <a href="https://www.swpc.noaa.gov">[Space Weather <em>(NOAA SWPC)</em>]</a></p>
+<a href="https://sohowww.nascom.nasa.gov">[Satellite data <em>(NASA
+SOHO)</em>]</a> <a href="https://www.swpc.noaa.gov">[Space Weather
+<em>(NOAA SWPC)</em>]</a></p>
 <p><strong>Eugene and PNW Solar Radiation Data</strong><br />
-<a href="http://solardat.uoregon.edu/index.html">[UO Solar Radiation Monitoring Laboratory]</a> <a href="http://solardat.uoregon.edu/SolarData.html">[data download page]</a></p>
+<a href="http://solardat.uoregon.edu/index.html">[UO Solar Radiation
+Monitoring Laboratory]</a> <a
+href="http://solardat.uoregon.edu/SolarData.html">[data download
+page]</a></p>
 <p><strong>Air Quality</strong><br />
-<a href="http://www.lrapa.org">[Local air quality overview]</a> <a href="http://www.lrapa.org/221/Data-Graphing">[Data-graphing tool]</a> <em><a href="http://www.lrapa.org">(LRAPA)</a></em><br />
-<a href="https://oraqi.deq.state.or.us/home/map">[Oregon Air Quality Monitoring Data (interactive map)]</a> <em><a href="https://oraqi.deq.state.or.us">(Oregon DEQ)</a></em><br />
-<a href="https://airquality.weather.gov">[Air-quality forecast guidance]</a> <em><a href="https://www.noaa.gov">(NOAA)</a></em>.<br />
-<a href="https://fire.airnow.gov">[Air Now Fire &amp; Smoke (interactive map)]</a> <em><a href="https://www.airnow.gov/fires/">(AirNow.gov)</a></em></p>
-<p><strong>Air-Quality Trends</strong> <em><a href="https://www.epa.gov/air-trends">(EPA)</a></em></p>
+<a href="http://www.lrapa.org">[Local air quality overview]</a> <a
+href="http://www.lrapa.org/221/Data-Graphing">[Data-graphing tool]</a>
+<em><a href="http://www.lrapa.org">(LRAPA)</a></em><br />
+<a href="https://oraqi.deq.state.or.us/home/map">[Oregon Air Quality
+Monitoring Data (interactive map)]</a> <em><a
+href="https://oraqi.deq.state.or.us">(Oregon DEQ)</a></em><br />
+<a href="https://airquality.weather.gov">[Air-quality forecast
+guidance]</a> <em><a href="https://www.noaa.gov">(NOAA)</a></em>.<br />
+<a href="https://fire.airnow.gov">[Air Now Fire &amp; Smoke (interactive
+map)]</a> <em><a
+href="https://www.airnow.gov/fires/">(AirNow.gov)</a></em></p>
+<p><strong>Air-Quality Trends</strong> <em><a
+href="https://www.epa.gov/air-trends">(EPA)</a></em></p>
 <p><strong>Pollen, spores, and mold (Eugene)</strong></p>
 <ul>
-<li><a href="https://www.oregonallergyassociates.com/pollen-counts/">[Oregon Allergy Associates]</a> <a href="https://pollen.aaaai.org/#/station/39a1b2e2-eab8-4fb7-b957-23006216f042">[NAB version]</a> <a href="https://www.aaaai.org/"><em>(AAAAI)</em></a> – pollen counts</li>
-<li>Pollen.com <a href="https://www.oregonallergyassociates.com/pollen-counts/">[current]</a> <a href="https://www.pollen.com/forecast/extended/pollen/97404">[forecast]</a> <a href="https://www.pollen.com/forecast/historic/pollen/97404">[history]</a> – relative abundance</li>
+<li><a
+href="https://www.oregonallergyassociates.com/pollen-counts/">[Oregon
+Allergy Associates]</a> <a
+href="https://pollen.aaaai.org/#/station/39a1b2e2-eab8-4fb7-b957-23006216f042">[NAB
+version]</a> <a href="https://www.aaaai.org/"><em>(AAAAI)</em></a> –
+pollen counts</li>
+<li>Pollen.com <a
+href="https://www.oregonallergyassociates.com/pollen-counts/">[current]</a>
+<a
+href="https://www.pollen.com/forecast/extended/pollen/97404">[forecast]</a>
+<a
+href="https://www.pollen.com/forecast/historic/pollen/97404">[history]</a>
+– relative abundance</li>
 </ul>
 </div>
 
