@@ -56,7 +56,7 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 
 **Air Quality**  
 [[Local air quality overview]](http://www.lrapa.org)
-[[Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing) *[(LRAPA)](http://www.lrapa.org)*  
+[[Data-graphing tool]](https://www.lrapa.org/air-quality-protection/aqi-forecast/#particulate) *[(LRAPA)](http://www.lrapa.org)*  
 [[Oregon Air Quality Monitoring Data (interactive map)]](https://oraqi.deq.state.or.us/home/map)
 *[(Oregon DEQ)](https://oraqi.deq.state.or.us)*  
 [[Air-quality forecast guidance]](https://airquality.weather.gov)

@@ -80,7 +80,7 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 [[InciWeb]](https://inciweb.nwcg.gov)  
 [[RAP-Smoke Model Fields]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 km) 
 [[HRRR CONUS Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km)  
-[[LRAPA Data-graphing tool]](http://www.lrapa.org/221/Data-Graphing) 
+[[LRAPA Data-graphing tool]](https://www.lrapa.org/air-quality-protection/aqi-forecast/#particulate) 
 [[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
 
 <p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Summer 2022)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
