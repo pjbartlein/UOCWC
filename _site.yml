@@ -44,6 +44,8 @@ navbar:
        
 output:
   html_document:
+    includes:
+      in_header: header.html
     theme: united
     highlight: haddock
     css: page_01.css

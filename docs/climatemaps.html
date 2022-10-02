@@ -13,14 +13,24 @@
 
 <title>Climate anomaly maps &amp; figures</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link rel="icon" href="http://pages.uoregon.edu/climvis/favicon.ico">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -34,32 +44,7 @@
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 <link rel="stylesheet" href="page_01.css" type="text/css" />
@@ -71,10 +56,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -91,40 +72,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -152,7 +109,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -164,7 +121,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -174,11 +131,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -190,7 +164,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -257,7 +230,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -267,7 +240,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Weather
      
     <span class="caret"></span>
@@ -282,7 +255,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Forecasts
      
     <span class="caret"></span>
@@ -297,7 +270,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Climate
      
     <span class="caret"></span>
@@ -321,7 +294,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Other
      
     <span class="caret"></span>
@@ -344,7 +317,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -360,7 +333,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -369,7 +342,9 @@ $(document).ready(function () {
 </div>
 
 
-<p><strong>Global anomaly maps</strong> <em><a href="https://www.esrl.noaa.gov/psd/map/">(NOAA ESRL PDS Map Room)</a></em></p>
+<p><strong>Global anomaly maps</strong> <em><a
+href="https://www.esrl.noaa.gov/psd/map/">(NOAA ESRL PDS Map
+Room)</a></em></p>
 <table>
 <colgroup>
 <col width="27%" />
@@ -398,103 +373,239 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td>500mb heights</td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_07.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_07a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_30.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_30a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_90.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/500z_90a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_01.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_01a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_07.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_07a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_30.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_30a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_90.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_90a.fnl.gif">[anomaly]</a></td>
 </tr>
 <tr class="even">
 <td>Surface winds</td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90a.fnl.gif">[anomaly]</a></td>
 </tr>
 <tr class="odd">
 <td>Sea-level pressure</td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90a.fnl.gif">[anomaly]</a></td>
 </tr>
 <tr class="even">
 <td>Surface temp.</td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30a.fnl.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90.fnl.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_01a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_07a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_30a.fnl.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90.fnl.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfctmpmer_90a.fnl.gif">[anomaly]</a></td>
 </tr>
 <tr class="odd">
 <td>SSTs</td>
 <td></td>
 <td></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/sst/sst.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/sst/sst.anom.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/sst/sst.month.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/sst/sst.anom.month.gif">[anomaly]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/sst/sst.seasonal.gif">[mean]</a></td>
-<td><a href="http://www.cdc.noaa.gov/map/images/sst/sst.anom.seasonal.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/sst/sst.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/sst/sst.anom.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/sst/sst.month.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/sst/sst.anom.month.gif">[anomaly]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/sst/sst.seasonal.gif">[mean]</a></td>
+<td><a
+href="http://www.cdc.noaa.gov/map/images/sst/sst.anom.seasonal.gif">[anomaly]</a></td>
 </tr>
 </tbody>
 </table>
 <p><strong>Upper-level and surface winds</strong><br />
 NH 500mb:<br />
-<a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01.fnl.gif">[1-day]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01a.fnl.gif">[1-day anomaly]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01_30frames.fnl.anim.html">[30-day animation]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01a_30frames.fnl.anim.html">[30-day anomaly animation]</a><br />
+<a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_01.fnl.gif">[1-day]</a>
+<a href="http://www.cdc.noaa.gov/map/images/fnl/500z_01a.fnl.gif">[1-day
+anomaly]</a> <a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_01_30frames.fnl.anim.html">[30-day
+animation]</a> <a
+href="http://www.cdc.noaa.gov/map/images/fnl/500z_01a_30frames.fnl.anim.html">[30-day
+anomaly animation]</a><br />
 Global SLP:<br />
-<a href="http://www.cdc.noaa.gov/map/images/fnl/slp_01.fnl.gif">[1-day]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/slp_01a.fnl.gif">[1-day anomaly]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/slp_01_30frames.fnl.anim.html">[30-day animation]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/slp_01a_30frames.fnl.anim.html">[30-day anomaly animation]</a><br />
+<a
+href="http://www.cdc.noaa.gov/map/images/fnl/slp_01.fnl.gif">[1-day]</a>
+<a href="http://www.cdc.noaa.gov/map/images/fnl/slp_01a.fnl.gif">[1-day
+anomaly]</a> <a
+href="http://www.cdc.noaa.gov/map/images/fnl/slp_01_30frames.fnl.anim.html">[30-day
+animation]</a> <a
+href="http://www.cdc.noaa.gov/map/images/fnl/slp_01a_30frames.fnl.anim.html">[30-day
+anomaly animation]</a><br />
 Global surface winds:<br />
-<a href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01.fnl.gif">[1-day]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a.fnl.gif">[1-day anomaly]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01_30frames.fnl.anim.html">[30-day animation]</a> <a href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a_30frames.fnl.anim.html">[30-day anomaly animation]</a></p>
-<p><strong>SST animations</strong> <em><a href="https://psl.noaa.gov/map/clim/sst.shtml">(NOAA ESRL PDS Map Room SST page)</a></em><br />
-Anomalies: <a href="https://psl.noaa.gov/map/clim/sst.anom.anim.week.html">[Weekly]</a> <a href="https://psl.noaa.gov/map/clim/sst.anom.anim.html">[Seasonal]</a> <a href="https://psl.noaa.gov/map/clim/sst.anom.anim.year.html">[Annual]</a><br />
-Averages: <a href="https://psl.noaa.gov/map/clim/sst.anim.week.html">[Weekly]</a> <a href="https://psl.noaa.gov/map/clim/sst.anim.html">[Seasonal]</a> <a href="https://psl.noaa.gov/map/clim/sst.anim.year.html">[Annual]</a></p>
+<a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01.fnl.gif">[1-day]</a>
+<a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a.fnl.gif">[1-day
+anomaly]</a> <a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01_30frames.fnl.anim.html">[30-day
+animation]</a> <a
+href="http://www.cdc.noaa.gov/map/images/fnl/sfcwnd_01a_30frames.fnl.anim.html">[30-day
+anomaly animation]</a></p>
+<p><strong>SST animations</strong> <em><a
+href="https://psl.noaa.gov/map/clim/sst.shtml">(NOAA ESRL PDS Map Room
+SST page)</a></em><br />
+Anomalies: <a
+href="https://psl.noaa.gov/map/clim/sst.anom.anim.week.html">[Weekly]</a>
+<a
+href="https://psl.noaa.gov/map/clim/sst.anom.anim.html">[Seasonal]</a>
+<a
+href="https://psl.noaa.gov/map/clim/sst.anom.anim.year.html">[Annual]</a><br />
+Averages: <a
+href="https://psl.noaa.gov/map/clim/sst.anim.week.html">[Weekly]</a> <a
+href="https://psl.noaa.gov/map/clim/sst.anim.html">[Seasonal]</a> <a
+href="https://psl.noaa.gov/map/clim/sst.anim.year.html">[Annual]</a></p>
 <p><strong>Hovmöller Plots</strong><br />
-<a href="http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.hov.io.gif">[tropical SSTs (40E-80W)]</a> <a href="http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.pacific.lat.gif">[eastern and western Pacific zonal means]</a></p>
-<p><strong>Daily data plots</strong> <em><a href="https://www.weather.gov/pqr/">((NWS Portland)</a></em><br />
-<a href="https://www.weather.gov/pqr/cliplot#tabs-2">[Calendar year charts]</a> <a href="https://www.weather.gov/pqr/cliplot#tabs-1">[Current month chart and tables]</a></p>
-<p><strong>U.S. Anomalies</strong> <em><a href="https://www.cpc.ncep.noaa.gov">(NOAA CPC)</a></em><br />
-30-day <a href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_monthly_tanom.shtml">[temperature]</a> <a href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_monthly_pct_precip.shtml">[precpitation]</a> 90-day <a href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_3-month_tanom.shtml">[temperature]</a> <a href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_3-month_pct_precip.shtml">[precipitation]</a></p>
-<p><strong>Global time series</strong> <em><a href="https://www.cpc.ncep.noaa.gov/products/monitoring_and_data/">(NOAA CPC)</a></em><br />
-<a href="https://www.cpc.ncep.noaa.gov/products/global_monitoring/temperature/global_temp_accum.shtml">[temperature]</a> <a href="https://www.cpc.ncep.noaa.gov/products/global_monitoring/precipitation/global_precip_accum.shtml">[precipitation]</a></p>
-<p><strong>Climate Prediction Center Products</strong> <em><a href="https://www.cpc.ncep.noaa.gov">(NOAA CPC)</a></em></p>
+<a
+href="http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.hov.io.gif">[tropical
+SSTs (40E-80W)]</a> <a
+href="http://www.esrl.noaa.gov/psd/map/images/sst/sst.month.anom.pacific.lat.gif">[eastern
+and western Pacific zonal means]</a></p>
+<p><strong>Daily data plots</strong> <em><a
+href="https://www.weather.gov/pqr/">((NWS Portland)</a></em><br />
+<a href="https://www.weather.gov/pqr/cliplot#tabs-2">[Calendar year
+charts]</a> <a
+href="https://www.weather.gov/pqr/cliplot#tabs-1">[Current month chart
+and tables]</a></p>
+<p><strong>U.S. Anomalies</strong> <em><a
+href="https://www.cpc.ncep.noaa.gov">(NOAA CPC)</a></em><br />
+30-day <a
+href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_monthly_tanom.shtml">[temperature]</a>
+<a
+href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_monthly_pct_precip.shtml">[precpitation]</a>
+90-day <a
+href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_3-month_tanom.shtml">[temperature]</a>
+<a
+href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/us_3-month_pct_precip.shtml">[precipitation]</a></p>
+<p><strong>Global time series</strong> <em><a
+href="https://www.cpc.ncep.noaa.gov/products/monitoring_and_data/">(NOAA
+CPC)</a></em><br />
+<a
+href="https://www.cpc.ncep.noaa.gov/products/global_monitoring/temperature/global_temp_accum.shtml">[temperature]</a>
+<a
+href="https://www.cpc.ncep.noaa.gov/products/global_monitoring/precipitation/global_precip_accum.shtml">[precipitation]</a></p>
+<p><strong>Climate Prediction Center Products</strong> <em><a
+href="https://www.cpc.ncep.noaa.gov">(NOAA CPC)</a></em></p>
 <ul>
-<li><a href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/">[Regional climate maps (global: last week, month, and season)]</a></li>
-<li><a href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/usa.shtml">[Regional climate maps (USA: last week, month, and season)]</a></li>
-<li><a href="http://www.cpc.ncep.noaa.gov/products/global_monitoring/precipitation/global_precip_accum.shtml">[Current precipitation trends for the USA and other regions (last month, season and year)]</a></li>
-<li><a href="http://www.cpc.ncep.noaa.gov/products/global_monitoring/temperature/global_temp_accum.shtml">[Current temperature trends for the USA and other regions (last month, season and year)]</a><br />
+<li><a
+href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/">[Regional
+climate maps (global: last week, month, and season)]</a></li>
+<li><a
+href="http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/usa.shtml">[Regional
+climate maps (USA: last week, month, and season)]</a></li>
+<li><a
+href="http://www.cpc.ncep.noaa.gov/products/global_monitoring/precipitation/global_precip_accum.shtml">[Current
+precipitation trends for the USA and other regions (last month, season
+and year)]</a></li>
+<li><a
+href="http://www.cpc.ncep.noaa.gov/products/global_monitoring/temperature/global_temp_accum.shtml">[Current
+temperature trends for the USA and other regions (last month, season and
+year)]</a><br />
 </li>
-<li><a href="http://www.cpc.ncep.noaa.gov/data/teledoc/telecontents.shtml">[Northern Hemisphere teleconnection pattern maps and indices]</a></li>
-<li><a href="https://www.cpc.ncep.noaa.gov/soilmst/w.shtml">[Soil moisture anomalies]</a></li>
-<li><a href="https://www.ncdc.noaa.gov/temp-and-precip/us-trends/">[U.S. National trends in temperature and precipitation]</a></li>
+<li><a
+href="http://www.cpc.ncep.noaa.gov/data/teledoc/telecontents.shtml">[Northern
+Hemisphere teleconnection pattern maps and indices]</a></li>
+<li><a href="https://www.cpc.ncep.noaa.gov/soilmst/w.shtml">[Soil
+moisture anomalies]</a></li>
+<li><a href="https://www.ncdc.noaa.gov/temp-and-precip/us-trends/">[U.S.
+National trends in temperature and precipitation]</a></li>
 </ul>
-<p><strong>CPC Monitoring &amp; Data Index</strong> <a href="https://www.cpc.ncep.noaa.gov/products/MD_index.shtml">[CPC “Table of Contents”]</a><br />
-<strong>CPC Site Index</strong> <a href="https://www.cpc.ncep.noaa.gov/products/site_index.shtml">[aphanumeric list]</a></p>
-<p><strong>Climate Indices</strong> <em><a href="http://www.cgd.ucar.edu/cas/catalog/climind/">(NCAR CAS)</a></em></p>
-<p><strong>Western U.S. climate anomalies</strong> <em><a href="http://www.wrcc.dri.edu/">(Western Regional Climate Center)</a></em><br />
+<p><strong>CPC Monitoring &amp; Data Index</strong> <a
+href="https://www.cpc.ncep.noaa.gov/products/MD_index.shtml">[CPC “Table
+of Contents”]</a><br />
+<strong>CPC Site Index</strong> <a
+href="https://www.cpc.ncep.noaa.gov/products/site_index.shtml">[aphanumeric
+list]</a></p>
+<p><strong>Climate Indices</strong> <em><a
+href="http://www.cgd.ucar.edu/cas/catalog/climind/">(NCAR
+CAS)</a></em></p>
+<p><strong>Western U.S. climate anomalies</strong> <em><a
+href="http://www.wrcc.dri.edu/">(Western Regional Climate
+Center)</a></em><br />
 <a href="http://www.wrcc.dri.edu/anom/">[maps and tables]</a></p>
-<p><strong>USDA Weekly Weather &amp; Crop Bulletin</strong> <em><a href="https://www.usda.gov/oce/weather/pubs/Weekly/Wwcb/">(USDA OCE)</a></em></p>
-<p><strong>US Drought Monitor</strong> <em><a href="https://droughtmonitor.unl.edu/">(USDM)</a></em><br />
-<a href="https://droughtmonitor.unl.edu/Summary.aspx">[summary]</a> <a href="https://droughtmonitor.unl.edu/Maps/ComparisonSlider.aspx">[comparison slider]</a> <a href="https://droughtmonitor.unl.edu/Maps/Animations.aspx">[animations]</a> <a href="https://droughtmonitor.unl.edu/Maps/ChangeMaps.aspx">[change maps]</a></p>
-<p><strong>NOAA North American Drought Monitor</strong> <em><a href="https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/">(NOAA NCEI)</a></em><br />
-<a href="https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps">[maps]</a> <a href="https://droughtmonitor.unl.edu/nadm/Home.aspx">[supplemental web site]</a></p>
-<p><strong>NOAA Northwest River Forecast Center</strong> <em><a href="https://www.nwrfc.noaa.gov/rfc/">(NOAA NWRFC)</a></em><br />
-<a href="https://www.nwrfc.noaa.gov/ws/index.html?zoom=6&amp;center=47.35371061951363,-117.0263671875&amp;map_type=ro_status">[PNW Observed water-year runoff]</a> <a href="https://www.nwrfc.noaa.gov/snow/index.html?zoom=6&amp;center=47.35371061951363,-117.0263671875&amp;map_type=current_station_snow_conditions&amp;overlay_basins=false&amp;overlay_hsa=false&amp;overlay_counties=false&amp;xmap_type=ESRI%20Topographic">[PNW Current station snow conditions]</a><br />
-<a href="https://www.nwrfc.noaa.gov/water_supply/wy_summary/wy_summary.php?tab=1">[PNW Water-year summary graphics]</a> <a href="https://www.nwrfc.noaa.gov/ws/index.html?zoom=6&amp;center=47.35371061951363,-117.0263671875&amp;map_type=ro_status">[PNW Current month summary graphics]</a></p>
+<p><strong>USDA Weekly Weather &amp; Crop Bulletin</strong> <em><a
+href="https://www.usda.gov/oce/weather/pubs/Weekly/Wwcb/">(USDA
+OCE)</a></em></p>
+<p><strong>US Drought Monitor</strong> <em><a
+href="https://droughtmonitor.unl.edu/">(USDM)</a></em><br />
+<a href="https://droughtmonitor.unl.edu/Summary.aspx">[summary]</a> <a
+href="https://droughtmonitor.unl.edu/Maps/ComparisonSlider.aspx">[comparison
+slider]</a> <a
+href="https://droughtmonitor.unl.edu/Maps/Animations.aspx">[animations]</a>
+<a href="https://droughtmonitor.unl.edu/Maps/ChangeMaps.aspx">[change
+maps]</a></p>
+<p><strong>NOAA North American Drought Monitor</strong> <em><a
+href="https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/">(NOAA
+NCEI)</a></em><br />
+<a
+href="https://www.ncdc.noaa.gov/temp-and-precip/drought/nadm/maps">[maps]</a>
+<a href="https://droughtmonitor.unl.edu/nadm/Home.aspx">[supplemental
+web site]</a></p>
+<p><strong>NOAA Northwest River Forecast Center</strong> <em><a
+href="https://www.nwrfc.noaa.gov/rfc/">(NOAA NWRFC)</a></em><br />
+<a
+href="https://www.nwrfc.noaa.gov/ws/index.html?zoom=6&amp;center=47.35371061951363,-117.0263671875&amp;map_type=ro_status">[PNW
+Observed water-year runoff]</a> <a
+href="https://www.nwrfc.noaa.gov/snow/index.html?zoom=6&amp;center=47.35371061951363,-117.0263671875&amp;map_type=current_station_snow_conditions&amp;overlay_basins=false&amp;overlay_hsa=false&amp;overlay_counties=false&amp;xmap_type=ESRI%20Topographic">[PNW
+Current station snow conditions]</a><br />
+<a
+href="https://www.nwrfc.noaa.gov/water_supply/wy_summary/wy_summary.php?tab=1">[PNW
+Water-year summary graphics]</a> <a
+href="https://www.nwrfc.noaa.gov/ws/index.html?zoom=6&amp;center=47.35371061951363,-117.0263671875&amp;map_type=ro_status">[PNW
+Current month summary graphics]</a></p>
 
 
 
@@ -523,7 +634,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

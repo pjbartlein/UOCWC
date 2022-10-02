@@ -13,14 +13,24 @@
 
 <title>Global Environmental Change Resources</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link rel="icon" href="http://pages.uoregon.edu/climvis/favicon.ico">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -34,32 +44,7 @@
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 <link rel="stylesheet" href="page_01.css" type="text/css" />
@@ -71,10 +56,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -91,40 +72,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -152,7 +109,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -164,7 +121,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -174,11 +131,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -190,7 +164,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -257,7 +230,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -267,7 +240,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Weather
      
     <span class="caret"></span>
@@ -282,7 +255,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Forecasts
      
     <span class="caret"></span>
@@ -297,7 +270,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Climate
      
     <span class="caret"></span>
@@ -321,7 +294,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Other
      
     <span class="caret"></span>
@@ -344,7 +317,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -360,7 +333,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -371,102 +344,168 @@ $(document).ready(function () {
 
 <div id="noaa-monitoring" class="section level2">
 <h2>NOAA Monitoring</h2>
-<p><strong>NOAA Climate Monitoring Portal</strong> <em><a href="https://www.ncdc.noaa.gov/climate-monitoring/">(NOAA)</a></em></p>
-<p><strong>NOAA State of the Climate</strong> <em><a href="https://www.ncdc.noaa.gov/sotc/">(SOTC)</a></em></p>
+<p><strong>NOAA Climate Monitoring Portal</strong> <em><a
+href="https://www.ncdc.noaa.gov/climate-monitoring/">(NOAA)</a></em></p>
+<p><strong>NOAA State of the Climate</strong> <em><a
+href="https://www.ncdc.noaa.gov/sotc/">(SOTC)</a></em></p>
 <ul>
 <li><a href="https://www.ncdc.noaa.gov/sotc/">[Current SOTC]</a></li>
-<li><a href="https://www.ncdc.noaa.gov/temp-and-precip/">[Temperature, Precipitation and Drought]</a></li>
-<li><a href="https://www.ncdc.noaa.gov/cag/">[Climate at a Glance]</a></li>
-<li><a href="https://www.ncdc.noaa.gov/sotc/briefings/">[Monthly briefings]</a></li>
-<li><a href="https://www.ncdc.noaa.gov/societal-impacts/">[Societal impacts]</a></li>
-<li><a href="https://www.ncdc.noaa.gov/bams">[BAMS State of the Climate Annual Issues]</a></li>
+<li><a href="https://www.ncdc.noaa.gov/temp-and-precip/">[Temperature,
+Precipitation and Drought]</a></li>
+<li><a href="https://www.ncdc.noaa.gov/cag/">[Climate at a
+Glance]</a></li>
+<li><a href="https://www.ncdc.noaa.gov/sotc/briefings/">[Monthly
+briefings]</a></li>
+<li><a href="https://www.ncdc.noaa.gov/societal-impacts/">[Societal
+impacts]</a></li>
+<li><a href="https://www.ncdc.noaa.gov/bams">[BAMS State of the Climate
+Annual Issues]</a></li>
 </ul>
-<p><strong>BAMS State of the Climate</strong> <em><a href="https://www.ametsoc.org/index.cfm/ams/publications/bulletin-of-the-american-meteorological-society-bams/state-of-the-climate/">[BAMS SOTC]</a></em></p>
+<p><strong>BAMS State of the Climate</strong> <em><a
+href="https://www.ametsoc.org/index.cfm/ams/publications/bulletin-of-the-american-meteorological-society-bams/state-of-the-climate/">[BAMS
+SOTC]</a></em></p>
 <ul>
-<li><a href="https://www.ametsoc.net/sotc2018/Socin2018_lowres.pdf">[Download .pdf]</a></li>
-<li><a href="https://www.ametsoc.net/sotc2018/Socin2018_hires.pdf">[Download high-res .pdf]</a></li>
+<li><a
+href="https://www.ametsoc.net/sotc2018/Socin2018_lowres.pdf">[Download
+.pdf]</a></li>
+<li><a
+href="https://www.ametsoc.net/sotc2018/Socin2018_hires.pdf">[Download
+high-res .pdf]</a></li>
 </ul>
-<p><strong>NOAA Global Monitoring Division (GHG Data)</strong> <em><a href="http://www.cmdl.noaa.gov">[NOAA ESRL GMD]</a></em></p>
+<p><strong>NOAA Global Monitoring Division (GHG Data)</strong> <em><a
+href="http://www.cmdl.noaa.gov">[NOAA ESRL GMD]</a></em></p>
 <ul>
-<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/trends/">[Trends in carbon dioxide]</a></li>
-<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/trends_ch4/">[Trends in methane]</a></li>
-<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/carbontracker/">[Carbon Tracker]</a></li>
-<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/gallery/figures/index.html">[Global Greenhous Gas Reference Network Figures]</a></li>
+<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/trends/">[Trends in
+carbon dioxide]</a></li>
+<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/trends_ch4/">[Trends in
+methane]</a></li>
+<li><a href="https://www.esrl.noaa.gov/gmd/ccgg/carbontracker/">[Carbon
+Tracker]</a></li>
+<li><a
+href="https://www.esrl.noaa.gov/gmd/ccgg/gallery/figures/index.html">[Global
+Greenhous Gas Reference Network Figures]</a></li>
 </ul>
 <p><strong>Satellites</strong></p>
 <ul>
-<li><a href="https://www.nesdis.noaa.gov">[Satellite and Information Service]</a></li>
-<li><a href="https://www.star.nesdis.noaa.gov/GOES/index.php">[Geostationary Satellite Imagery]</a></li>
+<li><a href="https://www.nesdis.noaa.gov">[Satellite and Information
+Service]</a></li>
+<li><a
+href="https://www.star.nesdis.noaa.gov/GOES/index.php">[Geostationary
+Satellite Imagery]</a></li>
 </ul>
 </div>
 <div id="nasa" class="section level2">
 <h2>NASA</h2>
 <ul>
-<li><a href="https://earthobservatory.nasa.gov/">[NASA Earth Observatory (Image of the Day)]</a></li>
-<li><a href="http://science.nasa.gov/earth-science/">[NASA Earth Science]</a></li>
-<li><a href="http://eospso.gsfc.nasa.gov/earth-observer-archive/">[Earth Observer]</a></li>
+<li><a href="https://earthobservatory.nasa.gov/">[NASA Earth Observatory
+(Image of the Day)]</a></li>
+<li><a href="http://science.nasa.gov/earth-science/">[NASA Earth
+Science]</a></li>
+<li><a href="http://eospso.gsfc.nasa.gov/earth-observer-archive/">[Earth
+Observer]</a></li>
 <li><a href="https://worldview.earthdata.nasa.gov/">[Worldview]</a></li>
-<li><a href="http://eospso.gsfc.nasa.gov/">[NASA EOS (Earth-Observing System]</a></li>
-<li><a href="http://gcmd.nasa.gov/">[NASA GMD (Global Change Master Directory]</a></li>
+<li><a href="http://eospso.gsfc.nasa.gov/">[NASA EOS (Earth-Observing
+System]</a></li>
+<li><a href="http://gcmd.nasa.gov/">[NASA GMD (Global Change Master
+Directory]</a></li>
 </ul>
 </div>
 <div id="copernicus-earth-observation-programme" class="section level2">
 <h2>Copernicus Earth Observation Programme</h2>
-<p><strong>Copernicus Climate Change Service</strong> <em><a href="https://climate.copernicus.eu">[C3S]</a></em></p>
+<p><strong>Copernicus Climate Change Service</strong> <em><a
+href="https://climate.copernicus.eu">[C3S]</a></em></p>
 <ul>
-<li><a href="https://climate.copernicus.eu/climate-bulletins">[Climate bulletins]</a></li>
-<li><a href="https://climate.copernicus.eu/monthly-climate-update">[Monthly climate update]</a></li>
+<li><a href="https://climate.copernicus.eu/climate-bulletins">[Climate
+bulletins]</a></li>
+<li><a
+href="https://climate.copernicus.eu/monthly-climate-update">[Monthly
+climate update]</a></li>
 </ul>
 </div>
-<div id="intergovernmental-panel-on-climate-change-ipcc" class="section level2">
+<div id="intergovernmental-panel-on-climate-change-ipcc"
+class="section level2">
 <h2>Intergovernmental Panel on Climate Change (IPCC)</h2>
 <p><strong>Web Page and Assessments</strong></p>
 <ul>
-<li><a href="https://www.ipcc.ch">[IPCC]</a> <a href="http://archive.ipcc.ch/">[Old website]</a></li>
-<li>Assessments: <a href="https://archive.ipcc.ch/report/ar5/">[AR5]</a> <a href="https://archive.ipcc.ch/report/ar4/">[AR4]</a></li>
+<li><a href="https://www.ipcc.ch">[IPCC]</a> <a
+href="http://archive.ipcc.ch/">[Old website]</a></li>
+<li>Assessments: <a href="https://archive.ipcc.ch/report/ar5/">[AR5]</a>
+<a href="https://archive.ipcc.ch/report/ar4/">[AR4]</a></li>
 </ul>
 <p><strong>Reports</strong></p>
 <ul>
-<li><a href="https://www.ipcc.ch/reports/">[Reports page]</a> <a href="https://archive.ipcc.ch/publications_and_data/publications_and_data_reports.shtml">[Old reports page]</a></li>
-<li><a href="https://www.ipcc.ch/report/sr15/">[SR15: Global Warming of 1.5<sup>o</sup>C]</a></li>
-<li><a href="https://www.ipcc.ch/report/srccl/">[SRCCL: Climate Change and Land]</a></li>
-<li><a href="https://www.ipcc.ch/report/srocc/">[SROCC: The Ocean and Cryosphere in a Changing Climate]</a></li>
-<li><a href="https://archive.ipcc.ch/report/srex/">[SREX: Extreme Events]</a></li>
-<li><a href="https://archive.ipcc.ch/report/srren/">[SRREN: Renewable Energy Sources and Climate Change Mitigation]</a></li>
-<li><a href="https://www.ipcc.ch/publication/climate-change-and-water-2/">[CCW: Climate Change and Water]</a></li>
+<li><a href="https://www.ipcc.ch/reports/">[Reports page]</a> <a
+href="https://archive.ipcc.ch/publications_and_data/publications_and_data_reports.shtml">[Old
+reports page]</a></li>
+<li><a href="https://www.ipcc.ch/report/sr15/">[SR15: Global Warming of
+1.5<sup>o</sup>C]</a></li>
+<li><a href="https://www.ipcc.ch/report/srccl/">[SRCCL: Climate Change
+and Land]</a></li>
+<li><a href="https://www.ipcc.ch/report/srocc/">[SROCC: The Ocean and
+Cryosphere in a Changing Climate]</a></li>
+<li><a href="https://archive.ipcc.ch/report/srex/">[SREX: Extreme
+Events]</a></li>
+<li><a href="https://archive.ipcc.ch/report/srren/">[SRREN: Renewable
+Energy Sources and Climate Change Mitigation]</a></li>
+<li><a
+href="https://www.ipcc.ch/publication/climate-change-and-water-2/">[CCW:
+Climate Change and Water]</a></li>
 </ul>
 </div>
 <div id="u.s.-global-change-research-program" class="section level2">
 <h2>U.S. Global Change Research Program</h2>
-<p><strong>Web page</strong> <em><a href="https://www.globalchange.gov">[GlobalChange.gov]</a></em></p>
+<p><strong>Web page</strong> <em><a
+href="https://www.globalchange.gov">[GlobalChange.gov]</a></em></p>
 <p><strong>Fourth National Climate Assessment</strong></p>
 <ul>
-<li><a href="https://science2017.globalchange.gov">[Vol. I: Climate Science Special Report]</a></li>
-<li><a href="https://www.globalchange.gov/nca4">[Vol II: Impacts, Risks, and Adaptation in the United States]</a></li>
+<li><a href="https://science2017.globalchange.gov">[Vol. I: Climate
+Science Special Report]</a></li>
+<li><a href="https://www.globalchange.gov/nca4">[Vol II: Impacts, Risks,
+and Adaptation in the United States]</a></li>
 </ul>
-<p><strong>Reports</strong> <em><a href="https://www.globalchange.gov/browse/reports">[Reports Library]</a></em></p>
+<p><strong>Reports</strong> <em><a
+href="https://www.globalchange.gov/browse/reports">[Reports
+Library]</a></em></p>
 <ul>
-<li><a href="https://carbon2018.globalchange.gov">[Second State of the Carbon Cycle Report]</a></li>
-<li><a href="https://www.usda.gov/oce/climate_change/FoodSecurity.htm">[Climate Change, Global Food Security, and the U.S. Food System]</a></li>
-<li><a href="http://health2016.globalchange.gov/">[The Impacts of Climate Change on Human Health in the United States]</a></li>
-<li><a href="https://www.globalchange.gov/engage/process-products/NCA3">[Third National Assessment (2010-2014)]</a></li>
-<li><a href="https://www.globalchange.gov/browse/reports/global-climate-change-impacts-united-states">[Second National Assessment (2009)]</a>
+<li><a href="https://carbon2018.globalchange.gov">[Second State of the
+Carbon Cycle Report]</a></li>
+<li><a
+href="https://www.usda.gov/oce/climate_change/FoodSecurity.htm">[Climate
+Change, Global Food Security, and the U.S. Food System]</a></li>
+<li><a href="http://health2016.globalchange.gov/">[The Impacts of
+Climate Change on Human Health in the United States]</a></li>
+<li><a
+href="https://www.globalchange.gov/engage/process-products/NCA3">[Third
+National Assessment (2010-2014)]</a></li>
+<li><a
+href="https://www.globalchange.gov/browse/reports/global-climate-change-impacts-united-states">[Second
+National Assessment (2009)]</a>
 <ul>
-<li><a href="https://www.globalchange.gov/engage/process-products/sap-summary">[CCSP Synthesis and Assessment Products (2006-2009)]</a></li>
+<li><a
+href="https://www.globalchange.gov/engage/process-products/sap-summary">[CCSP
+Synthesis and Assessment Products (2006-2009)]</a></li>
 </ul></li>
-<li><a href="https://www.globalchange.gov/engage/process-products/NCA1">[First National Assessment (1997-2000)]</a></li>
+<li><a
+href="https://www.globalchange.gov/engage/process-products/NCA1">[First
+National Assessment (1997-2000)]</a></li>
 </ul>
 <p><strong>U.S. EPA</strong></p>
 <ul>
-<li><a href="https://www.epa.gov/climate-indicators">[Climate Change Indicators 2016]</a></li>
+<li><a href="https://www.epa.gov/climate-indicators">[Climate Change
+Indicators 2016]</a></li>
 </ul>
 </div>
 <div id="future-earth" class="section level2">
 <h2>Future Earth</h2>
 <ul>
-<li><a href="http://futureearth.org">[Web page]</a> <a href="https://futureearth.org/networks/global-research-projects/">[About Future Earth]</a></li>
-<li><a href="https://futureearth.org/publications">[Publications]</a></li>
-<li><a href="https://futureearth.org/networks/global-research-projects/">[Global Research Projects]</a></li>
+<li><a href="http://futureearth.org">[Web page]</a> <a
+href="https://futureearth.org/networks/global-research-projects/">[About
+Future Earth]</a></li>
+<li><a
+href="https://futureearth.org/publications">[Publications]</a></li>
+<li><a
+href="https://futureearth.org/networks/global-research-projects/">[Global
+Research Projects]</a></li>
 </ul>
 </div>
 <div id="ngos-gos-universities-and-institutes" class="section level2">
@@ -475,16 +514,24 @@ $(document).ready(function () {
 <li><a href="http://www.realclimate.org">[realclimate.org]</a></li>
 <li><a href="https://www.wri.org">[World Resources Institute]</a></li>
 <li><a href="https://climatecentral.org">[ClimateCentral]</a></li>
-<li><a href="https://climatecommunication.yale.edu">[Yale Program on Climate Change Communication]</a>
+<li><a href="https://climatecommunication.yale.edu">[Yale Program on
+Climate Change Communication]</a>
 <ul>
-<li><a href="https://climatecommunication.yale.edu/visualizations-data/ycom-us/">[Yale Climate Opinion Maps]</a></li>
+<li><a
+href="https://climatecommunication.yale.edu/visualizations-data/ycom-us/">[Yale
+Climate Opinion Maps]</a></li>
 </ul></li>
-<li><a href="https://www.ucsusa.org">[Union of Concerned Scientists (UCS)]</a></li>
-<li><a href="https://www.nap.edu">[U.S. National Academies of Science Press]</a>
+<li><a href="https://www.ucsusa.org">[Union of Concerned Scientists
+(UCS)]</a></li>
+<li><a href="https://www.nap.edu">[U.S. National Academies of Science
+Press]</a>
 <ul>
-<li><a href="https://www.nap.edu/topic/281/earth-sciences">[Earth-Science Publications]</a></li>
+<li><a
+href="https://www.nap.edu/topic/281/earth-sciences">[Earth-Science
+Publications]</a></li>
 </ul></li>
-<li><a href="http://eros.usgs.gov">[USGS (U.S. Geological Survey)]</a></li>
+<li><a href="http://eros.usgs.gov">[USGS (U.S. Geological
+Survey)]</a></li>
 </ul>
 </div>
 
@@ -515,7 +562,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
