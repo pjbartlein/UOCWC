@@ -1,26 +1,26 @@
-<table style="text-align: left; width: 100% height: 240px" border="0" cellpadding="0" cellspacing="0">
+<table style="text-align: left; width: 900px height: 240px" border="0" cellpadding="0" cellspacing="0">
 	<tbody>
 		<tr>
-			<td style="vertical-align: top; width: 31%;">
-				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/pnw/GEOCOLOR/thumbnail.jpg" 					alt="GOES-W" width="250" height="250" style="border:1px solid black"> <br>
+			<td style="vertical-align: top; width: 33%;">
+				<img src="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/pnw/GEOCOLOR/thumbnail.jpg" 					alt="GOES-W" width="290" height="290" style="border:1px solid black"> <br>
 			</td>
-			<td style="vertical-align: top; width: 37%;">
-				<img src="http://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/nam.na.30000.png" alt="NCEP"
-					width="300" height="250" style="border:1px solid black"> <br>
+			<td style="vertical-align: top; width: 33%;">
+				<img src="https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/300j.00.0000.gif" alt="Regional Model Upper Air"
+					width="290" height="290" style="border:1px solid black"> <br>
 			</td>
-			<td style="vertical-align: top; width: 33;">
+			<td style="vertical-align: top; width: 33%;">
 				<img src="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif" alt="UO"
-					width="260" height="250" style="border:1px solid black"> <br> 
+					width="290" height="290" style="border:1px solid black"> <br> 
 			</td>
 		</tr>
 		<tr>
-			<td style="vertical-align: top; width: 31%">
+			<td style="vertical-align: top; width: 33%">
 		        <a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12">[GOES-W PNW]</a>
 				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[Full Disk]</a>
 			</td>
-			<td style="vertical-align: top; width: 37%;">
-				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NCEP]</a> 
-				<a href="short.html#NCEP">[NAM forecasts]</a>			</td>
+			<td style="vertical-align: top; width: 33%;">
+				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NRMC]</a> 
+				<a href="short.html">[Model forecasts]</a>			</td>
 			<td style="vertical-align: top; width: 33%;">
 				<a href="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif">[AWC PNW radar]</a>
 				<a href="https://aviationweather.gov/radar/plot?region=lws&type=cref&date=">[loop]</a>
