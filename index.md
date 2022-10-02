@@ -19,8 +19,8 @@
 				<a href="https://www.star.nesdis.noaa.gov/GOES/fulldisk_band.php?sat=G17&band=GEOCOLOR&length=12">[Full Disk]</a>
 			</td>
 			<td style="vertical-align: top; width: 33%;">
-				<a href="https://www.emc.ncep.noaa.gov/mmb/mmbpll/opsnam/">[NRMC]</a> 
-				<a href="short.html">[Model forecasts]</a>			</td>
+				<a href="short.html">[Model forecasts]</a>
+			</td>
 			<td style="vertical-align: top; width: 33%;">
 				<a href="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif">[AWC PNW radar]</a>
 				<a href="https://aviationweather.gov/radar/plot?region=lws&type=cref&date=">[loop]</a>
