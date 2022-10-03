@@ -1,6 +1,6 @@
 name: UOCWC
 navbar:
-  title: 	"&#9729; UO CW&C"
+  title: 	"UO CW&C"
   left:
   - text: Weather
     menu:
