@@ -1,4 +1,3 @@
-<link rel="shortcut icon" href="favicon.ico"/>
 <table style="text-align: left; width: 810px height: 240px" border="0" cellpadding="0" cellspacing="0">
 	<tbody>
 		<tr>
