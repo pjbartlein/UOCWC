@@ -47,10 +47,10 @@
 [[AWC US Comp Reflect]](https://aviationweather.gov/data/obs/radar/rad_cref_us.gif)
 [[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
 [[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
-[[Portland]](https://radar.weather.gov/ridge/lite/KRTX_0.gif)
-[[Medford]](https://radar.weather.gov/ridge/lite/KMAX_0.gif)
-[[Portland loop]](https://radar.weather.gov/ridge/lite/KRTX_loop.gif)
-[[Medford loop]](https://radar.weather.gov/ridge/lite/KMAX_loop.gif)
+[[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)
+[[Medford]](https://radar.weather.gov/ridge/standard/KMAX_0.gif)
+[[Portland loop]](https://radar.weather.gov/ridge/standard/KRTX_loop.gif)
+[[Medford loop]](https://radar.weather.gov/ridge/standard/KMAX_loop.gif)
 
 **Satellite**  
 [[GOES 16 & 17 images and loops]](https://www.star.nesdis.noaa.gov/GOES/index.php)
