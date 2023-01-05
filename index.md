@@ -53,8 +53,8 @@
 [[Medford loop]](https://radar.weather.gov/ridge/standard/KMAX_loop.gif)
 
 **Satellite**  
-[[GOES 16 & 17 images and loops]](https://www.star.nesdis.noaa.gov/GOES/index.php)
- | GOES-17 (Western US):  [[IR]](http://www.goes.noaa.gov/GSSLOOPS/wcir.html)
+[[GOES 16 & 18 images and loops]](https://www.star.nesdis.noaa.gov/GOES/index.php)
+ | GOES-18 (Western US):  [[IR]](http://www.goes.noaa.gov/GSSLOOPS/wcir.html)
 [[Vis]](http://www.goes.noaa.gov/GSSLOOPS/wcvs.html)
 [[WV]](http://www.goes.noaa.gov/GSSLOOPS/wcwv.html)
  | Global composites:  [[IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
@@ -83,5 +83,5 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 [[LRAPA Data-graphing tool]](https://www.lrapa.org/air-quality-protection/aqi-forecast/#particulate) 
 [[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
 
-<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Summer 2022)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Winter 2023)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
 

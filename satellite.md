@@ -54,7 +54,7 @@ animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/
 
 **National Environmental Satellite, Data,  and Information Service**  [[*(NOAA NESDIS)*]](https://www.nesdis.noaa.gov)
 
-**Center for Satellite Applications and Research (STAR)** [[GOES-16/17 Loop of the Day]](http://rammb.cira.colostate.edu/ramsdis/online/loop_of_the_day/)
+**RAMMB-CIRA Satellite Library** [[*Center for Satellite Applications and Research*]](https://satlib.cira.colostate.edu/)
 
 **NASA Earth Observatory** *[(earthobservatory.nasa.gov)](https://earthobservatory.nasa.gov)*
 

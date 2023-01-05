@@ -13,7 +13,7 @@
 
 <title>UO Current Weather &amp; Climate</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -176,8 +176,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +185,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -424,7 +417,7 @@ href="https://radar.weather.gov/ridge/standard/KMAX_loop.gif">[Medford
 loop]</a></p>
 <p><strong>Satellite</strong><br />
 <a href="https://www.star.nesdis.noaa.gov/GOES/index.php">[GOES 16 &amp;
-17 images and loops]</a> | GOES-17 (Western US): <a
+18 images and loops]</a> | GOES-18 (Western US): <a
 href="http://www.goes.noaa.gov/GSSLOOPS/wcir.html">[IR]</a> <a
 href="http://www.goes.noaa.gov/GSSLOOPS/wcvs.html">[Vis]</a> <a
 href="http://www.goes.noaa.gov/GSSLOOPS/wcwv.html">[WV]</a> | Global
@@ -465,7 +458,7 @@ Data-graphing tool]</a> <a href="https://fire.airnow.gov">[Air Now Fire
 &amp; Smoke (interactive map)]</a></p>
 <p>
 <span style="color: #15B93D;">This is the current version of the UO
-Current Weather &amp; Climate webpage (Summer 2022)<br>The URL of this
+Current Weather &amp; Climate webpage (Winter 2023)<br>The URL of this
 page is: <a href="https://pjbartlein.github.io/UOCWC/"
 class="uri">https://pjbartlein.github.io/UOCWC/</a></span>
 </p>

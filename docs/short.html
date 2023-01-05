@@ -13,7 +13,7 @@
 
 <title>Short-term &amp; medium-range forecasts</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -176,8 +176,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +185,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -551,6 +544,19 @@ ppt 12km]</a> <a
 href="https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcpt+///3">[180
 hr accum ppt 12km]</a></p>
 </div>
+<div id="noaa-global-systems-laboratory" class="section level2">
+<h2>NOAA Global Systems Laboratory</h2>
+<p>Globe (13 km) <a href="https://fim.noaa.gov/FV3/">[Experimental FV3
+Model Fields]</a> <a href="https://fim.noaa.gov/">[model
+description]</a><br />
+North America (13 km) <a href="https://rapidrefresh.noaa.gov/RAP/">[RAP
+Model Fields – Experimental]</a> <a
+href="https://rapidrefresh.noaa.gov/">[model description]</a><br />
+CONUS (3 km) <a
+href="https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet">[HRRR-NCEP
+(Operational)]</a> <a href="https://rapidrefresh.noaa.gov/hrrr/">[model
+description]</a></p>
+</div>
 <div id="ncep-gfs-northern-hemisphere-forecasts" class="section level2">
 <h2>NCEP GFS (Northern Hemisphere) forecasts</h2>
 <p><strong>Forecast model maps</strong> <em><a
@@ -721,9 +727,9 @@ Studies (COLA))</a></em><br />
 <a href="http://wxmaps.org/fcst.php">[Multiple domains including NH, SH,
 N. Amer, S. Amer, Europe, E. Asia, Austl &amp; N.Z., etc.]</a></p>
 </div>
-<div id="noaa-earth-modeling-branch-rap-and-hrrr-smoke-forecasts"
+<div id="noaa-global-systems-laboratory-rap-and-hrrr-smoke-forecasts"
 class="section level2">
-<h2>NOAA Earth Modeling Branch – RAP and HRRR (smoke forecasts)</h2>
+<h2>NOAA Global Systems Laboratory – RAP and HRRR (smoke forecasts)</h2>
 <p><strong>Rapid Refresh (RAP) Products</strong> <em><a
 href="https://rapidrefresh.noaa.gov">(RAP web page)</a></em><br />
 <a href="https://rapidrefresh.noaa.gov/RAP/">[RAP plots page]</a> (13.5
