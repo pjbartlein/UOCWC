@@ -61,13 +61,13 @@
 [[WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
 
 **Forecasts**  
-Eugene
-[[GFS 10-day meteogram]](http://wxmaps.org/pix/euggfs.png)
+Eugene:  [[GFS 10-day meteogram]](http://wxmaps.org/pix/euggfs.png) 
+[[day 10-16]](http://wxmaps.org/pix/euggfs.png)
 [[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
-6-day (144-hr) hourly forecast plot: 
+ | 6-day (144-hr) hourly forecast plot: 
 [[summer]](html/eugwx/all3_eug_summer.html)
 [[winter]](html/eugwx/all3_eug_winter.html)  
-PNW 
+PNW: 
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1) 
 [[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
 
