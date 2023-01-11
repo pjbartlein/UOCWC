@@ -12,7 +12,7 @@
 
 ## Other satellite imagery ##
 
-**Composiite images** *[(U. Wisc. SSEC)](https://www.ssec.wisc.edu/data/composites)*  
+**Composite images** *[(U. Wisc. SSEC)](https://www.ssec.wisc.edu/data/composites)*  
 [[Global montage]](https://www.ssec.wisc.edu/data/comp/latest_cmoll.gif)
 [[loop]](https://www.ssec.wisc.edu/data/composites/cmoll-animation/)
 [[Global IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
