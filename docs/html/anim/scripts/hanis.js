@@ -2,12 +2,12 @@
 /** @constructor */
 var HAniS = new function() {
   var userWindow, canH, canW, imgHeight, imgWidth, imgHChk, imgWChk,
-  canXScale, canYScale,
+  canXScale, canYScale, xInit,  yInit,
   controls, bottomControls, firstlast, first, last, loadMsg, loadMsgAuto,
   pointer, debug, popupWindow, debugWindow, debugText, buttcss, undoText,
   ptr, useDiv, divall, divcon, divcont, divconb, divcan, divcanStyle,
   divname, divanim, divtop, prefHgt, prefWid, imgCan,
-  ctx, ctx1, drwCan, ctxd, topCan, ctxtop,
+  ctx, ctx1, drwCan, ctxd, topCan, ctxtop, idx, idy, idsx, idsy, iddx, iddy,
   usingZip, zipFilename, zipOnly, zipFile, zipStatic, backFilesUrl,
   numFrames, backFiles, useWheelFrame, divoldrop, oldrop, menuIndex, menuButt,
   numOverlays, overlayTop, overlayLabels,overlayOrder, overlayFiles, overlayFilesUrl,
@@ -522,7 +522,7 @@ var HAniS = new function() {
       if (cv == "true") {
         debugWindow = window.open("","HAniSDebugInfo","scrollbars=yes,width=400,height=200");
         debug = true;
-        info("HAniS Version 4.43");
+        info("HAniS Version 4.45");
       } else {
         debug = false;
       }
@@ -2545,10 +2545,17 @@ var HAniS = new function() {
 
     progX = canW/2 - 100;
     progY = canH/2 - 10;
-    canXScale = 1.0 * imgWidth / canW;
-    canYScale = 1.0 * imgHeight / canH;
-    hImage = Math.floor(imgHeight / zoomYFactor);
+    canXScale = imgWidth / canW;
+    canYScale = imgHeight / canH;
     wImage = Math.floor(imgWidth / zoomXFactor);
+    hImage = Math.floor(imgHeight / zoomYFactor);
+
+    xInit = 0;
+    yInit = 0;
+    if (useDiv) {
+      xInit = Math.round((imgWidth - imgWChk)/2);
+      yInit = Math.round((imgHeight - imgHChk)/2);
+    }
 
     divcan.style.height = canH+"px";
     divcan.style.width = canW+"px";
@@ -2694,6 +2701,7 @@ var HAniS = new function() {
       backImages[i].frameNum = i;
       backImages[i].onerror = function() {
         imgGotCount++;
+        drawImageProgress();
       }
 
       backImages[i].onload = function() {
@@ -2801,6 +2809,7 @@ var HAniS = new function() {
                   overlayImages[k][j].overlayNum = j;
                   overlayImages[k][j].onerror = function() {
                     imgGotCount++;
+                    drawImageProgress();
                   }
                   overlayImages[k][j].onload = function() {
                     this.gotit = true;
@@ -2919,6 +2928,7 @@ var HAniS = new function() {
                         if (ff != f) {
                           overlayImages[ff][this.overlayNum] = overlayImages[f][this.overlayNum];
                           imgGotCount++;
+                          drawImageProgress();
                         }
                       }
                     }
@@ -2948,6 +2958,7 @@ var HAniS = new function() {
               hiResBase[j].gotit = false;
               hiResBase[j].onerror = function(e) {
                 imgGotCount++;
+                drawImageProgress();
               }
               hiResBase[j].onload = function(e) {
                 e.currentTarget.gotit = true;
@@ -4623,13 +4634,13 @@ var HAniS = new function() {
 
   function getLatLon() {
     if (locTran != null) {
-      locll = locTran.toLatLon(xImage, yImage);
+      locll = locTran.toLatLon(xImage-xInit, yImage-yInit);
     } else if (loc0 != null) {
-      locll[0] = loc0 + (loc2 - loc0)*yImage/imgHeight;
-      locll[1] = loc1 + (loc3 - loc1)*xImage/imgWidth;
+      locll[0] = loc0 + (loc2 - loc0)*(yImage-yInit)/imgHChk;
+      locll[1] = loc1 + (loc3 - loc1)*(xImage-xInit)/imgWChk;
     } else {
-      locll[0] = Math.round(xImage);
-      locll[1] = Math.round(yImage);
+      locll[0] = Math.round(xImage-xInit);
+      locll[1] = Math.round(yImage-yInit);
     }
 
   }
@@ -5087,6 +5098,7 @@ var HAniS = new function() {
   }
 
   function doHide() {
+    if (useDiv) return;
     var sv = hideLeftZoom ? hideLeft/zoomXFactor : 0;
     if (xMove + sv < hideLeft) xMove = hideLeft - sv;
 
@@ -5254,18 +5266,20 @@ var HAniS = new function() {
     HAniS.toggleIsLooping();
   }
 
-  function doAutoEnhance(img, ox, oy, ow, oh, tnum) {
-    ctxae.clearRect(0,0,canW, canH);
+  function doAutoEnhance(img, ox, oy, ow, oh, iddx, iddy, tnum) {
+    aeCan.height = oh;
+    aeCan.width = ow;
+    ctxae.clearRect(0,0, ow, oh);
     ctxae.imageSmoothingEnabled = enableSmoothing;
     ctx.imageSmoothingEnabled = enableSmoothing;
-    ctxae.drawImage(img,ox,oy,ow,oh,0,0,canW, canH);
-    ctxaed = ctxae.getImageData(0,0,canW,canH)
+    ctxae.drawImage(img,ox,oy,ow,oh,0,0,ow,oh);
+    ctxaed = ctxae.getImageData(0,0,ow,oh)
     eod = ctxaed.data;
     etr = tabR[tnum];
     etg = tabG[tnum];
     etb = tabB[tnum];
     eta = tabA[tnum];
-    esd = 4 * canW * canH;
+    esd = 4 * ow * oh;
     for (ek=0; ek<esd; ek=ek+4) {
       eodk = eod[ek];
       if (eodk === eod[ek+1] && eodk === eod[ek+2]) {
@@ -5275,10 +5289,8 @@ var HAniS = new function() {
         eod[ek+3] = eta[eodk];
       }
     }
-
     ctxae.putImageData(ctxaed,0,0);
-    ctx.drawImage(aeCan,0,0,canW,canH);
-
+    ctx.drawImage(aeCan,iddx,iddy,canW,canH);
   }
 
   this.doEnhance = function(e) {
@@ -6092,7 +6104,7 @@ var HAniS = new function() {
           yImage = Math.round(yImage);
           if (doBaseProbe) {
             ctx1.clearRect(0,0,1,1);
-            ctx1.drawImage(backImages[curFrame],xImage,yImage,1,1,0,0,1,1);
+            ctx1.drawImage(backImages[curFrame],xImage-xInit,yImage-yInit,1,1,0,0,1,1);
             rgb = ctx1.getImageData(0,0,1,1).data;
             tn = 0;
             probeScale(false);
@@ -6107,9 +6119,9 @@ var HAniS = new function() {
 
                 ctx1.clearRect(0,0,1,1);
                 if (k == overlayEnhNum) {
-                  ctx1.drawImage(origCan[curFrame],xImage,yImage,1,1,0,0,1,1);
+                  ctx1.drawImage(origCan[curFrame],xImage-xInit,yImage-yInit,1,1,0,0,1,1);
                 } else {
-                  ctx1.drawImage(overlayImages[curFrame][k],xImage,yImage,1,1,0,0,1,1);
+                  ctx1.drawImage(overlayImages[curFrame][k],xImage-xInit,yImage-yInit,1,1,0,0,1,1);
                 }
                 rgb = ctx1.getImageData(0,0,1,1).data;
                 tn = overlayProbe[k];
@@ -6220,6 +6232,23 @@ var HAniS = new function() {
 
   function drawIt() {
     var i;
+    idx = xMove-xInit;
+    if (idx < 0) {
+      idsx = 0;
+      iddx = -idx * canW / wImage;
+    } else {
+      idsx = idx;
+      iddx = 0;
+    }
+    idy = yMove - yInit;
+    if (idy < 0) {
+      idsy = 0;
+      iddy = -idy * canH / hImage;
+    } else {
+      idsy = idy;
+      iddy = 0;
+    }
+
     if (!gotImages) return;
     try {
       ctx.clearRect(0,0,canW, canH);
@@ -6234,9 +6263,9 @@ var HAniS = new function() {
         } else {
           if (backImages[curFrame].gotit) {
              if (autoEnhanceBg != null) {
-               doAutoEnhance(backImages[curFrame],xMove,yMove,wImage,hImage,autoEnhanceBg);
+               doAutoEnhance(backImages[curFrame],idsx,idsy,wImage,hImage,iddx, iddy, autoEnhanceBg);
              } else {
-               ctx.drawImage(backImages[curFrame],xMove,yMove,wImage,hImage,0,0,canW, canH);
+               ctx.drawImage(backImages[curFrame],idsx,idsy,wImage,hImage,iddx,iddy,canW,canH);
              }
            }
 
@@ -6274,13 +6303,13 @@ var HAniS = new function() {
               if (overlayImages[curFrame][i].gotit) {
                 if (olayZoomIndex == null || olayZoomIndex[i] === 1) {
                   if (autoEnhanceList != null && autoEnhanceList[i] >= 0) {
-                    doAutoEnhance(overlayImages[curFrame][i],xMove,yMove,wImage,hImage, autoEnhanceList[i]);
+                    doAutoEnhance(overlayImages[curFrame][i],idsx, idsy,wImage,hImage,iddx, iddy, autoEnhanceList[i]);
 
                   } else {
-                    ctx.drawImage(overlayImages[curFrame][i],xMove,yMove,wImage,hImage,0,0,canW, canH);
+                    ctx.drawImage(overlayImages[curFrame][i],idsx,idsy,wImage,hImage,iddx,iddy,canW, canH);
                   }
                 } else if (olayZoomIndex[i] === 0) {
-                    ctx.drawImage(overlayImages[curFrame][i],0,0, imgWidth, imgHeight, 0, 0, canW, canH);
+                    ctx.drawImage(overlayImages[curFrame][i],idsx,idsy, wImage, hImage, iddx, iddy, canW, canH);
                 }
               }
 

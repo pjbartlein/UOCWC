@@ -1,0 +1,12 @@
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/300j.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/500vor.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/ivt.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/pcpw.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/700w.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/850t.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/850rh.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/pcp3.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/ncr.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/slp.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/tsfcbc.06.0000.gif
+https://a.atmos.washington.edu/wrfrt/data/current_gfs/images_d1/mcape.06.0000.gif
