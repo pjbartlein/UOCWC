@@ -132,70 +132,40 @@ CONUS (3 km) [[HRRR-NCEP (Operational)]](https://rapidrefresh.noaa.gov/hrrr/HRRR
 **Forecast model maps** *[(U. Wisc. AOS Dept.)](http://www.aos.wisc.edu/weather/Models)* [[basemap]](https://pjbartlein.github.io/UOCWC/html/exercises/UW-GFS-basemap.png)
 
 300mb heights and wind speed  
-large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300.html)
-small
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300_sm.html)
-[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c300_sm.html)
-[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c300_sm.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300_sm.html)  
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300.html)  
 
 500mb heights, winds and absolute vorticity  
-large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500.html)
-small
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c500_sm.html)
-[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500_sm.html)
-[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500_sm.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500_sm.html) 
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500.html) 
 
 700 mb heights, vertical veolocity and winds  
-large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700.html)
-small
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c700_sm.html)
-[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700_sm.html)
-[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700_sm.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700_sm.html)  
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700.html)  
 
 850-500mb integrated relative humidity and lifted index  
-large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia.html)
-small
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_crhlia_sm.html)
-[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_crhlia_sm.html)
-[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_crhlia_sm.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia_sm.html)  
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_crhlia.html)  
 
 850mb temperature, heights, and winds  
-large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850.html)
-small
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c850_sm.html)
-[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c850_sm.html)
-[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c850_sm.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850_sm.html)  
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c850.html)  
 
 Forecast accumulated precipitation and surface pressure  
-large [[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres.html)
-small
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_cpres_sm.html)
-[[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_cpres_sm.html)
-[[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres_sm.html)
-[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres_sm.html)  
+[[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres.html)  
 
 ## NCEP Ensemble forecasts##
 
