@@ -138,13 +138,13 @@ CONUS (3 km) [[HRRR-NCEP (Operational)]](https://rapidrefresh.noaa.gov/hrrr/HRRR
 [[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c300.html)  
 
 500mb heights, winds and absolute vorticity  
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c500.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c500.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c500.html)
 [[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c500.html) 
 
 700 mb heights, vertical veolocity and winds  
-[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c300.html)
+[[00 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh00_c700.html)
 [[06 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh06_c700.html)
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_c700.html)
 [[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_c700.html)  
