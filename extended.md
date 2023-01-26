@@ -37,10 +37,8 @@ Mexico & Central Am. [[temperature]](http://wxmaps.org/pix/temp3.html)
 **NCEP (NMC) Ensemble Forecast Products** *[(NOAA ESRL PSD (CDC) Map Room)](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)* 
 
 500mb spaghetti plots:  
-[[N. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh.html)
-[[N. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh_sm.html)
-[[S. Hemis. (large)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html)
-[[S. Hemis. (small)]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh_sm.html) 
+[[N. Hemis.]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_nh.html)
+[[S. Hemis.]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html)
 
 ## Outlooks ##
 
