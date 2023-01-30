@@ -2,7 +2,7 @@
 
 **NWS Portland**  *[(NWS Portland)](https://www.weather.gov/pqr/)*  
 [[Eugene forecast at a glance]](https://forecast.weather.gov/MapClick.php?lon=-123.07004928588869&lat=44.03768897706345#.XKPy_C2ZPUI) 
-Eugene 6-day (144-hr) hourly forecast plot: 
+Eugene 6-day (144hr) hourly forecast plot: 
 [[summer]](html/eugwx/all3_eug_summer.html)
 [[winter]](html/eugwx/all3_eug_winter.html)  
 [[GFS Eugene meteogram day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
@@ -46,7 +46,8 @@ WRF-GFS 36km
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d1_slp+//72/3)  
 [[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
 [[precipitable WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ti_pcpw+///3)
-[[84 hr accum ppt]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3)   
+[[84hr accum ppt]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3)
+[[6hr fcst stack]](https://pages.uoregon.edu/bartlein/exercises/uw_wrf-gfs/uw_wrf-gfs_36km.html)
 
 WRF-GFS 12km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif)
@@ -63,7 +64,7 @@ WRF-GFS 12km
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_slp+//72/3)  
 [[water-vapor flux]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ivt+//84/3)
 [[precipitable WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_ti_pcpw+///3)
-[[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3)
+[[84hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_pcpt+//84/3)
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3)
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3)
@@ -81,7 +82,7 @@ WRF-GFS 4km
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow1+///1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_snow24+///3)
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d3_ptype+///3)  
-[[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3)
+[[84hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_pcpt+//84/3)
 [[Eugene-Jackson x-sec]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_cxeugene+///3)
 [[Eugene sounding]](https://a.atmos.washington.edu/mm5rt/rt/showsounding_d3.cgi?initmodel=GFS&yyyymmddhh=timeindep&reqhr=0&loc=keug&locname=Eugene%2COR&latlon=44.13N,123.2W)
 [[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd3_hdw+///3)
@@ -90,7 +91,7 @@ WRF-GFS 1.33km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmterrain.gif)
 [[land cover]](http://www.atmos.washington.edu/mm5rt/domains/nov16.1.33kmlanduse.gif)  
 [[1hr ppt]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_pcp1+///1)
-[[84 hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3)
+[[84hr accum precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_pcpt+//84/3)
 [[OLR]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_olr+//84/3)
 [[850mb T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_850t+///3)
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_tsfc+///3)
@@ -101,7 +102,7 @@ keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)
 [[FrzLvl]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_fzlt+//84/3)  
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow1+///1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snow24+///3)
-[[72 hr accum snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_snowacc+//84/3)
+[[72hr accum snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_snowacc+//84/3)
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)
 [[E.OR 1hr snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_rsnow1+//84/1)
@@ -111,7 +112,7 @@ WRF-GFS extended runs
 [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_300j+///3)
 [[700mb omega 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_500w+///3)
 [[3hr ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcp3+///3)
-[[180 hr accum ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcpt+///3)
+[[180hr accum ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_pcpt+///3)
 [[SLP 36km]]([LOOP](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_x_slp+///3))   
 [[water-vapor flux 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
 [[precipitable WV 36km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ti_pcpw+///3)  
@@ -119,7 +120,7 @@ WRF-GFS extended runs
 [[CAPE 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_mcape+///3)
 [[3hr snow 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_ti_msnow3+///3)
 [[3hr ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcp3+///3)
-[[180 hr accum ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcpt+///3)
+[[180hr accum ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_x_pcpt+///3)
 
 ## NOAA Global Systems Laboratory ##
 
