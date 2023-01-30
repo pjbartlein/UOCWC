@@ -47,7 +47,7 @@ WRF-GFS 36km
 [[water-vapor flux]](https://atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ivt+//84/3)
 [[precipitable WV]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_ti_pcpw+///3)
 [[84hr accum ppt]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd1_pcpt+//84/3)
-[[6hr fcst stack]](https://pages.uoregon.edu/bartlein/exercises/uw_wrf-gfs/uw_wrf-gfs_36km.html)
+[[6hr forecast stack]](https://pages.uoregon.edu/bartlein/exercises/uw_wrf-gfs/uw_wrf-gfs_36km.html)
 
 WRF-GFS 12km
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.12kmterrain.gif)
@@ -68,7 +68,7 @@ WRF-GFS 12km
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow1+//72/1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_snow24+//72/3)
 [[Pr frz ppt]](http://www.atmos.washington.edu/%7Eovens/loops/wxloop.cgi?mm5d2_ptype+//72/3)
-[[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd2_hdw+//84/3)
+[[6hr forecast stack]](https://pages.uoregon.edu/bartlein/exercises/uw_wrf-gfs/uw_wrf-gfs_12km.html)
   
 WRF-GFS 4km 
 [[model topography]](http://www.atmos.washington.edu/mm5rt/domains/may06.4kmterrain.gif)
