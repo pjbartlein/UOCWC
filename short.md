@@ -9,12 +9,13 @@ Eugene 6-day (144hr) hourly forecast plot:
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)
 [[Portland fire WX discussion]](https://forecast.weather.gov/product.php?site=PQR&issuedby=PQR&product=FWF&format=CI&version=1&glossary=0)
 
-
 **NCEP** *[(NCEP)](https://www.ncep.noaa.gov/)*  
 [[National forecast maps]](http://www.weather.gov/forecastmaps)
 [[Tables]](https://www.ncep.noaa.gov/nationalmaps/)
 [[Model guidance page]](http://mag.ncep.noaa.gov/model-guidance-model-area.php) 
-[[Environmental Modeling Center]](https://www.emc.ncep.noaa.gov)
+[[Environmental Modeling Center]](https://www.emc.ncep.noaa.gov)  
+[[Winter Storm Severity Index]](https://www.wpc.ncep.noaa.gov/wwd/wssi/wssi.php)
+[[Winter Weather Forecasts]](https://www.wpc.ncep.noaa.gov/wwd/winter_wx.shtml)
 
 **Storm Prediction Center (Severe storms)** *[(SPC)](https://www.spc.noaa.gov/)*  
 [[Overview]](https://www.spc.noaa.gov/)

@@ -69,7 +69,12 @@ Eugene:  [[GFS 10-day meteogram]](http://wxmaps.org/pix/euggfs.png)
 [[winter]](html/eugwx/all3_eug_winter.html)  
 PNW: 
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1) 
-[[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)
+[[Portland and regional zone forecasts]](https://www.wrh.noaa.gov/pqr/forecasts.php)  
+National:
+[[weather.gov]](https://www.weather.gov/)
+[[Winter Storm Severity Index]](https://www.wpc.ncep.noaa.gov/wwd/wssi/wssi.php)
+[[Winter Weather Forecasts]](https://www.wpc.ncep.noaa.gov/wwd/winter_wx.shtml)
+
 
 **Fire and Air Quality**  
 [[Portland fire WX discussion]](https://forecast.weather.gov/product.php?site=PQR&issuedby=PQR&product=FWF&format=CI&version=1&glossary=0)
