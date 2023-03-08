@@ -35,7 +35,7 @@
  
 **Text**  
 [[Eugene forecast at a glance]](https://forecast.weather.gov/MapClick.php?lon=-123.07004928588869&lat=44.03768897706345#.XKPy_C2ZPUI) 
-[[Portland area forecast discussion]](https://forecast.weather.gov/product.php?site=NWS&issuedby=PQR&product=AFD&format=CI&version=1&glossary=0&highlight=off)
+[[Portland area forecast discussion]](https://www.weather.gov/wrh/TextProduct?product=afdpqr)
 
 **Current conditions**  
 [[168-hour summary for Eugene]](https://www.wrh.noaa.gov/mesowest/getobext.php?sid=KEUG&wfo=pqr&num=144)
