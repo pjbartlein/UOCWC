@@ -22,12 +22,6 @@ Eugene 6-day (144hr) hourly forecast plot:
 [[Convective outlooks]](https://www.spc.noaa.gov/products/outlook/)
 [[Storm reports]](https://www.spc.noaa.gov/climo/online/)
 
-**National Hurricane Center** *[(NHC)](https://www.nhc.noaa.gov/)*  
-[[Atlantic]](https://www.nhc.noaa.gov/)
-[[E. Pacific]](https://www.nhc.noaa.gov/?epac)
-[[Central Pacific]](https://www.nhc.noaa.gov/?cpac)
-[[Climatology]](https://www.nhc.noaa.gov/climo/)
-
 ## PNW WRF-GFS mesoscale forecasts ##
 
 **NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)*  <br>
@@ -209,6 +203,21 @@ Forecast accumulated precipitation and surface pressure
 
 **NOAA** [[Air-quality forecast guidance]](https://airquality.weather.gov)
 *[(NOAA)](https://www.noaa.gov)*.  
+
+## Tropical Predictions## 
+**National Hurricane Center** *[(NHC)](https://www.nhc.noaa.gov/)*  
+[[Atlantic]](https://www.nhc.noaa.gov/)
+[[E. Pacific]](https://www.nhc.noaa.gov/?epac)
+[[Central Pacific]](https://www.nhc.noaa.gov/?cpac)
+[[Climatology]](https://www.nhc.noaa.gov/climo/)  
+
+**Joint Typhoon Warning Center** [(*JTWC*)](https://www.metoc.navy.mil/jtwc/jtwc.html)  
+[[Western Pacific and Indian Ocean Tropical Warnings]](https://www.metoc.navy.mil/jtwc/jtwc.html)   
+
+**Climate Prediction Center**  [(*CPC*)](https://www.cpc.ncep.noaa.gov/)  
+[[Weeks 2-3 Global Tropical Hazards Outlook]](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/ghaz/index.php)
+
+
 
 
 
