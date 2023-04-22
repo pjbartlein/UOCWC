@@ -39,6 +39,8 @@ Energy-balance components follow the Sellers (1968) sign convention:
 [[2m air temperature]](https://pages.uoregon.edu/bartlein/maps/globe/t2m_globe_1991-2020_ltm/t2m_globe_1991-2020_ltm.html) 
 [[2m air temperature (polar)]](https://pages.uoregon.edu/bartlein/maps/polar/t2m_polar_1991-2020_ltm/t2m_polar_1991-2020_ltm.html)
 [[Surface net radiation & 2m air temp]](https://pages.uoregon.edu/bartlein/maps/globe/t2m_snr_globe_1991-2020_ltm/t2m_snr_globe_1991-2020_ltm.html)  
+[[Skin temperature]](https://pages.uoregon.edu/bartlein/maps/globe/skt_globe_1991-2020_ltm/skt_globe_1991-2020_ltm.html)
+[[2m air temperature - Skin temperature]](https://pages.uoregon.edu/bartlein/maps/globe/t2m-skt_globe_1991-2020_ltm/t2m-skt_globe_1991-2020_ltm.html)  
 
 **Atmospheric circulation & winds**  
 
