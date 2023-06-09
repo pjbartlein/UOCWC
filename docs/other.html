@@ -13,7 +13,7 @@
 
 <title>Other environmental information</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -176,8 +176,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +185,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -409,7 +402,18 @@ map]</a><br />
 </li>
 <li><a
 href="https://www.spc.noaa.gov/products/fire_wx/overview.html">[Fire-weather
-outlooks <em>(SPC)</em>]</a></li>
+outlooks <em>(SPC)</em>]</a><br />
+</li>
+<li><a
+href="https://www.nifc.gov/nicc/predictive/outlooks/outlooks.htm">[7-day,
+Monthly, and Seasonal Outlooks <em>(NICC)</em>]</a><br />
+<a
+href="%5BNational%20Wildland%20Significant%20Fire%20Potential%20Outlook.%5D(https://www.nifc.gov/nicc/predictive/outlooks/monthly_seasonal_outlook.pdf)">[US
+(.pdf)]</a> <a
+href="https://www.nifc.gov/nicc/predictive/outlooks/NA_Outlook.pdf">[North
+America (.pdf)]</a> <a
+href="https://fsapps.nwcg.gov/psp/npsg/forecast#/outlooks?state=map">[7-day
+US (viewer)]</a></li>
 <li><a href="https://rapidrefresh.noaa.gov/RAPsmoke/">[RAP-Smoke Model
 Fields]</a> (13.5 k m resolution)</li>
 <li><a href="https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/">[HRRR CONUS

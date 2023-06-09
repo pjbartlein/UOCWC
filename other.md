@@ -27,7 +27,9 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 - [[InciWeb -- Incident Information System]](https://inciweb.nwcg.gov)
 - [[NWCG Situational Awareness Map]](https://maps.nwcg.gov/sa/#/%3F/%3F/38.8697/-101.2707/5) *[(NWCG)](https://maps.nwcg.gov/)*
 - [[Northwest Coordination Center]](http://gacc.nifc.gov/nwcc/)  [[Large-fire map]](http://gacc.nifc.gov/nwcc/)  
-- [[Fire-weather outlooks *(SPC)*]](https://www.spc.noaa.gov/products/fire_wx/overview.html)
+- [[Fire-weather outlooks *(SPC)*]](https://www.spc.noaa.gov/products/fire_wx/overview.html)  
+- [[7-day, Monthly, and Seasonal Outlooks *(NICC)*]](https://www.nifc.gov/nicc/predictive/outlooks/outlooks.htm)  
+[[US (.pdf)]]([National Wildland Significant Fire Potential Outlook.](https://www.nifc.gov/nicc/predictive/outlooks/monthly_seasonal_outlook.pdf)) [[North America (.pdf)]](https://www.nifc.gov/nicc/predictive/outlooks/NA_Outlook.pdf)  [[7-day US (viewer)]](https://fsapps.nwcg.gov/psp/npsg/forecast#/outlooks?state=map)
 - [[RAP-Smoke Model Fields]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution) 
 - [[HRRR CONUS Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)
 
