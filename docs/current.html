@@ -13,7 +13,7 @@
 
 <title>Observations</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -176,8 +176,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +185,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -452,27 +445,28 @@ href="https://radar.weather.gov/">(National Radar Page)</a></em> <a
 href="https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg">[Coverage
 map]</a></p>
 <p><strong>AWC Radar</strong> <em><a
-href="https://aviationweather.gov/radar">(Aviation Weather Center Radar
+href="https://aviationweather.gov">(Aviation Weather Center Radar
 Imagery)</a></em><br />
 <a
-href="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif">[PNW]</a>
+href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif">[PNW]</a>
 <a
-href="https://aviationweather.gov/radar/plot?region=lws&amp;type=cref&amp;date=">[PNW
+href="https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&amp;type=cref&amp;date=">[PNW
 loop]</a> <a
-href="https://aviationweather.gov/data/obs/radar/rad_cref_wmc.gif">[NCA]</a>
-<a href="https://aviationweather.gov/radar/plot?region=wmc">[NCA
-loop]</a> <a
-href="https://aviationweather.gov/data/obs/radar/rad_cref_las.gif">[SCA]</a>
+href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_wmc.gif">[NCA]</a>
 <a
-href="https://aviationweather.gov/radar/plot?region=las&amp;type=cref&amp;date=">[SCA
+href="https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=wmc">[NCA
+loop]</a> <a
+href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_las.gif">[SCA]</a>
+<a
+href="https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=las&amp;type=cref&amp;date=">[SCA
 loop]</a><br />
 <a
-href="https://aviationweather.gov/data/obs/radar/rad_cref_us.gif">[AWC
+href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_us.gif">[AWC
 US Comp Reflect]</a> <a
-href="https://aviationweather.gov/radar/plot?region=us&amp;type=cref&amp;date=">[AWC
+href="https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=us&amp;type=cref&amp;date=">[AWC
 US Comp Reflect loop]</a> <a
-href="https://aviationweather.gov/data/obs/radar/">[AWC radar files
-list]</a></p>
+href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/">[AWC
+radar files list]</a></p>
 <p><strong>NWS Local Radar</strong><br />
 <a
 href="https://radar.weather.gov/ridge/standard/KRTX_0.gif">[Portland]</a>
@@ -561,10 +555,10 @@ href="https://www.faa.gov/">(FAA)</a></em><br />
 <a href="https://www.fly.faa.gov/ois/jsp/summary_sys.jsp">[Airspace
 system status]</a></p>
 <p><strong>NOAA Aviation Weather Center</strong> <em><a
-href="https://aviationweather.gov">(AWC)</a></em><br />
-<a href="https://aviationweather.gov">[Overview]</a> <a
-href="https://aviationweather.gov/sigmet">[SIGMET]</a> <a
-href="https://aviationweather.gov/gairmet">[G-AIRMET]</a></p>
+href="https://aviationweather-cprk.ncep.noaa.gov">(AWC)</a></em><br />
+<a href="https://aviationweather-cprk.ncep.noaa.gov">[Overview]</a> <a
+href="https://aviationweather-cprk.ncep.noaa.gov/sigmet">[SIGMET]</a> <a
+href="https://aviationweather-cprk.ncep.noaa.gov/gairmet">[G-AIRMET]</a></p>
 </div>
 <div id="space-weather" class="section level2">
 <h2>Space weather</h2>

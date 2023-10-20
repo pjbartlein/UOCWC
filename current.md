@@ -69,16 +69,16 @@
 **NWS Radar**  *[(National Radar Page)](https://radar.weather.gov/)*
 [[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
 
-**AWC Radar** *[(Aviation Weather Center Radar Imagery)](https://aviationweather.gov/radar)*  
-[[PNW]](https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif)
-[[PNW loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
-[[NCA]](https://aviationweather.gov/data/obs/radar/rad_cref_wmc.gif)
-[[NCA loop]](https://aviationweather.gov/radar/plot?region=wmc)
-[[SCA]](https://aviationweather.gov/data/obs/radar/rad_cref_las.gif)
-[[SCA loop]](https://aviationweather.gov/radar/plot?region=las&type=cref&date=)  
-[[AWC US Comp Reflect]](https://aviationweather.gov/data/obs/radar/rad_cref_us.gif)
-[[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
-[[AWC radar files list]](https://aviationweather.gov/data/obs/radar/)
+**AWC Radar** *[(Aviation Weather Center Radar Imagery)](https://aviationweather.gov)*  
+[[PNW]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif)
+[[PNW loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&type=cref&date=)
+[[NCA]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_wmc.gif)
+[[NCA loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=wmc)
+[[SCA]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_las.gif)
+[[SCA loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=las&type=cref&date=)  
+[[AWC US Comp Reflect]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_us.gif)
+[[AWC US Comp Reflect loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=us&type=cref&date=)
+[[AWC radar files list]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/)
 
 **NWS Local Radar**  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)
@@ -135,10 +135,10 @@ Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/
 [[Flight delays]](https://www.fly.faa.gov/flyfaa/usmap.jsp)
 [[Airspace system status]](https://www.fly.faa.gov/ois/jsp/summary_sys.jsp)
 
-**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather.gov)*  
-[[Overview]](https://aviationweather.gov)
-[[SIGMET]](https://aviationweather.gov/sigmet)
-[[G-AIRMET]](https://aviationweather.gov/gairmet)
+**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather-cprk.ncep.noaa.gov)*  
+[[Overview]](https://aviationweather-cprk.ncep.noaa.gov)
+[[SIGMET]](https://aviationweather-cprk.ncep.noaa.gov/sigmet)
+[[G-AIRMET]](https://aviationweather-cprk.ncep.noaa.gov/gairmet)
 
 ## Space weather ##
 

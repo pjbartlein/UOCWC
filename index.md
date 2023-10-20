@@ -9,7 +9,7 @@
 					width="270" height="270" style="border:1px solid black"> <br>
 			</td>
 			<td style="vertical-align: top; width: 33%;">
-				<img src="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif" alt="UO"
+				<img src="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif" alt="UO"
 					width="270" height="270" style="border:1px solid black"> <br> 
 			</td>
 		</tr>
@@ -22,8 +22,8 @@
 				<a href="short.html">[Model forecasts]</a>
 			</td>
 			<td style="vertical-align: top; width: 33%;">
-				<a href="https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif">[AWC PNW radar]</a>
-				<a href="https://aviationweather.gov/radar/plot?region=lws&type=cref&date=">[loop]</a>
+				<a href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif">[AWC PNW radar]</a>
+				<a href="https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&type=cref&date=">[loop]</a>
 			</td>
 		</tr>
 	</tbody>
@@ -43,9 +43,9 @@
 [[Oregon weather and climate reports]](https://w2.weather.gov/climate/index.php?wfo=pqr)
 
 **Radar**  
-[[AWC PNW sector and loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
-[[AWC US Comp Reflect]](https://aviationweather.gov/data/obs/radar/rad_cref_us.gif)
-[[AWC US Comp Reflect loop]](https://aviationweather.gov/radar/plot?region=us&type=cref&date=)
+[[AWC PNW sector and loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&type=cref&date=)
+[[AWC US Comp Reflect]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_us.gif)
+[[AWC US Comp Reflect loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=us&type=cref&date=)
 [[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)
 [[Medford]](https://radar.weather.gov/ridge/standard/KMAX_0.gif)
