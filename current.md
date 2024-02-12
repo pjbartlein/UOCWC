@@ -57,6 +57,10 @@
 [[US *(Storm Prediction Center)*]](https://www.spc.noaa.gov/exper/soundings/)
 [[US *(NCAR)*]](http://weather.rap.ucar.edu/upper/)
 
+**Air Weather Center** [(*aviationweather.gov*)](https://aviationweather.gov/)  
+[[current weather]](https://aviationweather.gov/)
+[[observations]](https://aviationweather.gov/gfa/#obs)
+
 **U.S. (TWC)** *[([TWC])](https://weather.com/)*  
 [[U.S. Surface]](https://dsx.weather.com/util/image/map/WEB_Current_Weather_Map_1280x720.jpg)
 [[radar]](https://dsx.weather.com/util/image/map/us_radar_plus_usen_1280x720.jpg)
@@ -68,17 +72,6 @@
 
 **NWS Radar**  *[(National Radar Page)](https://radar.weather.gov/)*
 [[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
-
-**AWC Radar** *[(Aviation Weather Center Radar Imagery)](https://aviationweather.gov)*  
-[[PNW]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif)
-[[PNW loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&type=cref&date=)
-[[NCA]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_wmc.gif)
-[[NCA loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=wmc)
-[[SCA]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_las.gif)
-[[SCA loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=las&type=cref&date=)  
-[[AWC US Comp Reflect]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_us.gif)
-[[AWC US Comp Reflect loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=us&type=cref&date=)
-[[AWC radar files list]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/)
 
 **NWS Local Radar**  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)

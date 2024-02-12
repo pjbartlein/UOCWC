@@ -9,7 +9,7 @@
 					width="270" height="270" style="border:1px solid black"> <br>
 			</td>
 			<td style="vertical-align: top; width: 33%;">
-				<img src="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif" alt="AWC Radar"
+				<img src="https://radar.weather.gov/ridge/standard/PACNORTHWEST_0.gif" alt="PNW Radar"
 					width="270" height="270" style="border:1px solid black"> <br> 
 			</td>
 		</tr>
@@ -22,8 +22,8 @@
 				<a href="short.html">[Model forecasts]</a>
 			</td>
 			<td style="vertical-align: top; width: 33%;">
-				<a href="https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_lws.gif">[AWC PNW radar]</a>
-				<a href="https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&type=cref&date=">[loop]</a>
+				<a href="https://radar.weather.gov/ridge/standard/PACNORTHWEST_0.gif">[PNW radar]</a>
+				<a href="https://radar.weather.gov/ridge/standard/PACNORTHWEST_loop.gif">[loop]</a>
 			</td>
 		</tr>
 	</tbody>
@@ -43,14 +43,20 @@
 [[Oregon weather and climate reports]](https://w2.weather.gov/climate/index.php?wfo=pqr)
 
 **Radar**  
-[[AWC PNW sector and loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=lws&type=cref&date=)
-[[AWC US Comp Reflect]](https://aviationweather-cprk.ncep.noaa.gov/data/obs/radar/rad_cref_us.gif)
-[[AWC US Comp Reflect loop]](https://aviationweather-cprk.ncep.noaa.gov/radar/plot?region=us&type=cref&date=)
-[[Coverage map]](https://www.roc.noaa.gov/wsr88d/Images/USACoverageBoB10kFt.png)  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)
 [[Medford]](https://radar.weather.gov/ridge/standard/KMAX_0.gif)
-[[Portland loop]](https://radar.weather.gov/ridge/standard/KRTX_loop.gif)
-[[Medford loop]](https://radar.weather.gov/ridge/standard/KMAX_loop.gif)
+[[Pendleton]](https://radar.weather.gov/ridge/standard/KPDT_0.gif)
+[[Boise]](https://radar.weather.gov/ridge/standard/KCBX_0.gif)
+[[PNW]](https://radar.weather.gov/ridge/standard/PACNORTHWEST_0.gif)
+[[CONUS]](https://radar.weather.gov/ridge/standard/CONUS-LARGE_0.gif)
+(*recent*)  
+[[Portland]](https://radar.weather.gov/ridge/standard/KRTX_loop.gif)
+[[Medford]](https://radar.weather.gov/ridge/standard/KMAX_loop.gif)
+[[Pendleton]](https://radar.weather.gov/ridge/standard/KPDT_loop.gif)
+[[Boise]](https://radar.weather.gov/ridge/standard/KCBX_loop.gif)
+[[PNW]](https://radar.weather.gov/ridge/standard/PACNORTHWEST_loop.gif)
+[[CONUS]](https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif)
+(*loops*)  
 
 **Satellite**  
 [[GOES 16 & 18 images and loops]](https://www.star.nesdis.noaa.gov/GOES/index.php)
@@ -88,5 +94,5 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 [[LRAPA Data-graphing tool]](https://www.lrapa.org/air-quality-protection/aqi-forecast/#particulate) 
 [[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
 
-<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Winter 2023)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Winter 2024)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
 
