@@ -8,22 +8,16 @@
 [[Pacific NW]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12)  
 [[GOES-W image page]](https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G17)
 [[Pacific NW image page]](https://www.star.nesdis.noaa.gov/GOES/sector.php?sat=G17&sector=pnw)  
-[[Explanation of GOES 16 and 17 sensor bands *(NOAA Jetsream)*]](https://www.weather.gov/jetstream/goes)  
+[[Explanation of GOES West and East sensor bands *(NOAA Jetsream)*]](https://www.noaa.gov/jetstream/satellites)  
 
 ## Other satellite imagery ##
 
 **Composite images** *[(U. Wisc. SSEC)](https://www.ssec.wisc.edu/data/composites)*  
 [[Global montage]](https://www.ssec.wisc.edu/data/comp/latest_cmoll.gif)
-[[loop]](https://www.ssec.wisc.edu/data/composites/cmoll-animation/)
+[[loop]](https://www.ssec.wisc.edu/data/composites/satsfctemp/animation/)
 [[Global IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
 [[Global WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
-
-**Aviation Weather Center International Mosaics** *[(AWC Satellite)](https://www.aviationweather.gov/satellite)*  
-[[N. Pacific]](https://www.aviationweather.gov/satellite/intl?region=i)
-[[N. Atlantic]](https://www.aviationweather.gov/satellite/intl?region=h)
-[[America-Africa]](https://www.aviationweather.gov/satellite/intl?region=b1)
-[[Africa-Asia]](https://www.aviationweather.gov/satellite/intl?region=d)
-[[Central Pacific]](https://www.aviationweather.gov/satellite/intl?region=f)
+[[High noon]](https://www.ssec.wisc.edu/data/comp/local_noon_latest.jpg)
 
 **Water-vapor imagery** *[(NOAA ESRL PSD real-time images)](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/realtime.html)*  
 Most-recent pass:  [[Pacific]](http://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/images/wx_cl/wvp/recent.png)

@@ -100,7 +100,7 @@ keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)
 [[72hr accum snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_snowacc+//84/3)
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.cgi?wrfd4_ti_snocvr+///3)
-[[E.OR 1hr snow]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_rsnow1+//84/1)
+[[E.OR 1hr snow]]([LOOP](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_oes_snowacc+//96/3))
 [[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_hdw+//84/3)
 
 WRF-GFS extended runs  

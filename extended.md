@@ -31,7 +31,6 @@ Mexico & Central Am. [[temperature]](http://wxmaps.org/pix/temp3.html)
 [[soil moisture]](http://wxmaps.org/pix/soil3.html)
 
 **NOAA ESRL PSD (CDC)** *[(NOAA ESRL PSD (CDC))](https://www.esrl.noaa.gov/psd/)*  
-[[GEFS Probabalistic forecasts]](https://www.esrl.noaa.gov/psd/forecasts/reforecast2/)
 [[Experimental Climate/Weather forecasts]](https://www.esrl.noaa.gov/psd/forecasts/)
 
 **NCEP (NMC) Ensemble Forecast Products** *[(NOAA ESRL PSD (CDC) Map Room)](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)* 
@@ -51,10 +50,10 @@ Outlooks:  [[6-10 day]](https://www.cpc.ncep.noaa.gov/products/predictions/610da
 [[CFSv2 Seasonal]](https://www.cpc.ncep.noaa.gov/products/CFSv2/CFSv2seasonal.shtml)
 
 **National Interagency Coordination Center** *[(NICC)](http://www.nifc.gov/nicc/)*  
-[[National Significant Wildland Fire Outlook]](https://www.predictiveservices.nifc.gov/outlooks/outlooks.htm)
+[[National Significant Wildland Fire Outlook]](https://www.nifc.gov/nicc-files/predictive/outlooks/monthly_seasonal_outlook.pdf)
 
 **National Water and Climate Center** *[(NWCC)](https://www.wcc.nrcs.usda.gov/wsf/)*  
-[[Snow & Climate Monitoring and Water Supply Forecasts]](https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap)
+[[Snow & Climate Monitoring and Water Supply Forecasts]](https://nwcc-apps.sc.egov.usda.gov/imap/#version=169&elements=&networks=!&states=!&counties=!&hucs=&minElevation=&maxElevation=&elementSelectType=any&activeOnly=true&activeForecastPointsOnly=true&hucLabels=false&hucIdLabels=false&hucParameterLabels=true&stationLabels=&overlays=&hucOverlays=&basinOpacity=75&basinNoDataOpacity=25&basemapOpacity=100&maskOpacity=0&mode=data&openSections=dataElement,parameter,date,basin,options,elements,location,networks&controlsOpen=true&popup=&popupMulti=&popupBasin=&base=esriNgwm&displayType=station&basinType=6&dataElement=PREC&depth=-8&parameter=PCTMED&frequency=DAILY&duration=wytd&customDuration=&dayPart=E&monthPart=E&forecastPubDay=1&forecastExceedance=50&useMixedPast=true&seqColor=1&divColor=7&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1991&referenceEnd=2020&minimumYears=20&hucAssociations=true&relativeDate=-1&lat=42.300&lon=-114.300&zoom=4.5)
 
 **NOAA/NWS River Forecast Centers** *[(RFC)](https://water.weather.gov/ahps/rfc/rfc.php)*  
 [[10-day River and Hydrology Forecast]](https://www.nwrfc.noaa.gov/rfc/?zoom=6&center=47.33882269482202,-117.333984375&density=1&map_type=ESRI%20Topographic&overlay_basins=false&overlay_hsa=false&overlay_counties=false&overlay_burn_areas=false&lid=&search_type=river)  
