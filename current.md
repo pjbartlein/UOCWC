@@ -28,7 +28,6 @@
 [[OR Current observations]](https://www.wrh.noaa.gov/pqr/observations.php)
 [[Eugene 168-hour summary]](https://www.wrh.noaa.gov/mesowest/timeseries.php?wfo=pqr&sid=KEUG&num=48&raw=0&banner=off)
 
-
 **MesoWest stations near Eugene** *[(MesoWestData)](http://mesowest.utah.edu/index.html)*  
 [[Eugene airport 111m]](http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=KEUG&unit=0&time=LOCAL&product=&year1=&month1=&day1=00&hour1=00&hours=&graph=1&past=0)
 [[Willow Cr. (W. Eugene) 139m]](http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=HBFO3&unit=0&time=LOCAL&product=&year1=&month1=&day1=00&hour1=00&hours=&graph=1&past=0)
