@@ -1,5 +1,4 @@
 <table style="text-align: left; width: 100% height: 240px">
-	<tbody>
 		<tr>
 			<td style="vertical-align: top; width="426" height="240" style="border:1px solid black"">
 				<a  href="http://webcam.uoregon.edu/oneshotimage1">
@@ -12,9 +11,8 @@
 		        (click to enlarge) 
 			</td>
 		</tr>
-	</tbody>
-	
 </table>
+&nbsp;
 
 ## Basic information ##
 **NOAA (National)**   
