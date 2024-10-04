@@ -2,7 +2,7 @@
 		<tr>
 			<td style="vertical-align: top; width="426" height="240" style="border:1px solid black"">
 				<a  href="https://wsrv.nl/?url=http://webcam.uoregon.edu/oneshotimage1">
-				<img src="http://webcam.uoregon.edu/oneshotimage1" 					alt="UO Webcam" ></a>  
+				<img src="https://wsrv.nl/?url=http://webcam.uoregon.edu/oneshotimage1" 					alt="UO Webcam" ></a>  
 			</td>
 		</tr>
 		<tr>
