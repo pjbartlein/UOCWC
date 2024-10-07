@@ -1,3 +1,4 @@
+<!--
 <table style="text-align: left; width: 100% height: 240px">
 		<tr>
 			<td style="vertical-align: top; width="426" height="240" style="border:1px solid black"">
@@ -12,7 +13,9 @@
 			</td>
 		</tr>
 </table>
-&nbsp;
+-->
+
+## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> 
 
 ## Basic information ##
 **NOAA (National)**   
