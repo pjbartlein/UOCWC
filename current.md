@@ -1,8 +1,8 @@
 <table style="text-align: left; width: 100% height: 240px">
 		<tr>
 			<td style="vertical-align: top; width="426" height="240" style="border:1px solid black"">
-				<a  href="http://webcam.uoregon.edu/oneshotimage1&maxage=0d">
-				<img src="https://wsrv.nl/?url=http://webcam.uoregon.edu/oneshotimage1&maxage=0d" 					alt="UO Webcam" ></a>  
+				<a  href="https://wsrv.nl/?url=http://webcam.uoregon.edu/oneshotimage1&maxage=0dhttp://webcam.uoregon.edu/oneshotimage1">
+				<img src="http://webcam.uoregon.edu/oneshotimage1" 					alt="UO Webcam" ></a>  
 			</td>
 		</tr>
 		<tr>
