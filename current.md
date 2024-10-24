@@ -15,7 +15,7 @@
 </table>
 -->
 
-## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> 
+## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> ##
 
 ## Basic information ##
 **NOAA (National)**   
@@ -93,7 +93,7 @@
 
 **Other** *[(Weather Underground Maps)](https://www.wunderground.com/maps)*  
 [[WSI weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wxtype/none/usa/animate.png)  
-[[Weather Underground weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/conus/current.png)
+[[Weather Underground weather-type coded radar image]]([animate.png](https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/conus/animate.png))
 
 **Lightning**  
 [[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)
@@ -128,10 +128,10 @@ Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/
 [[Flight delays]](https://www.fly.faa.gov/flyfaa/usmap.jsp)
 [[Airspace system status]](https://www.fly.faa.gov/ois/jsp/summary_sys.jsp)
 
-**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather-cprk.ncep.noaa.gov)*  
-[[Overview]](https://aviationweather-cprk.ncep.noaa.gov)
-[[SIGMET]](https://aviationweather-cprk.ncep.noaa.gov/sigmet)
-[[G-AIRMET]](https://aviationweather-cprk.ncep.noaa.gov/gairmet)
+**NOAA Aviation Weather Center** *[(AWC)](https://aviationweather.gov/)*  
+[[Overview]](https://aviationweather.gov/)
+[[SIGMET]](https://aviationweather.gov/sigmet)
+[[G-AIRMET]](https://aviationweather.gov/gairmet)
 
 ## Space weather ##
 
