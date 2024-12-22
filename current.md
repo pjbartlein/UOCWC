@@ -71,7 +71,7 @@
 ## Radar and lightning ##
 
 **NWS Radar**  *[(National Radar Page)](https://radar.weather.gov/)*
-[[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
+[[Coverage map]](https://www.roc.noaa.gov/public-documents/program-branch/radar-maps/png/WSR-88D_BOBCoverageMap_20241101.png)  
 
 **NWS Local Radar**  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)
@@ -130,8 +130,8 @@ Current discharge [[Willamette R. at Harrisburg]](https://waterdata.usgs.gov/or/
 
 **NOAA Aviation Weather Center** *[(AWC)](https://aviationweather.gov/)*  
 [[Overview]](https://aviationweather.gov/)
-[[SIGMET]](https://aviationweather.gov/sigmet)
-[[G-AIRMET]](https://aviationweather.gov/gairmet)
+[[SIGMET]](https://aviationweather.gov/gfa/#sigmet)
+[[G-AIRMET]](https://aviationweather.gov/gfa/#gairmet)
 
 ## Space weather ##
 
