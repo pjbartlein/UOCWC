@@ -40,8 +40,8 @@
 
 **Current conditions**  
 [[168-hour summary for Eugene]](https://www.wrh.noaa.gov/mesowest/getobext.php?sid=KEUG&wfo=pqr&num=144)
-[[NWS Portland Local Weather Obs.]](https://www.wrh.noaa.gov/map/?obs=true&wfo=pqr&basemap=OpenStreetMap&boundaries=true,false&obs_popup=true)
-[[Oregon weather and climate reports]](https://w2.weather.gov/climate/index.php?wfo=pqr)
+[[Oregon weather obs. (map)]](https://www.wrh.noaa.gov/map/?obs=true&wfo=pqr&basemap=OpenStreetMap&boundaries=true,false&obs_popup=true)
+[[Local and regional observations (data)]](https://www.weather.gov/pqr/observations)
 
 **Radar**  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)

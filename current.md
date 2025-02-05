@@ -26,7 +26,8 @@
 **Oregon and PNW**  *[(NWS Portland)](https://www.weather.gov/pqr/)*  
 [[NWS Forecast Office, Portland, OR]](https://www.weather.gov/pqr/)
 [[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)  
-[[OR Current observations]](https://www.wrh.noaa.gov/pqr/observations.php)
+[[Oregon weather obs. (map)]](https://www.wrh.noaa.gov/map/?obs=true&wfo=pqr&basemap=OpenStreetMap&boundaries=true,false&obs_popup=true)
+[[Local and regional current observations (data)]](https://www.weather.gov/pqr/observations)
 [[Eugene 168-hour summary]](https://www.wrh.noaa.gov/mesowest/timeseries.php?wfo=pqr&sid=KEUG&num=48&raw=0&banner=off)
 
 **MesoWest stations near Eugene** *[(MesoWestData)](http://mesowest.utah.edu/index.html)*  
