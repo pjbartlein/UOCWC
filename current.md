@@ -94,7 +94,7 @@
 
 **Other** *[(Weather Underground Maps)](https://www.wunderground.com/maps)*  
 [[WSI weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wxtype/none/usa/animate.png)  
-[[Weather Underground weather-type coded radar image]]([animate.png](https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/conus/animate.png))
+[[Weather Underground weather-type coded radar image]](https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/conus/animate.png)
 
 **Lightning**  
 [[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)
