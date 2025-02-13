@@ -39,7 +39,7 @@
 [[Observed Max/Min Temp. & Precip]](https://forecast.weather.gov/product.php?site=pqr&issuedby=OR&product=RTP)
 
 **Current conditions**  
-[[168-hour summary for Eugene]](https://www.wrh.noaa.gov/mesowest/getobext.php?sid=KEUG&wfo=pqr&num=144)
+[[3-day summary for Eugene]](https://www.weather.gov/wrh/timeseries?site=KEUG)
 [[Oregon weather obs. (map)]](https://www.wrh.noaa.gov/map/?obs=true&wfo=pqr&basemap=OpenStreetMap&boundaries=true,false&obs_popup=true)
 [[Local and regional observations (data)]](https://www.weather.gov/pqr/observations)
 
