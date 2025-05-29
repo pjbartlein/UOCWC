@@ -25,7 +25,7 @@
 
 **Oregon and PNW**  *[(NWS Portland)](https://www.weather.gov/pqr/)*  
 [[NWS Forecast Office, Portland, OR]](https://www.weather.gov/pqr/)
-[[Portland area forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPQR&wfo=PQR)  
+[[Portland area forecast discussion]](https://www.weather.gov/wrh/TextProduct?product=afdpqr)  
 [[Oregon weather obs. (map)]](https://www.wrh.noaa.gov/map/?obs=true&wfo=pqr&basemap=OpenStreetMap&boundaries=true,false&obs_popup=true)
 [[Local and regional current observations (data)]](https://www.weather.gov/pqr/observations)
 [[Eugene 3-day summary]](https://www.weather.gov/wrh/timeseries?site=KEUG)

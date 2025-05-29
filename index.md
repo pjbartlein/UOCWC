@@ -97,5 +97,5 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 [[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
 [[Beta version -- Eugene-Springfield]](https://fire.airnow.gov/v4beta/#10/44.0285/-123.0731)
 
-<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate webpage (Summer 2024)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
+<p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate (CWAC!) webpage (Summer 2025)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
 
