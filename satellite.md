@@ -36,7 +36,11 @@ animations:  [[Pacific]](https://www.esrl.noaa.gov/psd/psd2/coastal/satres/data/
 
 **Fire and smoke**  
 [[NOAA Hazard Mapping System]](https://www.ospo.noaa.gov/Products/land/hms.html)  
-[[FIRMS Fire Information for Resource Management System]](https://firms.modaps.eosdis.nasa.gov/map/)
+[[FIRMS Fire Information for Resource Management System]](https://firms.modaps.eosdis.nasa.gov/map/)  
+[[Oregon]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-119.0,43.5,8.2z)
+[[US & Canada]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-100.0,40.0,4.2z)
+[[Globe]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-100.0,40.0,4.2z)  
+
 
 **MODIS images**  
 [[NASA Woldview]](https://worldview.earthdata.nasa.gov)

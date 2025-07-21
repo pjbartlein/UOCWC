@@ -31,7 +31,12 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 - [[7-day, Monthly, and Seasonal Outlooks *(NICC)*]](https://www.nifc.gov/nicc/predictive/outlooks/outlooks.htm)  
 [[US (.pdf)]]([National Wildland Significant Fire Potential Outlook.](https://www.nifc.gov/nicc/predictive/outlooks/monthly_seasonal_outlook.pdf)) [[North America (.pdf)]](https://www.nifc.gov/nicc/predictive/outlooks/NA_Outlook.pdf)  [[7-day US (viewer)]](https://fsapps.nwcg.gov/psp/npsg/forecast#/outlooks?state=map)
 - [[RAP-Smoke Model Fields]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 k m resolution) 
-- [[HRRR CONUS Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)
+- [[HRRR CONUS Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km resolution)  
+
+**Satellite**  FIRMS (Fire Information for Resource Management System):  
+ [[Oregon]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-119.0,43.5,8.2z)
+[[US & Canada]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-100.0,40.0,4.2z)
+[[Globe]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-100.0,40.0,4.2z)  
 
 **Volcanos** *[(USGS)](https://volcanoes.usgs.gov/index.html)*   
 
