@@ -2,9 +2,9 @@
 
 **Current conditions & 3-day history**  
 [[John Day]](http://forecast.weather.gov/MapClick.php?lat=44.4159883&lon=-118.95301&site=all&smap=1&searchresult=John%20Day%2C%20OR%2097845%2C%20USA)
-[[3-day history]](https://www.wrh.noaa.gov/mesowest/getobext.php?wfo=pdt&sid=KGCD&num=72&raw=0)
+[[3-day history]](https://www.weather.gov/mesowest/getobext.php?wfo=pdt&sid=KGCD&num=72&raw=0)
 [[Baker City]](http://forecast.weather.gov/MapClick.php?CityName=Baker+City&state=OR&site=BOI&textField1=44.775&textField2=-117.833&e=0) 
-[[3-day history]](https://www.wrh.noaa.gov/mesowest/getobext.php?wfo=boi&sid=KBKE&num=72&raw=0)
+[[3-day history]](https://www.weather.gov/mesowest/getobext.php?wfo=boi&sid=KBKE&num=72&raw=0)
 [[Pacific NW GOES-W Satellite]](https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&sector=pnw&band=GEOCOLOR&length=12)  
 
 **Forecasts**  
@@ -12,16 +12,12 @@
 0-144 hrs time-series plot: 
 [[summer]](html/eugwx/all3_mfjd_summer.html) 
 [[winter]](html/eugwx/all3_mfjd_winter.html)  
-[[NWS Pendleton web page]](http://www.wrh.noaa.gov/pdt/) 
-[[Weather story]](http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=pdt) 
-[[Current hazards]](https://www.wrh.noaa.gov/map/?wfo=pdt) 
-[[Fire weather]](https://www.wrh.noaa.gov/fire2/?wfo=pdt)
-[[Forecast discussion]](http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPDT&wfo=PDT)  
-[[NWS Boise web page]](http://www.wrh.noaa.gov/boi/) 
-[[Weather story]](http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=boi) 
-[[Current hazards]](https://www.wrh.noaa.gov/map/?wfo=boi) 
-[[Fire weather]](https://www.wrh.noaa.gov/fire2/?wfo=boi)
-[[Forecast discussion]](https://www.wrh.noaa.gov/total_forecast/getprod.php?new&wfo=boi&sid=BOI&pil=AFD)
+[[NWS Pendleton web page]](http://www.weather.gov/pdt) 
+[[Current hazards]](https://www.weather.gov/wrh/hazards?wfo=pdt) 
+[[Forecast discussion]](https://www.weather.gov/wrh/TextProduct?product=afdpdt)  
+[[NWS Boise web page]](http://www.weather.gov/boi) 
+[[Current hazards]](https://www.weather.gov/wrh/hazards?wfo=boi) 
+[[Forecast discussion]](https://www.weather.gov/wrh/TextProduct?product=afdboi)
 
 **NW Regional Modelling Consortium** *[(NWRMC)](http://www.atmos.washington.edu/mm5rt/)* 
 Model topography 
@@ -101,10 +97,6 @@ Extended runs  [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop
 
 **NWS Radar**  *[(NWS Radar Page)](https://radar.weather.gov/)*
 [[Coverage map]](https://www.roc.noaa.gov/WSR88D/Images/WSR-88DCONUSCoverage1000.jpg)  
-
-**AWC Radar** *[(Aviation Weather Center Radar Imagery)](https://aviationweather.gov/radar)*  
-[[Lewiston Regional Composite]](https://aviationweather.gov/data/obs/radar/rad_cref_lws.gif)
-[[Lewiston Regional Composite loop]](https://aviationweather.gov/radar/plot?region=lws&type=cref&date=)
 
 **Lightning**  
 [[US *(TWC)*]](https://s.w-x.co/staticmaps/DCT_SPECIAL99_1280x720.jpg)

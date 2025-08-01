@@ -13,7 +13,7 @@
 
 <title>Middle Fork John Day R. weather</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -176,8 +176,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +185,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -356,11 +349,11 @@ $(document).ready(function () {
 <a
 href="http://forecast.weather.gov/MapClick.php?lat=44.4159883&amp;lon=-118.95301&amp;site=all&amp;smap=1&amp;searchresult=John%20Day%2C%20OR%2097845%2C%20USA">[John
 Day]</a> <a
-href="https://www.wrh.noaa.gov/mesowest/getobext.php?wfo=pdt&amp;sid=KGCD&amp;num=72&amp;raw=0">[3-day
+href="https://www.weather.gov/mesowest/getobext.php?wfo=pdt&amp;sid=KGCD&amp;num=72&amp;raw=0">[3-day
 history]</a> <a
 href="http://forecast.weather.gov/MapClick.php?CityName=Baker+City&amp;state=OR&amp;site=BOI&amp;textField1=44.775&amp;textField2=-117.833&amp;e=0">[Baker
 City]</a> <a
-href="https://www.wrh.noaa.gov/mesowest/getobext.php?wfo=boi&amp;sid=KBKE&amp;num=72&amp;raw=0">[3-day
+href="https://www.weather.gov/mesowest/getobext.php?wfo=boi&amp;sid=KBKE&amp;num=72&amp;raw=0">[3-day
 history]</a> <a
 href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G17&amp;sector=pnw&amp;band=GEOCOLOR&amp;length=12">[Pacific
 NW GOES-W Satellite]</a></p>
@@ -370,19 +363,15 @@ href="http://forecast.weather.gov/MapClick.php?lat=44.654977979262924&amp;lon=-1
 10 Miles WSW Greenhorn OR]</a> 0-144 hrs time-series plot: <a
 href="html/eugwx/all3_mfjd_summer.html">[summer]</a> <a
 href="html/eugwx/all3_mfjd_winter.html">[winter]</a><br />
-<a href="http://www.wrh.noaa.gov/pdt/">[NWS Pendleton web page]</a> <a
-href="http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=pdt">[Weather
-story]</a> <a href="https://www.wrh.noaa.gov/map/?wfo=pdt">[Current
-hazards]</a> <a href="https://www.wrh.noaa.gov/fire2/?wfo=pdt">[Fire
-weather]</a> <a
-href="http://www.wrh.noaa.gov/total_forecast/getprod.php?prod=XXXAFDPDT&amp;wfo=PDT">[Forecast
+<a href="http://www.weather.gov/pdt">[NWS Pendleton web page]</a> <a
+href="https://www.weather.gov/wrh/hazards?wfo=pdt">[Current hazards]</a>
+<a
+href="https://www.weather.gov/wrh/TextProduct?product=afdpdt">[Forecast
 discussion]</a><br />
-<a href="http://www.wrh.noaa.gov/boi/">[NWS Boise web page]</a> <a
-href="http://www.wrh.noaa.gov/FXC/wxstory.php?wfo=boi">[Weather
-story]</a> <a href="https://www.wrh.noaa.gov/map/?wfo=boi">[Current
-hazards]</a> <a href="https://www.wrh.noaa.gov/fire2/?wfo=boi">[Fire
-weather]</a> <a
-href="https://www.wrh.noaa.gov/total_forecast/getprod.php?new&amp;wfo=boi&amp;sid=BOI&amp;pil=AFD">[Forecast
+<a href="http://www.weather.gov/boi">[NWS Boise web page]</a> <a
+href="https://www.weather.gov/wrh/hazards?wfo=boi">[Current hazards]</a>
+<a
+href="https://www.weather.gov/wrh/TextProduct?product=afdboi">[Forecast
 discussion]</a></p>
 <p><strong>NW Regional Modelling Consortium</strong> <em><a
 href="http://www.atmos.washington.edu/mm5rt/">(NWRMC)</a></em> Model
