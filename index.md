@@ -68,12 +68,7 @@
 [[WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
 
 **Forecasts**  
-Eugene:  [[GFS 10-day meteogram]](http://wxmaps.org/pix/euggfs.png) 
-[[day 10-16]](http://wxmaps.org/pix/euggfsb.png)
-[[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
- | 6-day (144-hr) hourly forecast plot: 
-[[summer]](html/eugwx/all3_eug_summer.html)
-[[winter]](html/eugwx/all3_eug_winter.html)  
+6-day (144-hr) hourly forecast plot: [[summer]](html/eugwx/all3_eug_summer.html) [[winter]](html/eugwx/all3_eug_winter.html)  
 PNW: 
 [[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1) 
 [[Portland and regional zone forecasts]](https://forecast.weather.gov/product.php?site=pqr&issuedby=PQR&product=ZFP) 
@@ -94,10 +89,17 @@ zones: [[OR]](https://www.weather.gov/source/pimar/FireZone/or_firezone.jpg)
 FIRMS: [[Oregon]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-119.0,43.5,8.2z)
 [[US & Canada]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-100.0,40.0,4.2z)
 [[Globe]](https://firms.modaps.eosdis.nasa.gov/usfs/map/#d:24hrs;l:fires_all,earth;@-100.0,40.0,4.2z)  
-[[RAP-Smoke Model Fields]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 km) 
-[[HRRR CONUS Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km)  
+[[RAP-Smoke Model Fields]](https://rapidrefresh.noaa.gov/RAPsmoke/) (13.5 km, NA) 
+[[HRRR-Smoke Model Fields]](https://rapidrefresh.noaa.gov/hrrr/HRRRsmoke/) (3 km, CONUS)  
+[[NOAA Air-Quality Forecast]](https://airquality.weather.gov/?element=apm25h01_bc&mapcenter=-96.00%2C40.00&mapzoom=5&subregion=CONUS&region=CONUS)
 [[LRAPA Data-graphing tool]](https://www.lrapa.org/air-quality-protection/aqi-forecast/#particulate) 
 [[Air Now Fire & Smoke (interactive map)]](https://fire.airnow.gov)
 
 <p><span style="color: #15B93D;">This is the current version of the UO Current Weather & Climate (CWAC!) webpage (Summer 2025)<br>The URL of this page is:  https://pjbartlein.github.io/UOCWC/</span></p>
+
+<!--
+Eugene:  [[GFS 10-day meteogram]](http://wxmaps.org/pix/euggfs.png) 
+[[day 10-16]](http://wxmaps.org/pix/euggfsb.png)
+[[day 1-16]](html/eugwx/eug_cola_meteo_0-16.html)
+-->
 
