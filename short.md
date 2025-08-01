@@ -121,7 +121,8 @@ WRF-GFS extended runs
 
 Globe (13 km) [[Experimental FV3 Model Fields]](https://fim.noaa.gov/FV3new/) [[model description]](https://fim.noaa.gov/)   
 North America (13 km) [[RAP Model Fields -- Experimental]](https://rapidrefresh.noaa.gov/RAP/) [[model description]](https://rapidrefresh.noaa.gov/)   
-CONUS (3 km) [[HRRR-NCEP (Operational)]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) [[model description]](https://rapidrefresh.noaa.gov/hrrr/)
+CONUS (3 km) [[HRRR-NCEP (Operational)]](https://rapidrefresh.noaa.gov/hrrr/HRRR/Welcome.cgi?dsKey=hrrr_ncep_jet) [[model description]](https://rapidrefresh.noaa.gov/hrrr/)  
+DESI [[Dynamic Ensemble-Based Scenarios for IDSS]](https://sites.gsl.noaa.gov/desi/)   [[description]](https://gsl.noaa.gov/news/introducing-desi-digest)
 
 ## NCEP GFS (Northern Hemisphere) forecasts
 
@@ -179,12 +180,12 @@ Forecast accumulated precipitation and surface pressure
 [[500mb spaghetti plots]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/spag_sh.html) 
 [[500mb std. dev.]](https://pjbartlein.github.io/UOCWC/html/anim/maps/ncep_ens/std_sh.html)
 
-
+<!--
 ## NCEP GFS & NAM Model Analysis & Forecast maps ##
 
 **Model Analysis and Forecast Maps** *[(Center for Ocean-Land-Atmosphere Studies (COLA))](http://wxmaps.org/fcst.php)*  
 [[Multiple domains including NH, SH, N. Amer, S. Amer, Europe, E. Asia, Austl & N.Z., etc.]](http://wxmaps.org/fcst.php)
-
+-->
 
 
 ## NOAA Global Systems Laboratory -- RAP and HRRR (smoke forecasts)##
