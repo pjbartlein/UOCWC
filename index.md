@@ -40,7 +40,7 @@
 
 **Current conditions**  
 [[3-day summary for Eugene]](https://www.weather.gov/wrh/timeseries?site=KEUG)
-[[Oregon weather obs. (map)]](https://www.wrh.noaa.gov/map/?obs=true&wfo=pqr&basemap=OpenStreetMap&boundaries=true,false&obs_popup=true)
+[[Oregon weather obs. (map)]](https://www.weather.gov/wrh/hazards?obs=true&wfo=pqr)
 [[Local and regional observations (data)]](https://www.weather.gov/pqr/observations)
 
 **Radar**  
