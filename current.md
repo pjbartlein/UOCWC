@@ -18,7 +18,9 @@
 
 **UO Weatherstem** *[(Weatherstem)](https://company.weatherstem.com)*  
 [[Current conditions]](https://lane.weatherstem.com/uo)
-(click on **Daily Timelapse** for 24-hour loop of yesterday's images)
+(click on **Daily Timelapse** for 24-hour loop of yesterday's images)  
+[[Current image]](https://images.weatherstem.com/skycamera/lane/uo/cumulus/snapshot.jpg)  
+
 
 **Alert West Current Images**  *[(www.alertwest.org)](https://www.alertwest.org)*  *[(Oregon Hazards Lab)](https://ohaz.uoregon.edu)*  
 [[University of Oregon 1]](https://alertwest.live/cam-console/11132)
