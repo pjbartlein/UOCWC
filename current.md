@@ -14,8 +14,23 @@
 		</tr>
 </table>
 -->
+## Weather and Fire Cameras ##
 
-## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> ##
+**UO Weatherstem** *[(Weatherstem)](https://company.weatherstem.com)*  
+[[Current conditions]](https://lane.weatherstem.com/uo)
+(click on **Daily Timelapse** for 24-hour loop of yesterday's images)
+
+**Alert West Current Images**  *[(www.alertwest.org)](https://www.alertwest.org)*  *[(Oregon Hazards Lab)](https://ohaz.uoregon.edu)*  
+[[University of Oregon 1]](https://alertwest.live/cam-console/11132)
+[[University of Oregon 2]](https://alertwest.live/cam-console/11133)
+[[Buck Mtn. (Coburg Hills)]](https://alertwest.live/cam-console/11114)  
+[[Eugene Airport 1 (N)]](https://alertwest.live/cam-console/16950)
+[[Eugene Airport 2 (NE)]](https://alertwest.live/cam-console/16953)
+[[Eugene Airport 3 (SE)]](https://alertwest.live/cam-console/16951)
+[[Eugeene Airport 4 (S)]](https://alertwest.live/cam-console/16951)  
+(move pointer to main image, click on play button, select duration)
+
+<!-- ## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> ## -->
 
 ## Basic information ##
 **NOAA (National)**   
@@ -37,9 +52,9 @@
 [[Finley NWR (Willamtte V.) 94m]](http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=FNWO3&unit=0&time=LOCAL&product=&year1=&month1=&day1=00&hour1=00&hours=&graph=1&past=0)
 [[Brush Cr. (Coburg Hills) 700m]](http://mesowest.utah.edu/cgi-bin/droman/meso_base.cgi?stn=BRUO3&unit=0&time=LOCAL&product=&year1=&month1=&day1=00&hour1=00&hours=&graph=1&past=0)
 
-**Daily data plots** *[((NWS Portland)](https://www.weather.gov/pqr/)*  
-[[Eugene]](https://www.wrh.noaa.gov/climate/yeardisp.php?wfo=pqr&stn=KEUG&submit=Yearly+Charts)
-[[Portland]](https://www.wrh.noaa.gov/climate/yeardisp.php?wfo=pqr&year=2019&span=Calendar%20Year&stn=KPDX)
+**Daily data plots** *[(NWS Portland)](https://www.weather.gov/pqr/)*  
+[[Calendar year charts]](https://www.weather.gov/pqr/cliplot#tabs-2)
+[[Current month chart and tables]](https://www.weather.gov/pqr/cliplot#tabs-1)
 
 ## Surface and upper-air ##
 
