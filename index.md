@@ -62,7 +62,7 @@
 **Satellite**  
 [[GOES Imager Viewer]](https://www.star.nesdis.noaa.gov/GOES/index.php)
  | GOES-West: [[PNW]](https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/GEOCOLOR/latest.jpg)
-[[Full Disk]](h![ttp://www.goes.noaa.gov/GSSLOOPS/wcvs.html](https://cdn.star.nesdis.noaa.gov/GOES18/ABI/FD/GEOCOLOR/latest.jpg)) | GOES-East 
+[[Full Disk]](https://cdn.star.nesdis.noaa.gov/GOES18/ABI/FD/GEOCOLOR/latest.jpg) | GOES-East 
 [[CONUS]](https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/latest.jpg)
  | Global composites:  [[IR]](https://www.ssec.wisc.edu/data/comp/latest_moll.gif)
 [[WV]](https://www.ssec.wisc.edu/data/comp/wv/LATEST_WV.gif)
