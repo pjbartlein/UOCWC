@@ -29,8 +29,8 @@
 [[Eugene Airport 1 (N)]](https://alertwest.live/cam-console/16950)
 [[Eugene Airport 2 (NE)]](https://alertwest.live/cam-console/16953)
 [[Eugene Airport 3 (SE)]](https://alertwest.live/cam-console/16951)
-[[Eugeene Airport 4 (S)]](https://alertwest.live/cam-console/16951)  
-(move pointer to main image, click on play button, select duration)
+[[Eugeene Airport 4 (S)]](https://alertwest.live/cam-console/16952)  
+(move pointer to main image, find and click on play button, select duration)
 
 <!-- ## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> ## -->
 
