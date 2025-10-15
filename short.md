@@ -91,15 +91,14 @@ WRF-GFS 1.33km
 [[2m T]](http://www.atmos.washington.edu/%7Eovens/wxloop.old.cgi?wrfd4_ti_tsfc+///3)
 [[RH]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_ti_rhsfc+///3)
 [[SLP]](http://www.atmos.washington.edu/%7Eovens/wxloop.old.cgi?wrfd4_ti_slp+///3)
-[[T/H]](https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/
-keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)
+[[T/H]](https://a.atmos.washington.edu/mm5rt/rt/load.cgi?latest+YYYYMMDDHH/images_d4/keug.th.gif+text+4/3%20km%20Eugene,OR%2044.13N,123.2W)
 [[FrzLvl]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_fzlt+//84/3)  
 [[1hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.old.cgi?wrfd4_ti_snow1+///1)
 [[24hr snow]](http://www.atmos.washington.edu/%7Eovens/wxloop.old.cgi?wrfd4_ti_snow24+///3)
 [[72hr accum snow]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_snowacc+//84/3)
 [[snow depth]](http://www.atmos.washington.edu/%7Eovens/wxloop.old.cgi?wrfd4_ti_snodep+///3)
 [[snow cover]](http://www.atmos.washington.edu/%7Eovens/wxloop.old.cgi?wrfd4_ti_snocvr+///3)
-[[E.OR 1hr snow]]([LOOP](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_oes_snowacc+//96/3))
+[[E.OR 1hr snow]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_oes_snowacc+//96/3)
 [[Hot-Dry-Windy]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_hdw+//84/3)
 
 WRF-GFS extended runs  
@@ -163,7 +162,7 @@ Forecast accumulated precipitation and surface pressure
 [[12 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh12_cpres.html)
 [[18 UTC]](https://pjbartlein.github.io/UOCWC/html/anim/maps/gfs/gfs_nh18_cpres.html)  
 
-## NCEP Ensemble forecasts##
+## NCEP Ensemble forecasts ##
 
 **NCEP (NMC) Ensemble Forecast Products** *[(NOAA ESRL PSD (CDC) Map Room)](https://www.esrl.noaa.gov/psd/map/images/ens/ens.html)*  
 
@@ -187,7 +186,7 @@ Forecast accumulated precipitation and surface pressure
 -->
 
 
-## NOAA Global Systems Laboratory -- RAP and HRRR (smoke forecasts)##
+## NOAA Global Systems Laboratory -- RAP and HRRR (smoke forecasts) ##
 
 **Rapid Refresh (RAP) Products** 
 *[(RAP web page)](https://rapidrefresh.noaa.gov)*   
@@ -204,7 +203,7 @@ Forecast accumulated precipitation and surface pressure
 **NOAA** [[Air-quality forecast guidance]](https://airquality.weather.gov)
 *[(NOAA)](https://www.noaa.gov)*.  
 
-## Tropical Predictions## 
+## Tropical Predictions ## 
 **National Hurricane Center** *[(NHC)](https://www.nhc.noaa.gov/)*  
 [[Atlantic]](https://www.nhc.noaa.gov/)
 [[E. Pacific]](https://www.nhc.noaa.gov/?epac)
