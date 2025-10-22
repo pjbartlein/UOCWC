@@ -40,8 +40,8 @@ Looking W:&nbsp;&nbsp;
 [[Prairie Peak 2 (SSW)]](https://alertwest.live/cam-console/17061)
 [[Prairie Peak 3 (WSW)]](https://alertwest.live/cam-console/17060)
 [[Prairie Peak 4 (NW)]](https://alertwest.live/cam-console/17063) (FAA)  
-(move pointer to main image, find and click on play button, select duration)  
-(OHAZ cameras have a higher frame rate and better nightime images)
+(Move pointer to main image, find and click on play button, select duration)  
+(OHAZ cameras have a higher frame rate than FAA cameras and better nightime images)
 
 <!-- ## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> ## -->
 
