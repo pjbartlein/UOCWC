@@ -17,20 +17,31 @@
 ## Weather and Fire Cameras ##
 
 **UO Weatherstem** *[(Weatherstem)](https://company.weatherstem.com)*  
-[[Current conditions]](https://lane.weatherstem.com/uo)
-(click on **Daily Timelapse** for 24-hour loop of yesterday's images)  
-[[Current image]](https://images.weatherstem.com/skycamera/lane/uo/cumulus/snapshot.jpg)  
-
+[[Current conditions]](https://lane.weatherstem.com/uo)  
+Looking NE: 
+[[Current image]](https://images.weatherstem.com/skycamera/lane/uo/cumulus/snapshot.jpg) 
+[[Latest timelapse]](https://timelapse.weatherstem.com/latest_daily_timelapse?id=2745)
+[[Past timelapses]](https://timelapse.weatherstem.com/legacy_timelapses?id=2745)  
+Looking W:&nbsp;&nbsp;
+[[Current image]](https://lane.weatherstem.com/skycamera/lane/uo/west/snapshot.jpg)
+[[Latest timelapse]](https://timelapse.weatherstem.com/latest_daily_timelapse?id=2748)
+[[Past timelapses]](https://timelapse.weatherstem.com/legacy_timelapses?id=2748) 
 
 **Alert West Current Images**  *[(www.alertwest.org)](https://www.alertwest.org)*  *[(Oregon Hazards Lab)](https://ohaz.uoregon.edu)*  
 [[University of Oregon 1]](https://alertwest.live/cam-console/11132)
 [[University of Oregon 2]](https://alertwest.live/cam-console/11133)
-[[Buck Mtn. (Coburg Hills)]](https://alertwest.live/cam-console/11114)  
+[[Buck Mtn. (Coburg Hills)]](https://alertwest.live/cam-console/11114)
+[[Prairie Peak (Coast R.)]](https://alertwest.live/cam-console/11136) (OHAZ)   
 [[Eugene Airport 1 (N)]](https://alertwest.live/cam-console/16950)
 [[Eugene Airport 2 (NE)]](https://alertwest.live/cam-console/16953)
 [[Eugene Airport 3 (SE)]](https://alertwest.live/cam-console/16951)
-[[Eugeene Airport 4 (S)]](https://alertwest.live/cam-console/16952)  
-(move pointer to main image, find and click on play button, select duration)
+[[Eugeene Airport 4 (S)]](https://alertwest.live/cam-console/16952) (FAA)  
+[[Prairie Peak 1 (SE]](https://alertwest.live/cam-console/17062)
+[[Prairie Peak 2 (SSW)]](https://alertwest.live/cam-console/17061)
+[[Prairie Peak 3 (WSW)]](https://alertwest.live/cam-console/17060)
+[[Prairie Peak 4 (NW)]](https://alertwest.live/cam-console/17063) (FAA)  
+(move pointer to main image, find and click on play button, select duration)  
+(OHAZ cameras have a higher frame rate and better nightime images)
 
 <!-- ## <a href="http://webcam.uoregon.edu/oneshotimage1">UO Webcam</a> ## -->
 
