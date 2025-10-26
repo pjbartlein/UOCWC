@@ -100,7 +100,7 @@ Looking W:&nbsp;&nbsp;
 ## Radar and lightning ##
 
 **NWS Radar**  *[(National Radar Page)](https://radar.weather.gov/)*
-[[Coverage map]](https://www.roc.noaa.gov/public-documents/program-branch/radar-maps/png/WSR-88D_BOBCoverageMap_20241101.png)  
+[[Coverage map]](./NEXRAD_map.jpg)  
 
 **NWS Local Radar**  
 [[Portland]](https://radar.weather.gov/ridge/standard/KRTX_0.gif)
