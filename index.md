@@ -70,7 +70,7 @@
 **Forecasts**  
 6-day (144-hr) hourly forecast plot: [[summer]](html/eugwx/all3_eug_summer.html) [[winter]](html/eugwx/all3_eug_winter.html)  
 PNW: 
-[[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.cgi?wrfd4_ti_pcp1+///1) 
+[[NRMC 1.3-km hourly precip]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd4_ti_pcp1+///1) 
 [[Portland and regional zone forecasts]](https://forecast.weather.gov/product.php?site=pqr&issuedby=PQR&product=ZFP) 
 [[Tabular forecast]](https://forecast.weather.gov/product.php?site=pqr&issuedby=PQR&product=SFT)   
 National:
