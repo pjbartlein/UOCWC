@@ -105,7 +105,7 @@ WRF-GFS extended runs
 [[300mb winds 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_x_300j+///3)
 [[700mb omega 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_x_500w+///3)
 [[3hr ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_x_pcp3+///3)
-[[180hr accum ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_x_pcpt+///3)
+[[240hr accum ppt 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_x_pcpt+///3)
 [[SLP 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_x_slp+///3)   
 [[water-vapor flux 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_ivt+//84/3)
 [[precipitable WV 36km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd1_ti_pcpw+///3)  
@@ -113,7 +113,7 @@ WRF-GFS extended runs
 [[CAPE 12km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd2_x_mcape+///3)
 [[3hr snow 12km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd2_x_ti_msnow3+///3)
 [[3hr ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd2_x_pcp3+///3)
-[[180hr accum ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd2_x_pcpt+///3)
+[[240hr accum ppt 12km]](https://a.atmos.washington.edu/~ovens/wxloop.old.cgi?wrfd2_x_pcpt+///3)
 
 ## NOAA Global Systems Laboratory ##
 
