@@ -23,7 +23,7 @@ navbar:
     - text: ENSO
       href: enso.html
     - text: Global climate animations
-      href: globalclimate.html
+      href: https://climvis.org/animations.html
     - text: Climate data
       href: climatedata.html
   - text: Other
